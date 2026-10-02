@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[[[-79.256510029,42.988940484],[-79.255407935,42.98906969],[-79.256482944,42.989187397],[-79.256492651,42.989119577],[-79.256510029,42.988940484]]],"type":"Polygon"},"properties":{"averageLatitude":42.989057009,"averageLongitude":-79.2560031305,"cause":"OH Transformer","crewsDispatched":true,"deviceTypeId":0,"estimatedRestoration":"2026-10-02T18:00:00","estimatedStart":"2026-10-02T15:22:00","isProposed":false,"meters":[],"numImpactedMeters":8,"numOriginalImpactedMeters":8,"outageId":16090,"outageSourceDeviceID":"","planned":false},"type":"Feature"}
 ]}
