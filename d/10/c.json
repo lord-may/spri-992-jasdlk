@@ -1,0 +1,5 @@
+{"type":"FeatureCollection","features":[
+{"geometry":{"coordinates":[-62.9578873214201,46.263955539726],"type":"Point"},"id":235438,"properties":{"OBJECTID":235438,"community":"DONAGH               ","county":"Queens","customers_out":1,"trans_date":1790957729000},"type":"Feature"},
+{"geometry":{"coordinates":[-63.5804043769998,46.5106143108551],"type":"Point"},"id":235439,"properties":{"OBJECTID":235439,"community":"IRISHTOWN            ","county":"Queens","customers_out":1,"trans_date":1790957729000},"type":"Feature"},
+{"geometry":{"coordinates":[-63.141411999291,46.3918191246782],"type":"Point"},"id":235437,"properties":{"OBJECTID":235437,"community":"WEST COVEHEAD        ","county":"Queens","customers_out":1,"trans_date":1790957729000},"type":"Feature"}
+]}
