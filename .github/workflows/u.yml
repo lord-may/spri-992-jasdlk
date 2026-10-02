@@ -1,0 +1,29 @@
+name: u
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "4,19,34,49 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: u
+
+jobs:
+  r:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: node r.mjs
+        env:
+          S: ${{ secrets.S }}
+      - if: ${{ !cancelled() }}
+        run: |-
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A d
+          git commit -q -m "$(date -u -Is)" || exit 0
+          git pull -q --rebase
+          git push -q
