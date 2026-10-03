@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-63.1950524621964,46.4075151561444],"type":"Point"},"id":235518,"properties":{"OBJECTID":235518,"community":"BRACKLEY BEACH       ","county":"Queens","customers_out":1,"trans_date":1791040528000},"type":"Feature"},
-{"geometry":{"coordinates":[-63.1364602835027,46.2695844664756],"type":"Point"},"id":235519,"properties":{"OBJECTID":235519,"community":"CHARLOTTETOWN        ","county":"Queens","customers_out":17,"trans_date":1791040528000},"type":"Feature"}
+{"geometry":{"coordinates":[-63.2190179321202,46.3347658155592],"type":"Point"},"id":235534,"properties":{"OBJECTID":235534,"community":"NORTH MILTON         ","county":"Queens","customers_out":1,"trans_date":1791052228000},"type":"Feature"}
 ]}

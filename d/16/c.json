@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-79.6018701983655,43.5679802909596],"type":"Point"},"id":2,"properties":{"AVGLAT":null,"AVGLONG":null,"Arrived":0,"Assigned":1,"CaseID":9160792,"CaseIDOnMap":null,"Completed":0,"CrewStatus":"Assigned","Enroute":0,"Field1":null,"LastUpdated":1790872920000,"OBJECTID":2,"ShowOnMap":null},"type":"Feature"},
-{"geometry":{"coordinates":[-79.7485238301597,43.6022540725275],"type":"Point"},"id":1,"properties":{"AVGLAT":null,"AVGLONG":null,"Arrived":0,"Assigned":1,"CaseID":9160875,"CaseIDOnMap":null,"Completed":0,"CrewStatus":"Assigned","Enroute":0,"Field1":null,"LastUpdated":1791038965000,"OBJECTID":1,"ShowOnMap":null},"type":"Feature"}
+{"geometry":{"coordinates":[-79.6018701983655,43.5679802909596],"type":"Point"},"id":1,"properties":{"AVGLAT":null,"AVGLONG":null,"Arrived":0,"Assigned":1,"CaseID":9160792,"CaseIDOnMap":null,"Completed":0,"CrewStatus":"Assigned","Enroute":0,"Field1":null,"LastUpdated":1790872920000,"OBJECTID":1,"ShowOnMap":null},"type":"Feature"}
 ]}
