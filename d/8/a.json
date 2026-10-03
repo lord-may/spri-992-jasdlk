@@ -1,6 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-66.7728290342047,45.9587107922543],"type":"Point"},"id":2501254,"properties":{"CustEff":5,"DateTimeStamp":1791028235000,"ESRI_OID":2501254,"FieldLocationID":"7529_244L3R2L16","GlobalID":"af4b8e44-9f8a-44fd-a913-79a6b93d1188","Incident_ID":"2001352782"},"type":"Feature"},
-{"geometry":{"coordinates":[-65.0523229712847,46.2398480105206],"type":"Point"},"id":2501255,"properties":{"CustEff":2,"DateTimeStamp":1791028235000,"ESRI_OID":2501255,"FieldLocationID":"8406_B1091L467L297L17A","GlobalID":"c8abfe04-fa66-4128-8b80-60bb1a59d7ba","Incident_ID":"2001352785"},"type":"Feature"},
-{"geometry":{"coordinates":[-66.7107557505074,47.8946504414678],"type":"Point"},"id":2501256,"properties":{"CustEff":1,"DateTimeStamp":1791028235000,"ESRI_OID":2501256,"FieldLocationID":"7215_H477L149L4","GlobalID":"f5993a2a-3382-46e7-a647-8d1be7213645","Incident_ID":"2001352786"},"type":"Feature"},
-{"geometry":{"coordinates":[-65.542283784733,47.0209863152397],"type":"Point"},"id":2501257,"properties":{"CustEff":1,"DateTimeStamp":1791028235000,"ESRI_OID":2501257,"FieldLocationID":"7036_T93L13","GlobalID":"f5b06a95-b20f-4b4e-b43a-4f740f75cc86","Incident_ID":"2001352787"},"type":"Feature"}
+{"geometry":{"coordinates":[-66.7728290342047,45.9587107922543],"type":"Point"},"id":2501299,"properties":{"CustEff":5,"DateTimeStamp":1791041427000,"ESRI_OID":2501299,"FieldLocationID":"7529_244L3R2L16","GlobalID":"1ed37c82-4d4d-4777-ba6d-bc50afa3e73d","Incident_ID":"2001352790"},"type":"Feature"}
 ]}
