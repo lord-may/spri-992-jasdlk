@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-63.3486292453794,46.4087315488478],"type":"Point"},"id":235481,"properties":{"OBJECTID":235481,"community":"NEW GLASGOW          ","county":"Queens","customers_out":1,"trans_date":1790976629000},"type":"Feature"},
-{"geometry":{"coordinates":[-63.141411999291,46.3918191246782],"type":"Point"},"id":235480,"properties":{"OBJECTID":235480,"community":"WEST COVEHEAD        ","county":"Queens","customers_out":1,"trans_date":1790976629000},"type":"Feature"}
+{"geometry":{"coordinates":[-63.0281396288535,46.235097423059],"type":"Point"},"id":235499,"properties":{"OBJECTID":235499,"community":"MOUNT HERBERT        ","county":"Queens","customers_out":1,"trans_date":1790994629000},"type":"Feature"}
 ]}
