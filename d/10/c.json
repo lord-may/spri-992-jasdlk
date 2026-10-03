@@ -1,6 +1,4 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-63.0673076019145,46.2343003101726],"type":"Point"},"id":235461,"properties":{"OBJECTID":235461,"community":"BUNBURY              ","county":"Queens","customers_out":1,"trans_date":1790964929000},"type":"Feature"},
-{"geometry":{"coordinates":[-62.9578873214201,46.263955539726],"type":"Point"},"id":235459,"properties":{"OBJECTID":235459,"community":"DONAGH               ","county":"Queens","customers_out":38,"trans_date":1790964929000},"type":"Feature"},
-{"geometry":{"coordinates":[-63.0066027099502,46.2699804445826],"type":"Point"},"id":235460,"properties":{"OBJECTID":235460,"community":"JOHNSTONS RIVER      ","county":"Queens","customers_out":2,"trans_date":1790964929000},"type":"Feature"},
-{"geometry":{"coordinates":[-63.141411999291,46.3918191246782],"type":"Point"},"id":235458,"properties":{"OBJECTID":235458,"community":"WEST COVEHEAD        ","county":"Queens","customers_out":1,"trans_date":1790964929000},"type":"Feature"}
+{"geometry":{"coordinates":[-63.3486292453794,46.4087315488478],"type":"Point"},"id":235481,"properties":{"OBJECTID":235481,"community":"NEW GLASGOW          ","county":"Queens","customers_out":1,"trans_date":1790976629000},"type":"Feature"},
+{"geometry":{"coordinates":[-63.141411999291,46.3918191246782],"type":"Point"},"id":235480,"properties":{"OBJECTID":235480,"community":"WEST COVEHEAD        ","county":"Queens","customers_out":1,"trans_date":1790976629000},"type":"Feature"}
 ]}
