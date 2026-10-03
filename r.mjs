@@ -420,6 +420,14 @@ async function run(s) {
   return f.length;
 }
 
+// logs are public: keep messages that can't contain a url or host (network errors only expose cause.code)
+const why = (e) => {
+  const m = e?.message ?? "";
+  if (/^(http \d+|parse)$/.test(m)) return m;
+  const c = e?.cause?.code ?? "";
+  return `${/:\/\/|\w\.\w/.test(m) ? "" : m} ${c}`.trim();
+};
+
 const S = JSON.parse(process.env.S ?? "[]");
 const R = await Promise.allSettled(S.map(run));
 let bad = 0;
@@ -428,8 +436,9 @@ R.forEach((r, i) => {
   else {
     bad++;
     console.log(
-      `${S[i].o} fail ${r.reason?.name ?? ""} ${/^(http \d+|parse)$/.test(r.reason?.message) ? r.reason.message : ""}`.trim(),
+      `${S[i].o} fail ${r.reason?.name ?? ""} ${why(r.reason)}`.trim(),
     );
   }
 });
-if (bad) process.exitCode = 1;
+// a few sources being down is normal; only fail the job when nothing worked
+if (bad && bad === S.length) process.exitCode = 1;
