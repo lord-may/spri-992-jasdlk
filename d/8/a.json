@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-66.9043604519638,45.8517332999207],"type":"Point"},"id":2501164,"properties":{"CustEff":1,"DateTimeStamp":1790995232000,"ESRI_OID":2501164,"FieldLocationID":"7530_96L19R44L23AL2","GlobalID":"2493d185-8aae-489f-b12f-ede2f078d584","Incident_ID":"2001352738"},"type":"Feature"}
+{"geometry":{"coordinates":[-67.1738167905049,45.414606312893],"type":"Point"},"id":2501195,"properties":{"CustEff":1,"DateTimeStamp":1791012630000,"ESRI_OID":2501195,"FieldLocationID":"7924_A35L526R33R2","GlobalID":"ae58a60e-8fe8-4bd4-a71e-f04d4d99aa92","Incident_ID":"2001352756"},"type":"Feature"}
 ]}
