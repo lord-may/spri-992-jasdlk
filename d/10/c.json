@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-63.1364602835027,46.2695844664756],"type":"Point"},"id":235566,"properties":{"OBJECTID":235566,"community":"CHARLOTTETOWN        ","county":"Queens","customers_out":1,"trans_date":1791117929000},"type":"Feature"}
+{"geometry":{"coordinates":[-62.8626618148875,46.0128813158192],"type":"Point"},"id":235621,"properties":{"OBJECTID":235621,"community":"FLAT RIVER           ","county":"Queens","customers_out":1,"trans_date":1791129630000},"type":"Feature"},
+{"geometry":{"coordinates":[-63.2546948712384,46.3102874459231],"type":"Point"},"id":235620,"properties":{"OBJECTID":235620,"community":"SPRINGVALE           ","county":"Queens","customers_out":1,"trans_date":1791129630000},"type":"Feature"}
 ]}
