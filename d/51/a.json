@@ -1,3 +1,5 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-71.89003151444133,45.42969627856917],"type":"Point"},"properties":{"adresse":"240 Rue de la Caravelle Sherbrooke","cause_panne":0,"debut_panne":1791126074000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.8903530514274,45.42970884949925],"type":"Point"},"properties":{"adresse":"256 Rue de la Caravelle Sherbrooke","cause_panne":0,"debut_panne":1791126074000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.89050311259602,45.42931616249479],"type":"Point"},"properties":{"adresse":"267 Rue du Cessna Sherbrooke","cause_panne":0,"debut_panne":1791126074000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
 ]}
