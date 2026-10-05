@@ -1,5 +1,4 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-62.4737403943161,46.0081707176323],"type":"Point"},"id":235785,"properties":{"OBJECTID":235785,"community":"BEACH POINT          ","county":"Kings ","customers_out":1,"trans_date":1791214209000},"type":"Feature"},
-{"geometry":{"coordinates":[-62.5299362572547,46.0091454159464],"type":"Point"},"id":235786,"properties":{"OBJECTID":235786,"community":"MURRAY HARBOUR       ","county":"Kings ","customers_out":1,"trans_date":1791214209000},"type":"Feature"},
-{"geometry":{"coordinates":[-63.458920062588,46.3202258842921],"type":"Point"},"id":235784,"properties":{"OBJECTID":235784,"community":"STANCHEL             ","county":"Queens","customers_out":1,"trans_date":1791214209000},"type":"Feature"}
+{"geometry":{"coordinates":[-62.5299362572547,46.0091454159464],"type":"Point"},"id":235788,"properties":{"OBJECTID":235788,"community":"MURRAY HARBOUR       ","county":"Kings ","customers_out":1,"trans_date":1791215108000},"type":"Feature"},
+{"geometry":{"coordinates":[-63.458920062588,46.3202258842921],"type":"Point"},"id":235787,"properties":{"OBJECTID":235787,"community":"STANCHEL             ","county":"Queens","customers_out":1,"trans_date":1791215108000},"type":"Feature"}
 ]}
