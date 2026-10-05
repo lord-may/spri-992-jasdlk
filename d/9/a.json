@@ -1,4 +1,5 @@
 {"type":"FeatureCollection","features":[
 {"geometry":{"geometries":[{"coordinates":[[[-64.31686,44.2374],[-64.32273,44.23755],[-64.34104,44.2398],[-64.36577,44.24499],[-64.36529,44.24733],[-64.31686,44.2374]]],"type":"Polygon"},{"coordinates":[-64.34535,44.24211],"type":"Point"}],"type":"GeometryCollection"},"properties":{"cause":"Damage to Underground Equipment","cluster":false,"cust_a":{"val":14},"etr":"2026-10-16T16:00:00-0300","start":"2026-08-28T09:35:59-0300","title":"Outage Information"},"type":"Feature"},
-{"geometry":{"coordinates":[-63.73,45.86],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"2026-10-05T01:45:00-0300","start":"2026-10-04T18:40:48-0300","title":"Outage Information"},"type":"Feature"}
+{"geometry":{"coordinates":[-63.74,44.65],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"2026-10-05T09:15:00-0300","start":"2026-10-05T03:37:08-0300","title":"Outage Information"},"type":"Feature"},
+{"geometry":{"coordinates":[-63.74,44.66],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"2026-10-05T09:30:00-0300","start":"2026-10-05T03:55:43-0300","title":"Outage Information"},"type":"Feature"}
 ]}
