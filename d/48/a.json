@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-113.94575,53.657075],"type":"Point"},"properties":{"cause":"PPO, Other Utility","crewAssigned":false,"customersOutInitially":2,"customersOutNow":2,"customersRestored":0,"estimatedTimeOfRestoral":"2026-10-05T17:00:00-06:00","outageEndTime":null,"outageModifiedTime":"2026-10-05T14:56:43.8130000-06:00","outageName":"","outagePoint":{"lat":53.65707509144322,"lng":-113.94574978198462},"outageRecID":"2026-10-05-0070","outageStartTime":"2026-10-05T14:50:56-06:00","outageWorkStatus":"","streetsAffected":null,"verified":true},"type":"Feature"}
+
 ]}
