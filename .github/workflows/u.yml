@@ -1,9 +1,9 @@
 name: u
 
+# triggered every 15 min by an external cron (cron-job.org) via the workflow_dispatch API;
+# github's own schedule trigger ran hours late
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "4,19,34,49 * * * *"
 
 permissions:
   contents: write
