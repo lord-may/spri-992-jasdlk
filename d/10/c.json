@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-62.4737403943161,46.0081707176323],"type":"Point"},"id":235765,"properties":{"OBJECTID":235765,"community":"BEACH POINT          ","county":"Kings ","customers_out":1,"trans_date":1791207908000},"type":"Feature"}
+{"geometry":{"coordinates":[-62.4737403943161,46.0081707176323],"type":"Point"},"id":235767,"properties":{"OBJECTID":235767,"community":"BEACH POINT          ","county":"Kings ","customers_out":1,"trans_date":1791208809000},"type":"Feature"},
+{"geometry":{"coordinates":[-63.458920062588,46.3202258842921],"type":"Point"},"id":235766,"properties":{"OBJECTID":235766,"community":"STANCHEL             ","county":"Queens","customers_out":1,"trans_date":1791208809000},"type":"Feature"}
 ]}
