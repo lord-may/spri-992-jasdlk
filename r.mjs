@@ -296,11 +296,16 @@ const P = {
               .map((m) => plain(m[1]))
               .filter(Boolean)
           : [];
+        // self-closing elements (<SimpleData name="X" />) are empty values; without the
+        // `\/>` branch they swallowed every element up to the next closing tag
         const x = [
           ...b.matchAll(
-            /<(Data|SimpleData)\b[^>]*\bname="([^"]*)"[^>]*>((?:(?!<\/\1>)[\s\S])*)<\/\1>/g,
+            /<(Data|SimpleData)\b[^>]*?\bname="([^"]*)"[^>]*?(?:\/>|>((?:(?!<\/\1>)[\s\S])*)<\/\1>)/g,
           ),
-        ].map(([, e, k, v]) => [k, e === "Data" ? tag(v, "value") : val(v)]);
+        ].map(([, e, k, v]) => [
+          k,
+          v === undefined ? "" : e === "Data" ? tag(v, "value") : val(v),
+        ]);
         return {
           type: "Feature",
           geometry: one(g),
@@ -406,11 +411,111 @@ function pick(t, s) {
   return m[1].startsWith('"') ? JSON.parse(m[1]) : m[1];
 }
 
+// Geometry is normalized before writing so the same shape always serializes the same way:
+// coordinates are rounded to 6 decimals (~10 cm), and polygons are rebuilt from their rings by
+// containment, because ArcGIS alternates between one Polygon with several rings and a
+// MultiPolygon for the same shape (each flip rewrote the whole geometry in git)
+const r6 = (v) => Math.round(v * 1e6) / 1e6;
+const xy = (p) => [r6(p[0]), r6(p[1])];
+const nodup = (r) =>
+  r.filter((p, i) => !i || p[0] !== r[i - 1][0] || p[1] !== r[i - 1][1]);
+const area = (r) => {
+  let a = 0;
+  for (let i = 0, j = r.length - 1; i < r.length; j = i++)
+    a += r[j][0] * r[i][1] - r[i][0] * r[j][1];
+  return a / 2;
+};
+const inside = ([x, y], r) => {
+  let c = false;
+  for (let i = 0, j = r.length - 1; i < r.length; j = i++) {
+    const [xi, yi] = r[i],
+      [xj, yj] = r[j];
+    if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) c = !c;
+  }
+  return c;
+};
+// outer rings counter-clockwise, holes clockwise (RFC 7946)
+const orient = (r, ccw) => (area(r) > 0 === ccw ? r : [...r].reverse());
+const order = (a, b) => b.a - a.a || (String(a.r[0]) < String(b.r[0]) ? -1 : 1);
+
+function polys(rings) {
+  const R = rings
+    .map((r) => shut(nodup(r.map(xy))))
+    .filter((r) => r.length >= 4)
+    .map((r) => ({ r, a: Math.abs(area(r)), v: new Set(r.map(String)) }));
+  // ring i is within ring j if one of its vertices not shared with j lies inside j
+  const within = R.map((x, i) =>
+    R.map((o, j) => {
+      if (i === j || o.a <= x.a) return false;
+      const p = x.r.find((q) => !o.v.has(String(q)));
+      return p !== undefined && inside(p, o.r);
+    }),
+  );
+  const depth = within.map((w) => w.filter(Boolean).length);
+  const outer = R.map((x, i) => ({ ...x, i, holes: [] })).filter(
+    (_, i) => depth[i] % 2 === 0,
+  );
+  R.forEach((x, i) => {
+    if (depth[i] % 2 === 0) return;
+    // a hole belongs to the smallest ring containing it, one level up
+    const p = outer
+      .filter((o) => within[i][o.i] && depth[o.i] === depth[i] - 1)
+      .sort((a, b) => a.a - b.a)[0];
+    p?.holes.push(x);
+  });
+  const c = outer
+    .sort(order)
+    .map((o) => [
+      orient(o.r, true),
+      ...o.holes.sort(order).map((h) => orient(h.r, false)),
+    ]);
+  return c.length === 0
+    ? null
+    : c.length === 1
+      ? { type: "Polygon", coordinates: c[0] }
+      : { type: "MultiPolygon", coordinates: c };
+}
+
+function geo(g) {
+  switch (g?.type) {
+    case "Point":
+      return Array.isArray(g.coordinates)
+        ? { type: "Point", coordinates: xy(g.coordinates) }
+        : null;
+    case "MultiPoint":
+      return { type: g.type, coordinates: g.coordinates.map(xy) };
+    case "LineString":
+      return { type: g.type, coordinates: nodup(g.coordinates.map(xy)) };
+    case "MultiLineString":
+      return {
+        type: g.type,
+        coordinates: g.coordinates.map((l) => nodup(l.map(xy))),
+      };
+    case "Polygon":
+      return polys(g.coordinates);
+    case "MultiPolygon":
+      return polys(g.coordinates.flat());
+    case "GeometryCollection":
+      return {
+        type: g.type,
+        geometries: g.geometries.map(geo).filter(Boolean),
+      };
+    default:
+      return g ?? null;
+  }
+}
+
 async function run(s) {
   const q = { ...s, u: await url(s) };
   const f = await P[s.t](q.u.includes("{q}") ? null : pick(await get(q), s), q);
   if (!Array.isArray(f)) throw new Error("parse");
   for (const x of f) for (const k of s.i ?? []) delete x.properties?.[k];
+  for (const x of f) {
+    if (!x) continue;
+    // ArcGIS adds a feature-level `id` copying OBJECTID; it's outside `properties`, so `i` can't drop it
+    delete x.id;
+    x.geometry = geo(x.geometry);
+  }
   const l = f.map(stable).map((j, i) => [f[i].properties?.[s.k], j]);
   l.sort((a, b) => cmp(a[0], b[0]) || (a[1] < b[1] ? -1 : a[1] > b[1] ? 1 : 0));
   const out = `{"type":"FeatureCollection","features":[\n${l.map((x) => x[1]).join(",\n")}\n]}\n`;
