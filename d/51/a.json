@@ -1,16 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.840151,45.406496],"type":"Point"},"properties":{"adresse":"220 Rue des Bouleaux Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.840159,45.406888],"type":"Point"},"properties":{"adresse":"2233 Chemin Galvin Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.840159,45.406888],"type":"Point"},"properties":{"adresse":"2235 Chemin Galvin Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.839708,45.406857],"type":"Point"},"properties":{"adresse":"2265 Chemin Galvin Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.839708,45.406857],"type":"Point"},"properties":{"adresse":"2265 Chemin Galvin Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.839708,45.406857],"type":"Point"},"properties":{"adresse":"2265 Chemin Galvin Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.839834,45.406532],"type":"Point"},"properties":{"adresse":"2266 Chemin Galvin Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.839581,45.406515],"type":"Point"},"properties":{"adresse":"2278 Chemin Galvin Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.839359,45.406495],"type":"Point"},"properties":{"adresse":"2290 Chemin Galvin Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.839106,45.406476],"type":"Point"},"properties":{"adresse":"2302 Chemin Galvin Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.83882,45.406463],"type":"Point"},"properties":{"adresse":"2314 Chemin Galvin Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.838514,45.406776],"type":"Point"},"properties":{"adresse":"2325 Chemin Galvin Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.838585,45.406451],"type":"Point"},"properties":{"adresse":"2326 Chemin Galvin Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.838277,45.406365],"type":"Point"},"properties":{"adresse":"2336 Chemin Galvin Sherbrooke","cause_panne":0,"debut_panne":1791226574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
+
 ]}
