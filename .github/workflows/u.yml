@@ -1,7 +1,5 @@
 name: u
 
-# triggered every 15 min by an external cron (cron-job.org) via the workflow_dispatch API;
-# github's own schedule trigger ran hours late
 on:
   workflow_dispatch:
 
