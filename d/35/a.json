@@ -1,5 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-79.441977,44.044885],"type":"Point"},"properties":{"CAUSE":"Replacing defective transformer","COMMENTS":"ETR 5:45PM","CREW":"Yes","CUSTOMERS":9,"ETR":"2","GlobalID":"ab2348bc-112d-4086-8220-e6bb519a42f8","INCIDENTID":null,"OBJECTID":2517,"PLANNED":"No","PLANNEDDATE":null,"STATUS":"Restored"},"type":"Feature"},
-{"geometry":{"coordinates":[-79.774651,44.753603],"type":"Point"},"properties":{"CAUSE":"Damaged Infrastructure","COMMENTS":"ETR is 7PM","CREW":"Yes","CUSTOMERS":35,"ETR":"3","GlobalID":"6dc66c1f-e203-490a-94c5-02508c372ec7","INCIDENTID":null,"OBJECTID":2513,"PLANNED":"No","PLANNEDDATE":null,"STATUS":"Active"},"type":"Feature"},
 {"geometry":{"coordinates":[-79.81287,44.71141],"type":"Point"},"properties":{"CAUSE":"Tree Contact","COMMENTS":"Crew working","CREW":"Yes","CUSTOMERS":63,"ETR":"1","GlobalID":"d5544227-036d-46e2-9679-7f13198b6c4c","INCIDENTID":null,"OBJECTID":2514,"PLANNED":"No","PLANNEDDATE":null,"STATUS":"Restored"},"type":"Feature"}
 ]}
