@@ -1,5 +1,5 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-63.2082310243574,46.2994293161881],"type":"Point"},"id":235792,"properties":{"OBJECTID":235792,"community":"MILTON STATION       ","county":"Queens","customers_out":1,"trans_date":1791216908000},"type":"Feature"},
-{"geometry":{"coordinates":[-62.5299362572547,46.0091454159464],"type":"Point"},"id":235794,"properties":{"OBJECTID":235794,"community":"MURRAY HARBOUR       ","county":"Kings ","customers_out":1,"trans_date":1791216908000},"type":"Feature"},
-{"geometry":{"coordinates":[-63.458920062588,46.3202258842921],"type":"Point"},"id":235793,"properties":{"OBJECTID":235793,"community":"STANCHEL             ","county":"Queens","customers_out":1,"trans_date":1791216908000},"type":"Feature"}
+{"geometry":{"coordinates":[-63.2082310243574,46.2994293161881],"type":"Point"},"id":235795,"properties":{"OBJECTID":235795,"community":"MILTON STATION       ","county":"Queens","customers_out":1,"trans_date":1791217808000},"type":"Feature"},
+{"geometry":{"coordinates":[-62.5299362572547,46.0091454159464],"type":"Point"},"id":235797,"properties":{"OBJECTID":235797,"community":"MURRAY HARBOUR       ","county":"Kings ","customers_out":1,"trans_date":1791217808000},"type":"Feature"},
+{"geometry":{"coordinates":[-63.458920062588,46.3202258842921],"type":"Point"},"id":235796,"properties":{"OBJECTID":235796,"community":"STANCHEL             ","county":"Queens","customers_out":1,"trans_date":1791217808000},"type":"Feature"}
 ]}
