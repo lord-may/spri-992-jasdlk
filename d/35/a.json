@@ -1,3 +1,6 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-79.4512219330647,44.0679047340367],"type":"Point"},"id":2516,"properties":{"CAUSE":"Infrastructural Upgrades","COMMENTS":"ETR 2:30PM","CREW":"Yes","CUSTOMERS":16,"ETR":"1","GlobalID":"fb9d7272-9775-48e8-8383-1fea280d8617","INCIDENTID":null,"OBJECTID":2516,"PLANNED":"Yes","PLANNEDDATE":1791218700000,"STATUS":"Active"},"type":"Feature"},
+{"geometry":{"coordinates":[-79.4515431192593,44.0683906132696],"type":"Point"},"id":2515,"properties":{"CAUSE":"Infrastructural Upgrades","COMMENTS":"ETR 12PM","CREW":"Yes","CUSTOMERS":16,"ETR":"2","GlobalID":"72703c4d-09d5-408c-9675-1f39463513dc","INCIDENTID":null,"OBJECTID":2515,"PLANNED":"Yes","PLANNEDDATE":1791207000000,"STATUS":"Active"},"type":"Feature"},
+{"geometry":{"coordinates":[-79.7746512150594,44.7536030620642],"type":"Point"},"id":2513,"properties":{"CAUSE":"Damaged Infrastructure","COMMENTS":"ETR is TBD","CREW":"Yes","CUSTOMERS":35,"ETR":"3","GlobalID":"6dc66c1f-e203-490a-94c5-02508c372ec7","INCIDENTID":null,"OBJECTID":2513,"PLANNED":"No","PLANNEDDATE":null,"STATUS":"Active"},"type":"Feature"},
+{"geometry":{"coordinates":[-79.81287013783,44.7114100202243],"type":"Point"},"id":2514,"properties":{"CAUSE":"Tree Contact","COMMENTS":"Crew working","CREW":"Yes","CUSTOMERS":63,"ETR":"1","GlobalID":"d5544227-036d-46e2-9679-7f13198b6c4c","INCIDENTID":null,"OBJECTID":2514,"PLANNED":"No","PLANNEDDATE":null,"STATUS":"Restored"},"type":"Feature"}
 ]}

@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-52.7859671359893,47.5207543296583],"type":"Point"},"id":64620,"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":25,"ID":344767,"NLP_ALERT_REMARKS":null,"OBJECTID":64620,"POLYGONS_AFFECTED":"Mount Pearl (Spruce Ave-Dunnes Ln)","TIME_OUTAGE":1791202848000,"TIME_RESTORED_EST":1791221432000,"X":320917.6168,"Y":5264636.9377},"type":"Feature"}
 ]}
