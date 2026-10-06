@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-58.855014,48.217124],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":27,"ID":344855,"NLP_ALERT_REMARKS":null,"OBJECTID":64718,"POLYGONS_AFFECTED":"McKays-Jeffreys","TIME_OUTAGE":1791301844000,"TIME_RESTORED_EST":1791311416000,"X":-130167.6467,"Y":5358634.4723},"type":"Feature"}
+{"geometry":{"coordinates":[-58.855014,48.217124],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":27,"ID":344855,"NLP_ALERT_REMARKS":null,"OBJECTID":64720,"POLYGONS_AFFECTED":"McKays-Jeffreys","TIME_OUTAGE":1791301844000,"TIME_RESTORED_EST":1791311416000,"X":-130167.6467,"Y":5358634.4723},"type":"Feature"}
 ]}
