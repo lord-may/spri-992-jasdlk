@@ -4,7 +4,6 @@
 {"geometry":{"coordinates":[-67.087097,45.679534],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7930_E71L26R5R4","Incident_ID":"2001353341"},"type":"Feature"},
 {"geometry":{"coordinates":[-66.345924,47.969681],"type":"Point"},"properties":{"CustEff":4,"FieldLocationID":"7215_M59L31R17R2","Incident_ID":"2001353426"},"type":"Feature"},
 {"geometry":{"coordinates":[-65.836382,47.787201],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7204_K80L2","Incident_ID":"2001353473"},"type":"Feature"},
-{"geometry":{"coordinates":[-66.903446,46.011466],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7522_448R113R4","Incident_ID":"2001353482"},"type":"Feature"},
 {"geometry":{"coordinates":[-66.124599,47.873016],"type":"Point"},"properties":{"CustEff":4,"FieldLocationID":"7214_F175","Incident_ID":"2001353503"},"type":"Feature"},
 {"geometry":{"coordinates":[-66.547333,47.996003],"type":"Point"},"properties":{"CustEff":4,"FieldLocationID":"7215_D159","Incident_ID":"2001353512"},"type":"Feature"},
 {"geometry":{"coordinates":[-66.931867,45.037155],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7901_M5","Incident_ID":"2001353531"},"type":"Feature"},
@@ -15,6 +14,5 @@
 {"geometry":{"coordinates":[-65.780011,46.934433],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7035_B372L71R2","Incident_ID":"2001353551"},"type":"Feature"},
 {"geometry":{"coordinates":[-65.788158,46.931787],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7035_B372L60","Incident_ID":"2001353551"},"type":"Feature"},
 {"geometry":{"coordinates":[-65.776211,47.821343],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7205_P48L10","Incident_ID":"2001353559"},"type":"Feature"},
-{"geometry":{"coordinates":[-65.78736,46.931937],"type":"Point"},"properties":{"CustEff":2,"FieldLocationID":"7035_B372L61","Incident_ID":"2001353562"},"type":"Feature"},
-{"geometry":{"coordinates":[-66.432824,47.976054],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7215_H141AR1R2","Incident_ID":"2001353568"},"type":"Feature"}
+{"geometry":{"coordinates":[-65.78736,46.931937],"type":"Point"},"properties":{"CustEff":2,"FieldLocationID":"7035_B372L61","Incident_ID":"2001353562"},"type":"Feature"}
 ]}
