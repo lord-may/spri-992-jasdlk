@@ -1,3 +1,8 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-72.113134,45.453868],"type":"Point"},"properties":{"adresse":"35 Rue des Pavots Saint-Denis-de-Brompton","cause_panne":5,"debut_panne":1791265335000,"retablissement_panne":1791271800000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-72.112692,45.452734],"type":"Point"},"properties":{"adresse":"465 Chemin Duclos Saint-Denis-de-Brompton","cause_panne":5,"debut_panne":1791265335000,"retablissement_panne":1791271800000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-72.113002,45.453262],"type":"Point"},"properties":{"adresse":"470 Chemin Duclos Saint-Denis-de-Brompton","cause_panne":5,"debut_panne":1791265335000,"retablissement_panne":1791271800000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-72.112493,45.453073],"type":"Point"},"properties":{"adresse":"475 Chemin Duclos Saint-Denis-de-Brompton","cause_panne":5,"debut_panne":1791265335000,"retablissement_panne":1791271800000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-72.112276,45.452411],"type":"Point"},"properties":{"adresse":"75 Rue des Pivoines Saint-Denis-de-Brompton","cause_panne":5,"debut_panne":1791265335000,"retablissement_panne":1791271800000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-72.112128,45.452824],"type":"Point"},"properties":{"adresse":"80 Rue des Pivoines Saint-Denis-de-Brompton","cause_panne":5,"debut_panne":1791265335000,"retablissement_panne":1791271800000,"statut_panne":2},"type":"Feature"}
 ]}
