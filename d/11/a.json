@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-54.173512,48.360424],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":null,"CUSTOMER_COUNT":757,"ID":344816,"NLP_ALERT_REMARKS":null,"OBJECTID":64628,"POLYGONS_AFFECTED":"Port Blandford,Thornburn Lake - Terrance Pond,Port Blandford Rd - Bunyan's Cove,Port Blandford (Blackmores Rd-Golf Course)","TIME_OUTAGE":1791268620000,"TIME_RESTORED_EST":null,"X":217847.0026,"Y":5358633.1207},"type":"Feature"},
-{"geometry":{"coordinates":[-54.246161,48.495372],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":null,"CUSTOMER_COUNT":355,"ID":344817,"NLP_ALERT_REMARKS":null,"OBJECTID":64629,"POLYGONS_AFFECTED":"Terra Nova","TIME_OUTAGE":1791268622000,"TIME_RESTORED_EST":null,"X":212708.2358,"Y":5373722.1446},"type":"Feature"}
+
 ]}
