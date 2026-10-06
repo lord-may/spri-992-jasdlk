@@ -1,9 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.935939,45.366655],"type":"Point"},"properties":{"adresse":"2285 Chemin de Sainte-Catherine Sherbrooke","cause_panne":0,"debut_panne":1791293956000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.05265,45.391514],"type":"Point"},"properties":{"adresse":"2628 Rue des Genévriers Sherbrooke","cause_panne":0,"debut_panne":1791298035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.05263,45.391728],"type":"Point"},"properties":{"adresse":"2631 Rue des Lilas Sherbrooke","cause_panne":0,"debut_panne":1791298035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.05294,45.391467],"type":"Point"},"properties":{"adresse":"2636 Rue des Genévriers Sherbrooke","cause_panne":0,"debut_panne":1791298035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.053001,45.39174],"type":"Point"},"properties":{"adresse":"2639 Rue des Lilas Sherbrooke","cause_panne":0,"debut_panne":1791298035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.053081,45.390585],"type":"Point"},"properties":{"adresse":"2642 Rue des Marronniers Sherbrooke","cause_panne":0,"debut_panne":1791298035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.053011,45.391291],"type":"Point"},"properties":{"adresse":"2644 Rue des Genévriers Sherbrooke","cause_panne":0,"debut_panne":1791298035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
+{"geometry":{"coordinates":[-71.935939,45.366655],"type":"Point"},"properties":{"adresse":"2285 Chemin de Sainte-Catherine Sherbrooke","cause_panne":0,"debut_panne":1791293956000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
 ]}
