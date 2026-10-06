@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-58.845995,48.179984],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":28,"ID":344837,"NLP_ALERT_REMARKS":null,"OBJECTID":64704,"POLYGONS_AFFECTED":"St.Fintans-Loch Leven","TIME_OUTAGE":1791286091000,"TIME_RESTORED_EST":1791295200000,"X":-129812.8731,"Y":5354456.3129},"type":"Feature"},
-{"geometry":{"coordinates":[-53.75456,48.121064],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":222,"ID":344839,"NLP_ALERT_REMARKS":null,"OBJECTID":64705,"POLYGONS_AFFECTED":"Hickman's Harbour - Petley","TIME_OUTAGE":1791290135000,"TIME_RESTORED_EST":1791300649000,"X":248627.9308,"Y":5331630.0323},"type":"Feature"}
+{"geometry":{"coordinates":[-53.75456,48.121064],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":222,"ID":344839,"NLP_ALERT_REMARKS":null,"OBJECTID":64706,"POLYGONS_AFFECTED":"Hickman's Harbour - Petley","TIME_OUTAGE":1791290135000,"TIME_RESTORED_EST":1791300649000,"X":248627.9308,"Y":5331630.0323},"type":"Feature"}
 ]}
