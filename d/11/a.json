@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-53.75456,48.121064],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":222,"ID":344839,"NLP_ALERT_REMARKS":null,"OBJECTID":64706,"POLYGONS_AFFECTED":"Hickman's Harbour - Petley","TIME_OUTAGE":1791290135000,"TIME_RESTORED_EST":1791300649000,"X":248627.9308,"Y":5331630.0323},"type":"Feature"}
+{"geometry":{"coordinates":[-53.75456,48.121064],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":222,"ID":344839,"NLP_ALERT_REMARKS":null,"OBJECTID":64708,"POLYGONS_AFFECTED":"Hickman's Harbour - Petley","TIME_OUTAGE":1791290135000,"TIME_RESTORED_EST":1791300649000,"X":248627.9308,"Y":5331630.0323},"type":"Feature"}
 ]}
