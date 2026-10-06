@@ -21,11 +21,10 @@
 {"geometry":{"coordinates":[-66.01369,45.888253],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"8288_J307R4R4","Incident_ID":"2001353408"},"type":"Feature"},
 {"geometry":{"coordinates":[-64.915015,46.60582],"type":"Point"},"properties":{"CustEff":5,"FieldLocationID":"8410_H106R13","Incident_ID":"2001353409"},"type":"Feature"},
 {"geometry":{"coordinates":[-64.912696,46.607755],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"8410_H106R4R6L2","Incident_ID":"2001353412"},"type":"Feature"},
-{"geometry":{"coordinates":[-64.903188,46.060302],"type":"Point"},"properties":{"CustEff":6,"FieldLocationID":"8013_199","Incident_ID":"2001353421"},"type":"Feature"},
-{"geometry":{"coordinates":[-64.882065,46.056885],"type":"Point"},"properties":{"CustEff":9,"FieldLocationID":"8013_163R2","Incident_ID":"2001353425"},"type":"Feature"},
 {"geometry":{"coordinates":[-66.345924,47.969681],"type":"Point"},"properties":{"CustEff":4,"FieldLocationID":"7215_M59L31R17R2","Incident_ID":"2001353426"},"type":"Feature"},
 {"geometry":{"coordinates":[-67.620287,46.773612],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7843_G151R13R8","Incident_ID":"2001353440"},"type":"Feature"},
 {"geometry":{"coordinates":[-67.620387,46.774364],"type":"Point"},"properties":{"CustEff":5,"FieldLocationID":"7843_G151R13R10","Incident_ID":"2001353440"},"type":"Feature"},
 {"geometry":{"coordinates":[-67.623758,46.775033],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7843_G151R13R15","Incident_ID":"2001353440"},"type":"Feature"},
-{"geometry":{"coordinates":[-64.898835,46.701889],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"8418_A68R14L2R4","Incident_ID":"2001353449"},"type":"Feature"}
+{"geometry":{"coordinates":[-64.898835,46.701889],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"8418_A68R14L2R4","Incident_ID":"2001353449"},"type":"Feature"},
+{"geometry":{"coordinates":[-66.630084,45.969635],"type":"Point"},"properties":{"CustEff":3,"FieldLocationID":"7511_3L3R3","Incident_ID":"2001353463"},"type":"Feature"}
 ]}
