@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-52.819037,47.521067],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"En Route","CUSTOMER_COUNT":87,"ID":344822,"NLP_ALERT_REMARKS":null,"OBJECTID":64637,"POLYGONS_AFFECTED":"Power's Pond (Ruth Ave-Bonfoy Pl)","TIME_OUTAGE":1791271741000,"TIME_RESTORED_EST":null,"X":318427.1747,"Y":5264665.3839},"type":"Feature"}
+{"geometry":{"coordinates":[-52.819037,47.521067],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"En Route","CUSTOMER_COUNT":87,"ID":344822,"NLP_ALERT_REMARKS":null,"OBJECTID":64638,"POLYGONS_AFFECTED":"Power's Pond (Ruth Ave-Bonfoy Pl)","TIME_OUTAGE":1791271741000,"TIME_RESTORED_EST":null,"X":318427.1747,"Y":5264665.3839},"type":"Feature"}
 ]}
