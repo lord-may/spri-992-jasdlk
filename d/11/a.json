@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-55.173791,47.053974],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":460,"ID":344899,"NLP_ALERT_REMARKS":null,"OBJECTID":64730,"POLYGONS_AFFECTED":"Black Duck Cove - Collins Cove","TIME_OUTAGE":1791376274000,"TIME_RESTORED_EST":1791387041000,"X":139655.6591,"Y":5215018.6542},"type":"Feature"},
-{"geometry":{"coordinates":[-53.671466,48.384177],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":152,"ID":344901,"NLP_ALERT_REMARKS":null,"OBJECTID":64731,"POLYGONS_AFFECTED":"Charleston - Sweet Bay","TIME_OUTAGE":1791376316000,"TIME_RESTORED_EST":1791379800000,"X":255069.4916,"Y":5360826.3993},"type":"Feature"}
+{"geometry":{"coordinates":[-55.173791,47.053974],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":460,"ID":344899,"NLP_ALERT_REMARKS":null,"OBJECTID":64734,"POLYGONS_AFFECTED":"Black Duck Cove - Collins Cove","TIME_OUTAGE":1791376274000,"TIME_RESTORED_EST":1791387041000,"X":139655.6591,"Y":5215018.6542},"type":"Feature"}
 ]}
