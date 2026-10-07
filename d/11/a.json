@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-55.173791,47.053974],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":460,"ID":344899,"NLP_ALERT_REMARKS":null,"OBJECTID":64738,"POLYGONS_AFFECTED":"Black Duck Cove - Collins Cove","TIME_OUTAGE":1791376274000,"TIME_RESTORED_EST":1791387041000,"X":139655.6591,"Y":5215018.6542},"type":"Feature"}
+{"geometry":{"coordinates":[-55.173791,47.053974],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":460,"ID":344899,"NLP_ALERT_REMARKS":null,"OBJECTID":64740,"POLYGONS_AFFECTED":"Black Duck Cove - Collins Cove","TIME_OUTAGE":1791376274000,"TIME_RESTORED_EST":1791387041000,"X":139655.6591,"Y":5215018.6542},"type":"Feature"},
+{"geometry":{"coordinates":[-53.362173,46.735965],"type":"Point"},"properties":{"CAUSE":"Emergency Repairs","CREW_STATUS":null,"CUSTOMER_COUNT":72,"ID":344910,"NLP_ALERT_REMARKS":null,"OBJECTID":64741,"POLYGONS_AFFECTED":"Trepassey","TIME_OUTAGE":1791381516000,"TIME_RESTORED_EST":1791382531000,"X":277121.529032471,"Y":5177439.48698592},"type":"Feature"}
 ]}
