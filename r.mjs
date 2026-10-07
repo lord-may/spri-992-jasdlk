@@ -156,7 +156,6 @@ async function crawl(s) {
       w.shift()?.();
     }
   };
-  // clusters can hold outages from neighbouring tiles, so descend into the 3x3 tiles around each cluster
   const near = (c, z) => {
     const [x, y] = tile(...c, z),
       q = [];
@@ -228,6 +227,105 @@ function cmp(a, b) {
   return String(a ?? "").localeCompare(String(b ?? ""));
 }
 
+function unproject(w) {
+  if (!/^\s*PROJCS/.test(w)) return (x, y) => [x, y];
+  const [, A, I] = /SPHEROID\["[^"]*",\s*([\d.]+),\s*([\d.]+)/.exec(w);
+  const a = +A,
+    f = 1 / +I,
+    e2 = 2 * f - f * f,
+    e = Math.sqrt(e2);
+  const q = Object.fromEntries(
+    [...w.matchAll(/PARAMETER\["([^"]+)",\s*(-?[\d.eE+-]+)\]/g)].map(
+      ([, k, v]) => [k.toLowerCase(), +v],
+    ),
+  );
+  const u = +[...w.matchAll(/UNIT\["[^"]*",\s*([\d.eE+-]+)/g)].at(-1)[1];
+  const d = Math.PI / 180,
+    k0 = q.scale_factor ?? 1,
+    fe = q.false_easting ?? 0,
+    fn = q.false_northing ?? 0,
+    l0 = (q.central_meridian ?? q.longitude_of_origin ?? 0) * d,
+    p0 = (q.latitude_of_origin ?? 0) * d;
+  if (/Lambert_Conformal_Conic/i.test(w)) {
+    const m = (p) => Math.cos(p) / Math.sqrt(1 - e2 * Math.sin(p) ** 2);
+    const t = (p) =>
+      Math.tan(Math.PI / 4 - p / 2) /
+      ((1 - e * Math.sin(p)) / (1 + e * Math.sin(p))) ** (e / 2);
+    const p1 = (q.standard_parallel_1 ?? q.latitude_of_origin) * d,
+      p2 =
+        (q.standard_parallel_2 ??
+          q.standard_parallel_1 ??
+          q.latitude_of_origin) * d;
+    const n =
+      Math.abs(p1 - p2) < 1e-12
+        ? Math.sin(p1)
+        : (Math.log(m(p1)) - Math.log(m(p2))) /
+          (Math.log(t(p1)) - Math.log(t(p2)));
+    const F = m(p1) / (n * t(p1) ** n),
+      r0 = a * F * k0 * t(p0) ** n,
+      s = Math.sign(n);
+    return (x, y) => {
+      const dx = (x - fe) * u,
+        dy = r0 - (y - fn) * u;
+      const r = s * Math.hypot(dx, dy),
+        tp = (r / (a * F * k0)) ** (1 / n);
+      let p = Math.PI / 2 - 2 * Math.atan(tp);
+      for (let i = 0; i < 15; i++)
+        p =
+          Math.PI / 2 -
+          2 *
+            Math.atan(
+              tp * ((1 - e * Math.sin(p)) / (1 + e * Math.sin(p))) ** (e / 2),
+            );
+      return [(Math.atan2(s * dx, s * dy) / n + l0) / d, p / d];
+    };
+  }
+  if (/Transverse_Mercator/i.test(w)) {
+    const ep2 = e2 / (1 - e2),
+      M = (p) =>
+        a *
+        ((1 - e2 / 4 - (3 * e2 ** 2) / 64 - (5 * e2 ** 3) / 256) * p -
+          ((3 * e2) / 8 + (3 * e2 ** 2) / 32 + (45 * e2 ** 3) / 1024) *
+            Math.sin(2 * p) +
+          ((15 * e2 ** 2) / 256 + (45 * e2 ** 3) / 1024) * Math.sin(4 * p) -
+          ((35 * e2 ** 3) / 3072) * Math.sin(6 * p));
+    const e1 = (1 - Math.sqrt(1 - e2)) / (1 + Math.sqrt(1 - e2));
+    return (x, y) => {
+      const mu =
+        (M(p0) + ((y - fn) * u) / k0) /
+        (a * (1 - e2 / 4 - (3 * e2 ** 2) / 64 - (5 * e2 ** 3) / 256));
+      const p1 =
+        mu +
+        ((3 * e1) / 2 - (27 * e1 ** 3) / 32) * Math.sin(2 * mu) +
+        ((21 * e1 ** 2) / 16 - (55 * e1 ** 4) / 32) * Math.sin(4 * mu) +
+        ((151 * e1 ** 3) / 96) * Math.sin(6 * mu) +
+        ((1097 * e1 ** 4) / 512) * Math.sin(8 * mu);
+      const C = ep2 * Math.cos(p1) ** 2,
+        T = Math.tan(p1) ** 2,
+        N = a / Math.sqrt(1 - e2 * Math.sin(p1) ** 2),
+        R = (a * (1 - e2)) / (1 - e2 * Math.sin(p1) ** 2) ** 1.5,
+        D = ((x - fe) * u) / (N * k0);
+      const p =
+        p1 -
+        ((N * Math.tan(p1)) / R) *
+          (D ** 2 / 2 -
+            ((5 + 3 * T + 10 * C - 4 * C ** 2 - 9 * ep2) * D ** 4) / 24 +
+            ((61 + 90 * T + 298 * C + 45 * T ** 2 - 252 * ep2 - 3 * C ** 2) *
+              D ** 6) /
+              720);
+      const l =
+        l0 +
+        (D -
+          ((1 + 2 * T + C) * D ** 3) / 6 +
+          ((5 - 2 * C + 28 * T - 3 * C ** 2 + 8 * ep2 + 24 * T ** 2) * D ** 5) /
+            120) /
+          Math.cos(p1);
+      return [l / d, p / d];
+    };
+  }
+  throw new Error("parse");
+}
+
 const P = {
   a: (t) => {
     const j = JSON.parse(t);
@@ -296,8 +394,7 @@ const P = {
               .map((m) => plain(m[1]))
               .filter(Boolean)
           : [];
-        // self-closing elements (<SimpleData name="X" />) are empty values; without the
-        // `\/>` branch they swallowed every element up to the next closing tag
+
         const x = [
           ...b.matchAll(
             /<(Data|SimpleData)\b[^>]*?\bname="([^"]*)"[^>]*?(?:\/>|>((?:(?!<\/\1>)[\s\S])*)<\/\1>)/g,
@@ -365,6 +462,103 @@ const P = {
       properties: Object.fromEntries(j.fields.map((f, k) => [f, v[k]])),
     }));
   },
+  n: async (t, s) => {
+    const [c, b] = await Promise.all(
+      ["config", "outage.bounds"].map(async (f) =>
+        JSON.parse(
+          (await get(s, s.u.replace(/summary\.json/, `${f}.json`), true)) ??
+            "{}",
+        ),
+      ),
+    );
+    const [ox, oy] = c.mapSettings.boundaryExtent;
+    const ll = ([x, y]) => [
+      ((x + ox) / 6378137) * (180 / Math.PI),
+      (2 * Math.atan(Math.exp((y + oy) / 6378137)) - Math.PI / 2) *
+        (180 / Math.PI),
+    ];
+    const a = new Map();
+    for (const o of b.outageBoundaries ?? []) {
+      const r = shut((o.outageGeometry ?? []).map(ll));
+      if (r.length < 4) continue;
+      const k = String(o.outageId);
+      if (!a.has(k)) a.set(k, []);
+      a.get(k).push({ type: "Polygon", coordinates: [r] });
+    }
+    return JSON.parse(t).outages.map(({ x, y, ...q }) => ({
+      type: "Feature",
+      geometry: one([
+        ...(a.get(String(q.id)) ?? []),
+        ...(Number.isFinite(x) && Number.isFinite(y)
+          ? [{ type: "Point", coordinates: ll([x, y]) }]
+          : []),
+      ]),
+      properties: q,
+    }));
+  },
+  p: async (t, s) => {
+    const c = JSON.parse(
+      await get({}, s.u.replace(/mPowerOMSAPI\.asmx.*$/, "Setup.json")),
+    );
+    const f = unproject(c.Outages?.Proj4Coordsys ?? c.Proj4Coordsys);
+    return JSON.parse(JSON.parse(t).d).map(({ X, Y, ...q }) => ({
+      type: "Feature",
+      geometry: pt(...f(X, Y)),
+      properties: q,
+    }));
+  },
+  o: (t) => {
+    const m = /mapOverlayData=eval\('\(([\s\S]*?)\)'\);/.exec(t);
+    if (!m) throw new Error("parse");
+    const j = JSON.parse(
+      m[1].replace(/\\(u[0-9a-fA-F]{4}|x[0-9a-fA-F]{2}|[\s\S])/g, (x, c) =>
+        c.length > 2 && /^[ux]/.test(c)
+          ? String.fromCharCode(parseInt(c.slice(1), 16))
+          : ({ n: "\n", t: "\t", r: "\r" }[c] ?? c),
+      ),
+    );
+    const f = [];
+    for (const [k, l] of Object.entries(j)) {
+      let c;
+      for (const v of l) {
+        if (v.vertice != null || !c) {
+          const { lat, lon, vertice, hover, label, ...q } = v;
+          const rows = [
+            ...String(hover ?? "").matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/gi),
+          ].map(([, r]) =>
+            [...r.matchAll(/<td\b[^>]*>([\s\S]*?)<\/td>/gi)].map((d) =>
+              plain(d[1]),
+            ),
+          );
+          c = {
+            p: [],
+            q: {
+              overlay: k,
+              label: plain(String(label ?? "")),
+              ...q,
+              ...(rows.length
+                ? Object.fromEntries(
+                    rows
+                      .filter((r) => r.length === 2)
+                      .map(([a, b]) => [a.replace(/\s+/g, " "), b]),
+                  )
+                : { hover: plain(String(hover ?? "")) }),
+            },
+          };
+          f.push(c);
+        }
+        c.p.push([v.lon, v.lat]);
+      }
+    }
+    return f.map(({ p, q }) => ({
+      type: "Feature",
+      geometry:
+        p.length >= 3
+          ? { type: "Polygon", coordinates: [shut(p)] }
+          : pt(p[0][0], p[0][1]),
+      properties: q,
+    }));
+  },
 };
 
 async function get(s, u = s.u, n = false) {
@@ -403,7 +597,6 @@ async function url(s) {
   return u;
 }
 
-// s.j: regex whose first group is the data inside a page, e.g. a JS string literal holding JSON
 function pick(t, s) {
   if (!s.j) return t;
   const m = new RegExp(s.j).exec(t);
@@ -411,10 +604,6 @@ function pick(t, s) {
   return m[1].startsWith('"') ? JSON.parse(m[1]) : m[1];
 }
 
-// Geometry is normalized before writing so the same shape always serializes the same way:
-// coordinates are rounded to 6 decimals (~10 cm), and polygons are rebuilt from their rings by
-// containment, because ArcGIS alternates between one Polygon with several rings and a
-// MultiPolygon for the same shape (each flip rewrote the whole geometry in git)
 const r6 = (v) => Math.round(v * 1e6) / 1e6;
 const xy = (p) => [r6(p[0]), r6(p[1])];
 const nodup = (r) =>
@@ -430,11 +619,11 @@ const inside = ([x, y], r) => {
   for (let i = 0, j = r.length - 1; i < r.length; j = i++) {
     const [xi, yi] = r[i],
       [xj, yj] = r[j];
-    if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) c = !c;
+    if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi)
+      c = !c;
   }
   return c;
 };
-// outer rings counter-clockwise, holes clockwise (RFC 7946)
 const orient = (r, ccw) => (area(r) > 0 === ccw ? r : [...r].reverse());
 const order = (a, b) => b.a - a.a || (String(a.r[0]) < String(b.r[0]) ? -1 : 1);
 
@@ -443,7 +632,6 @@ function polys(rings) {
     .map((r) => shut(nodup(r.map(xy))))
     .filter((r) => r.length >= 4)
     .map((r) => ({ r, a: Math.abs(area(r)), v: new Set(r.map(String)) }));
-  // ring i is within ring j if one of its vertices not shared with j lies inside j
   const within = R.map((x, i) =>
     R.map((o, j) => {
       if (i === j || o.a <= x.a) return false;
@@ -457,7 +645,6 @@ function polys(rings) {
   );
   R.forEach((x, i) => {
     if (depth[i] % 2 === 0) return;
-    // a hole belongs to the smallest ring containing it, one level up
     const p = outer
       .filter((o) => within[i][o.i] && depth[o.i] === depth[i] - 1)
       .sort((a, b) => a.a - b.a)[0];
@@ -512,7 +699,6 @@ async function run(s) {
   for (const x of f) for (const k of s.i ?? []) delete x.properties?.[k];
   for (const x of f) {
     if (!x) continue;
-    // ArcGIS adds a feature-level `id` copying OBJECTID; it's outside `properties`, so `i` can't drop it
     delete x.id;
     x.geometry = geo(x.geometry);
   }
@@ -525,7 +711,6 @@ async function run(s) {
   return f.length;
 }
 
-// logs are public: keep messages that can't contain a url or host (network errors only expose cause.code)
 const why = (e) => {
   const m = e?.message ?? "";
   if (/^(http \d+|parse)$/.test(m)) return m;
@@ -545,5 +730,4 @@ R.forEach((r, i) => {
     );
   }
 });
-// a few sources being down is normal; only fail the job when nothing worked
 if (bad && bad === S.length) process.exitCode = 1;
