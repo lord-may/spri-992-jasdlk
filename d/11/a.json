@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-56.186378,49.941454],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":47,"ID":344954,"NLP_ALERT_REMARKS":null,"OBJECTID":64753,"POLYGONS_AFFECTED":"Baie Verte (North)","TIME_OUTAGE":1791465373000,"TIME_RESTORED_EST":1791471624000,"X":76115.5794000002,"Y":5538649.8526},"type":"Feature"}
+{"geometry":{"coordinates":[-56.186378,49.941454],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":47,"ID":344954,"NLP_ALERT_REMARKS":null,"OBJECTID":64755,"POLYGONS_AFFECTED":"Baie Verte (North)","TIME_OUTAGE":1791465373000,"TIME_RESTORED_EST":1791471624000,"X":76115.5794000002,"Y":5538649.8526},"type":"Feature"}
 ]}
