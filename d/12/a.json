@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-56.0157,51.18299],"type":"Point"},"properties":{"Area":"Addresses Affected: 2","Circuit":null,"CityID":0,"CityName":"","CommunityName":"Main Brook","CustomerAffected":0,"Header":"Northern - Main Brook","OutageLatitude":51.18299,"OutageLongitude":-56.0157,"OutageRegionId":0,"OutageReportInfo":"Unplanned outage, crews are dispatched. Estimated restoration time unknown","Outagedate":"08/10/26 10:30","OutagedateDB":"2026-10-08T10:30:00","Outageid":4555,"Region":"Northern","RestorationTime":"","Restorationdate":"08/10/26 15:00","RestorationdateDB":"2026-10-08T15:00:00","STATUS":null,"ServiceTypeID":1,"Title":"Under Investigation","Towns":"MAIN BROOK","ZipCode":"Under Investigation"},"type":"Feature"}
+
 ]}
