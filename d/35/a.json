@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-79.450539,44.070699],"type":"Point"},"properties":{"CAUSE":"Pole Line Upgrades","COMMENTS":"Plannd outage from 7:00AM-1PM","CREW":"Yes","CUSTOMERS":10,"ETR":"3","GlobalID":"18b0628c-2879-4bca-acb4-08a16ac942d0","INCIDENTID":null,"OBJECTID":2521,"PLANNED":"Yes","PLANNEDDATE":1791802800000,"STATUS":"Active"},"type":"Feature"}
+{"geometry":{"coordinates":[-79.450539,44.070699],"type":"Point"},"properties":{"CAUSE":"Pole Line Upgrades","COMMENTS":"Planned outage from 7:00AM-1PM","CREW":"Yes","CUSTOMERS":10,"ETR":"3","GlobalID":"18b0628c-2879-4bca-acb4-08a16ac942d0","INCIDENTID":null,"OBJECTID":2521,"PLANNED":"Yes","PLANNEDDATE":1791802800000,"STATUS":"Active"},"type":"Feature"}
 ]}
