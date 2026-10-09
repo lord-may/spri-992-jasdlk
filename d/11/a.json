@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-53.948858,47.261815],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":null,"CUSTOMER_COUNT":25,"ID":345035,"NLP_ALERT_REMARKS":null,"OBJECTID":64767,"POLYGONS_AFFECTED":"Dunville (Fox Harbour Rd) - Ferndale","TIME_OUTAGE":1791559950000,"TIME_RESTORED_EST":1791563459000,"X":232993.9519,"Y":5236265.8696},"type":"Feature"}
 ]}
