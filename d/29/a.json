@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[[[-79.274498,42.969895],[-79.273555,42.969221],[-79.26625,42.965402],[-79.262554,42.96473],[-79.259567,42.966277],[-79.257792,42.96728],[-79.258036,42.968582],[-79.26783,42.974224],[-79.27179,42.97191],[-79.274498,42.969895]]],"type":"Polygon"},"properties":{"averageLatitude":42.97072556316435,"averageLongitude":-79.2686079078252,"cause":"Tree Contacts","crewsDispatched":true,"deviceTypeId":0,"estimatedRestoration":"2026-10-09T12:00:00","estimatedStart":"2026-10-09T09:43:00","isProposed":false,"meters":[],"numImpactedMeters":286,"numOriginalImpactedMeters":286,"outageId":16121,"outageSourceDeviceID":"","planned":false},"type":"Feature"}
+
 ]}
