@@ -940,6 +940,10 @@ async function run(s) {
   if (s.c) q.h = { ...s.h, authorization: `Bearer ${(await get({}, s.c)).trim()}` };
   const f = await P[s.t](q.u.includes("{q}") || P[s.t]?.raw ? null : pick(await get(q), s), q);
   if (!Array.isArray(f)) throw new Error("parse");
+  // q: drop rows whose property equals a listed value, e.g. {"status":["SCHEDULED"]}
+  if (s.q)
+    for (let j = f.length - 1; j >= 0; j--)
+      if (Object.entries(s.q).some(([k, v]) => v.includes(f[j]?.properties?.[k]))) f.splice(j, 1);
   for (const x of f) for (const k of s.i ?? []) delete x.properties?.[k];
   for (const x of f) {
     if (!x) continue;
