@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-79.37565,43.87523],"type":"Point"},"properties":{"CURCUST":1,"CaseIDOnMap":872006,"EstRestoreTime":null,"INITCUST":1,"OBJECTID":1,"OutageCausePublic":"Scheduled work being conducted in the area","OutageTime":1789639464000,"PUBLICMSG":null,"ShowOnMap":1},"type":"Feature"},
-{"geometry":{"coordinates":[-79.871508,43.220373],"type":"Point"},"properties":{"CURCUST":16,"CaseIDOnMap":9161149,"EstRestoreTime":1791583200000,"INITCUST":16,"OBJECTID":2,"OutageCausePublic":"Issue under investigation","OutageTime":1791566697000,"PUBLICMSG":"None","ShowOnMap":1},"type":"Feature"}
+{"geometry":{"coordinates":[-79.37565,43.87523],"type":"Point"},"properties":{"CURCUST":1,"CaseIDOnMap":872006,"EstRestoreTime":null,"INITCUST":1,"OBJECTID":1,"OutageCausePublic":"Scheduled work being conducted in the area","OutageTime":1789639464000,"PUBLICMSG":null,"ShowOnMap":1},"type":"Feature"}
 ]}
