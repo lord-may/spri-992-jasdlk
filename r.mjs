@@ -1,6 +1,6 @@
 import { mkdir, rename, writeFile } from "node:fs/promises";
 import { dirname } from "node:path";
-import { gunzipSync, inflateRawSync } from "node:zlib";
+import { brotliDecompressSync, gunzipSync, inflateRawSync } from "node:zlib";
 
 const H = {
   "user-agent":
@@ -326,6 +326,93 @@ function unproject(w) {
   throw new Error("parse");
 }
 
+async function raw(s) {
+  let e;
+  for (let i = 0; i < 3; i++) {
+    try {
+      const r = await fetch(s.u, {
+        headers: { ...H, ...s.h },
+        signal: AbortSignal.timeout(60000),
+      });
+      if (!r.ok) throw new Error(`http ${r.status}`);
+      return Buffer.from(await r.arrayBuffer());
+    } catch (x) {
+      e = x;
+      if (i < 2) await sleep(5000 * (i + 1));
+    }
+  }
+  throw e;
+}
+
+const vi = (a, p) => {
+  let v = 0,
+    m = 1,
+    c;
+  do {
+    c = a[p.i++];
+    v += (c & 127) * m;
+    m *= 128;
+  } while (c & 128);
+  return v;
+};
+function pbf(a) {
+  const p = { i: 0 },
+    f = [];
+  while (p.i < a.length) {
+    const k = vi(a, p),
+      w = k % 8,
+      n = Math.floor(k / 8);
+    if (w === 0) f.push([n, vi(a, p)]);
+    else if (w === 2) {
+      const l = vi(a, p);
+      f.push([n, a.subarray(p.i, p.i + l)]);
+      p.i += l;
+    } else if (w === 1) {
+      f.push([n, a.readDoubleLE(p.i)]);
+      p.i += 8;
+    } else if (w === 5) {
+      f.push([n, a.readFloatLE(p.i)]);
+      p.i += 4;
+    } else throw new Error("parse");
+  }
+  return f;
+}
+const unz = (b, c) =>
+  c === 2
+    ? gunzipSync(b)
+    : c === 3
+      ? brotliDecompressSync(b)
+      : c <= 1
+        ? b
+        : (() => {
+            throw new Error("parse");
+          })();
+const clip = (r, e) => {
+  for (const [i, lo] of [
+    [0, true],
+    [0, false],
+    [1, true],
+    [1, false],
+  ]) {
+    const v = lo ? 0 : e,
+      ok = (p) => (lo ? p[i] >= v : p[i] <= v),
+      o = [];
+    for (let j = 0; j < r.length; j++) {
+      const a = r[j],
+        b = r[(j + 1) % r.length];
+      if (ok(a)) o.push(a);
+      if (ok(a) !== ok(b)) {
+        const t = (v - a[i]) / (b[i] - a[i]),
+          c = [a[0] + t * (b[0] - a[0]), a[1] + t * (b[1] - a[1])];
+        c[i] = v;
+        o.push(c);
+      }
+    }
+    r = o;
+  }
+  return r;
+};
+
 const P = {
   a: (t) => {
     const j = JSON.parse(t);
@@ -559,6 +646,134 @@ const P = {
       properties: q,
     }));
   },
+  // PMTiles v3 vector tileset (MVT): features of layer `r` in the zoom-`z` tiles. Polygons are
+  // clipped to their tile and pieces with the same `k` merged; buffer copies of points dropped.
+  u: Object.assign(
+    async (t, s) => {
+      const b = await raw(s),
+        n = (o) => Number(b.readBigUInt64LE(o));
+      if (b.toString("latin1", 0, 7) !== "PMTiles" || b[7] !== 3 || b[99] !== 1)
+        throw new Error("parse");
+      const T = [],
+        z0 = (4 ** s.z - 1) / 3,
+        D = n(56);
+      const dir = (o, l) => {
+        const a = unz(b.subarray(o, o + l), b[97]),
+          p = { i: 0 },
+          c = vi(a, p),
+          e = [];
+        let id = 0;
+        for (let i = 0; i < c; i++) e.push({ id: (id += vi(a, p)) });
+        for (const x of e) x.r = vi(a, p);
+        for (const x of e) x.l = vi(a, p);
+        e.forEach((x, i) => {
+          const v = vi(a, p);
+          x.o = v === 0 && i ? e[i - 1].o + e[i - 1].l : v - 1;
+        });
+        for (const x of e) if (x.r) T.push(x);
+        else dir(n(40) + x.o, x.l);
+      };
+      dir(n(8), n(16));
+      const G = new Map(),
+        zz = (v) => (v % 2 ? -(v + 1) / 2 : v / 2);
+      for (const x of T)
+        for (let k = 0; k < x.r; k++) {
+          let d = x.id + k - z0,
+            tx = 0,
+            ty = 0;
+          if (d < 0 || d >= 4 ** s.z) continue;
+          for (let m = 1; m < 2 ** s.z; m *= 2) {
+            const rx = Math.floor(d / 2) % 2,
+              ry = (d % 2) ^ rx;
+            if (!ry) {
+              if (rx) [tx, ty] = [m - 1 - tx, m - 1 - ty];
+              [tx, ty] = [ty, tx];
+            }
+            tx += m * rx;
+            ty += m * ry;
+            d = Math.floor(d / 4);
+          }
+          for (const [f, L] of pbf(unz(b.subarray(D + x.o, D + x.o + x.l), b[98]))) {
+            if (f !== 3) continue;
+            const K = [],
+              V = [],
+              F = [];
+            let nm,
+              ex = 4096;
+            for (const [g, v] of pbf(L)) {
+              if (g === 1) nm = v.toString();
+              else if (g === 2) F.push(v);
+              else if (g === 3) K.push(v.toString());
+              else if (g === 4) {
+                const [[c, w]] = pbf(v);
+                V.push(c === 1 ? w.toString() : c === 6 ? zz(w) : c === 7 ? !!w : w);
+              } else if (g === 5) ex = v;
+            }
+            if (nm !== s.r) continue;
+            const ll = ([px, py]) => {
+              const X = (tx + px / ex) / 2 ** s.z,
+                Y = (ty + py / ex) / 2 ** s.z;
+              return [
+                X * 360 - 180,
+                (Math.atan(Math.sinh(Math.PI * (1 - 2 * Y))) * 180) / Math.PI,
+              ];
+            };
+            for (const ft of F) {
+              const q = {},
+                c = [],
+                R = [];
+              let gt = 0,
+                cur,
+                cx = 0,
+                cy = 0;
+              for (const [g, v] of pbf(ft)) {
+                if (g !== 2 && g !== 4) {
+                  if (g === 3) gt = v;
+                  continue;
+                }
+                const p = { i: 0 },
+                  a = [];
+                while (p.i < v.length) a.push(vi(v, p));
+                if (g === 2)
+                  for (let i = 0; i + 1 < a.length; i += 2) q[K[a[i]]] = V[a[i + 1]];
+                else c.push(...a);
+              }
+              for (let i = 0; i < c.length; ) {
+                const o = c[i] & 7,
+                  m = c[i++] >> 3;
+                if (o === 7) continue;
+                for (let j = 0; j < m; j++) {
+                  cx += zz(c[i++]);
+                  cy += zz(c[i++]);
+                  if (o === 1) R.push((cur = []));
+                  cur.push([cx, cy]);
+                }
+              }
+              const g =
+                gt === 1
+                  ? R.flat()
+                      .filter((p) => p.every((v) => v >= 0 && v < ex))
+                      .map((p) => ({ type: "Point", coordinates: ll(p) }))
+                  : gt === 2
+                    ? R.map((r) => ({ type: "LineString", coordinates: r.map(ll) }))
+                    : R.map((r) => clip(r, ex))
+                        .filter((r) => r.length >= 3)
+                        .map((r) => ({ type: "Polygon", coordinates: [shut(r.map(ll))] }));
+              if (!g.length) continue;
+              const id = q[s.k] ?? {};
+              if (!G.has(id)) G.set(id, { q, g: [] });
+              G.get(id).g.push(...g);
+            }
+          }
+        }
+      return [...G.values()].map(({ q, g }) => ({
+        type: "Feature",
+        geometry: one(g),
+        properties: q,
+      }));
+    },
+    { raw: true },
+  ),
 };
 
 async function get(s, u = s.u, n = false) {
@@ -694,7 +909,8 @@ function geo(g) {
 
 async function run(s) {
   const q = { ...s, u: await url(s) };
-  const f = await P[s.t](q.u.includes("{q}") ? null : pick(await get(q), s), q);
+  if (s.c) q.h = { ...s.h, authorization: `Bearer ${(await get({}, s.c)).trim()}` };
+  const f = await P[s.t](q.u.includes("{q}") || P[s.t]?.raw ? null : pick(await get(q), s), q);
   if (!Array.isArray(f)) throw new Error("parse");
   for (const x of f) for (const k of s.i ?? []) delete x.properties?.[k];
   for (const x of f) {
