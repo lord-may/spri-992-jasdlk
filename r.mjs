@@ -421,7 +421,7 @@ const P = {
     return j.features;
   },
   b: (t, s) =>
-    at(JSON.parse(t), s.r ?? "").map((o) => {
+    (at(JSON.parse(t), s.r ?? "") ?? (s.d ? [] : undefined)).map((o) => {
       const { [s.p]: f, ...q } = o;
       let g = pt(num(at(o, s.x)), num(at(o, s.y)));
       const r = [];
@@ -644,6 +644,34 @@ const P = {
           ? { type: "Polygon", coordinates: [shut(p)] }
           : pt(p[0][0], p[0][1]),
       properties: q,
+    }));
+  },
+  // Co-op association statewide outage map (`…/outages/details`, POST): one feature per county with
+  // its total and per-co-op counts; geometry from the counties GeoJSON at `f`, matched on `county<id>`.
+  d: async (t, s) => {
+    const g = new Map();
+    if (s.f)
+      for (const x of JSON.parse((await get({}, s.f, true)) ?? "{}").features ?? [])
+        g.set(String(x.id), x.geometry);
+    const n = (v) => +String(v).replace(/,/g, "");
+    return [
+      ...(JSON.parse(t).DetailsByCountyAlpha ?? "").matchAll(
+        /<dl\b[^>]*\bid="county([^"]+)"[^>]*>([\s\S]*?)<\/dl>/g,
+      ),
+    ].map(([, id, b]) => ({
+      type: "Feature",
+      geometry: g.get(id) ?? null,
+      properties: {
+        id,
+        county: plain(tag(b, "dt") ?? ""),
+        out: n(/([\d,]+)\s+member/.exec(b)?.[1]),
+        coops: Object.fromEntries(
+          [...b.matchAll(/<li\b[^>]*>([\s\S]*?)<\/li>/g)].map(([, l]) => {
+            const m = /^([\s\S]*):\s*([\d,]+)$/.exec(plain(l));
+            return m ? [m[1].trim(), n(m[2])] : [plain(l), null];
+          }),
+        ),
+      },
     }));
   },
   // PMTiles v3 vector tileset (MVT): features of layer `r` in the zoom-`z` tiles. Polygons are
