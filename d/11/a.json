@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-53.088809,48.498861],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":318,"ID":345057,"NLP_ALERT_REMARKS":null,"OBJECTID":64777,"POLYGONS_AFFECTED":"Catalina - Port Union,Port Union - Melrose","TIME_OUTAGE":1791627863000,"TIME_RESTORED_EST":1791642600000,"X":298236.9633,"Y":5373363.8001},"type":"Feature"}
+{"geometry":{"coordinates":[-53.088809,48.498861],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":318,"ID":345057,"NLP_ALERT_REMARKS":null,"OBJECTID":64779,"POLYGONS_AFFECTED":"Catalina - Port Union,Port Union - Melrose","TIME_OUTAGE":1791627863000,"TIME_RESTORED_EST":1791642600000,"X":298236.9633,"Y":5373363.8001},"type":"Feature"}
 ]}

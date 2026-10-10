@@ -1,3 +1,9 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-72.140735,45.436904],"type":"Point"},"properties":{"adresse":"475 Rue des Marcheurs Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1791633555000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-72.14174,45.437047],"type":"Point"},"properties":{"adresse":"480 Rue des Marcheurs Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1791633555000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-72.141581,45.437312],"type":"Point"},"properties":{"adresse":"490 Rue des Marcheurs Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1791633555000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-72.14083,45.437386],"type":"Point"},"properties":{"adresse":"495 Rue des Marcheurs Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1791633555000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-72.141519,45.437667],"type":"Point"},"properties":{"adresse":"500 Rue des Marcheurs Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1791633555000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-72.140768,45.437726],"type":"Point"},"properties":{"adresse":"505 Rue des Marcheurs Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1791633555000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-72.141725,45.437931],"type":"Point"},"properties":{"adresse":"510 Rue des Marcheurs Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1791633555000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
 ]}
