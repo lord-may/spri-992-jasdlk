@@ -1,10 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.9461,45.389636],"type":"Point"},"properties":{"adresse":"2979 Rue Jeanne-d'Arc Sherbrooke","cause_panne":9,"debut_panne":1791604800000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.946504,45.389925],"type":"Point"},"properties":{"adresse":"2980 Rue Gervais Sherbrooke","cause_panne":9,"debut_panne":1791604800000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.946327,45.389564],"type":"Point"},"properties":{"adresse":"2985 Rue Jeanne-d'Arc Sherbrooke","cause_panne":9,"debut_panne":1791604800000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.946734,45.389819],"type":"Point"},"properties":{"adresse":"2986 Rue Gervais Sherbrooke","cause_panne":9,"debut_panne":1791604800000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.946734,45.389819],"type":"Point"},"properties":{"adresse":"2990 Rue Gervais Sherbrooke","cause_panne":9,"debut_panne":1791604800000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.946561,45.389484],"type":"Point"},"properties":{"adresse":"2991 Rue Jeanne-d'Arc Sherbrooke","cause_panne":9,"debut_panne":1791604800000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.946813,45.389421],"type":"Point"},"properties":{"adresse":"2999 Rue Jeanne-d'Arc Sherbrooke","cause_panne":9,"debut_panne":1791604800000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.946986,45.389723],"type":"Point"},"properties":{"adresse":"3000 Rue Gervais Sherbrooke","cause_panne":9,"debut_panne":1791604800000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
+
 ]}
