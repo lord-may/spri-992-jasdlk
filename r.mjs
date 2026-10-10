@@ -423,10 +423,21 @@ const P = {
   b: (t, s) =>
     (at(JSON.parse(t), s.r ?? "") ?? (s.d ? [] : undefined)).map((o) => {
       const { [s.p]: f, ...q } = o;
-      let g = pt(num(at(o, s.x)), num(at(o, s.y)));
+      let g = s.w
+        ? pt(
+            ...String(at(o, s.w) ?? "")
+              .split(",")
+              .map(num),
+          )
+        : pt(num(at(o, s.x)), num(at(o, s.y)));
       const r = [];
       if (Array.isArray(f) && typeof f[0] === "number")
         for (let i = 0; i + 1 < f.length; i += 2) r.push([f[i], f[i + 1]]);
+      else if (Array.isArray(f) && s.s)
+        for (const v of f) {
+          const [x, y] = s.s.map((k) => num(v?.[k]));
+          if (Number.isFinite(x) && Number.isFinite(y)) r.push([x, y]);
+        }
       else if (Array.isArray(f))
         for (const v of f)
           if (Number.isFinite(v?.x) && Number.isFinite(v?.y))
@@ -646,12 +657,11 @@ const P = {
       properties: q,
     }));
   },
-  // Co-op association statewide outage map (`…/outages/details`, POST): one feature per county with
-  // its total and per-co-op counts; geometry from the counties GeoJSON at `f`, matched on `county<id>`.
   d: async (t, s) => {
     const g = new Map();
     if (s.f)
-      for (const x of JSON.parse((await get({}, s.f, true)) ?? "{}").features ?? [])
+      for (const x of JSON.parse((await get({}, s.f, true)) ?? "{}").features ??
+        [])
         g.set(String(x.id), x.geometry);
     const n = (v) => +String(v).replace(/,/g, "");
     return [
@@ -674,8 +684,6 @@ const P = {
       },
     }));
   },
-  // PMTiles v3 vector tileset (MVT): features of layer `r` in the zoom-`z` tiles. Polygons are
-  // clipped to their tile and pieces with the same `k` merged; buffer copies of points dropped.
   u: Object.assign(
     async (t, s) => {
       const b = await raw(s),
@@ -698,8 +706,9 @@ const P = {
           const v = vi(a, p);
           x.o = v === 0 && i ? e[i - 1].o + e[i - 1].l : v - 1;
         });
-        for (const x of e) if (x.r) T.push(x);
-        else dir(n(40) + x.o, x.l);
+        for (const x of e)
+          if (x.r) T.push(x);
+          else dir(n(40) + x.o, x.l);
       };
       dir(n(8), n(16));
       const G = new Map(),
@@ -721,7 +730,9 @@ const P = {
             ty += m * ry;
             d = Math.floor(d / 4);
           }
-          for (const [f, L] of pbf(unz(b.subarray(D + x.o, D + x.o + x.l), b[98]))) {
+          for (const [f, L] of pbf(
+            unz(b.subarray(D + x.o, D + x.o + x.l), b[98]),
+          )) {
             if (f !== 3) continue;
             const K = [],
               V = [],
@@ -734,7 +745,9 @@ const P = {
               else if (g === 3) K.push(v.toString());
               else if (g === 4) {
                 const [[c, w]] = pbf(v);
-                V.push(c === 1 ? w.toString() : c === 6 ? zz(w) : c === 7 ? !!w : w);
+                V.push(
+                  c === 1 ? w.toString() : c === 6 ? zz(w) : c === 7 ? !!w : w,
+                );
               } else if (g === 5) ex = v;
             }
             if (nm !== s.r) continue;
@@ -763,7 +776,8 @@ const P = {
                   a = [];
                 while (p.i < v.length) a.push(vi(v, p));
                 if (g === 2)
-                  for (let i = 0; i + 1 < a.length; i += 2) q[K[a[i]]] = V[a[i + 1]];
+                  for (let i = 0; i + 1 < a.length; i += 2)
+                    q[K[a[i]]] = V[a[i + 1]];
                 else c.push(...a);
               }
               for (let i = 0; i < c.length; ) {
@@ -783,10 +797,16 @@ const P = {
                       .filter((p) => p.every((v) => v >= 0 && v < ex))
                       .map((p) => ({ type: "Point", coordinates: ll(p) }))
                   : gt === 2
-                    ? R.map((r) => ({ type: "LineString", coordinates: r.map(ll) }))
+                    ? R.map((r) => ({
+                        type: "LineString",
+                        coordinates: r.map(ll),
+                      }))
                     : R.map((r) => clip(r, ex))
                         .filter((r) => r.length >= 3)
-                        .map((r) => ({ type: "Polygon", coordinates: [shut(r.map(ll))] }));
+                        .map((r) => ({
+                          type: "Polygon",
+                          coordinates: [shut(r.map(ll))],
+                        }));
               if (!g.length) continue;
               const id = q[s.k] ?? {};
               if (!G.has(id)) G.set(id, { q, g: [] });
@@ -937,13 +957,19 @@ function geo(g) {
 
 async function run(s) {
   const q = { ...s, u: await url(s) };
-  if (s.c) q.h = { ...s.h, authorization: `Bearer ${(await get({}, s.c)).trim()}` };
-  const f = await P[s.t](q.u.includes("{q}") || P[s.t]?.raw ? null : pick(await get(q), s), q);
+  if (s.c)
+    q.h = { ...s.h, authorization: `Bearer ${(await get({}, s.c)).trim()}` };
+  const f = await P[s.t](
+    q.u.includes("{q}") || P[s.t]?.raw ? null : pick(await get(q), s),
+    q,
+  );
   if (!Array.isArray(f)) throw new Error("parse");
-  // q: drop rows whose property equals a listed value, e.g. {"status":["SCHEDULED"]}
   if (s.q)
     for (let j = f.length - 1; j >= 0; j--)
-      if (Object.entries(s.q).some(([k, v]) => v.includes(f[j]?.properties?.[k]))) f.splice(j, 1);
+      if (
+        Object.entries(s.q).some(([k, v]) => v.includes(f[j]?.properties?.[k]))
+      )
+        f.splice(j, 1);
   for (const x of f) for (const k of s.i ?? []) delete x.properties?.[k];
   for (const x of f) {
     if (!x) continue;
