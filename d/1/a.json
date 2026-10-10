@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-111.154241,55.658198],"type":"Point"},"properties":{"CustomersAffected":7,"EstimatedRestore":"2026-10-10T20:00:00","IsPlanned":0,"MarkerCoordinate":{"Latitude":55.658197902736056,"Longitude":-111.15424051094891},"Number":"20733962","OutageStart":"2026-10-10T17:07:07","Reason":"Tree On Line","Schedule":[],"Status":"Restoration in Progress"},"type":"Feature"},
 {"geometry":{"coordinates":[-110.887728,55.351874],"type":"Point"},"properties":{"CustomersAffected":6,"EstimatedRestore":"2026-10-10T22:30:00","IsPlanned":0,"MarkerCoordinate":{"Latitude":55.35187411009555,"Longitude":-110.88772808811385},"Number":"20733967","OutageStart":"2026-10-10T18:39:25","Reason":"Unknown","Schedule":[],"Status":"Under Investigation"},"type":"Feature"}
 ]}
