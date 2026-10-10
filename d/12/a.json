@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-59.17638,55.09019],"type":"Point"},"properties":{"Area":"Addresses Affected: 2","Circuit":null,"CityID":0,"CityName":"","CommunityName":"Makkovik","CustomerAffected":0,"Header":"Labrador - Makkovik","OutageLatitude":55.09019,"OutageLongitude":-59.17638,"OutageRegionId":0,"OutageReportInfo":"Outage to 15 customers in Makkovik due to contractor working in the area contacted the primary line causing an outage. NL Hydro apologizes for the inconvenience and will provide and update with ETR as soon as possible.","Outagedate":"10/10/26 18:00","OutagedateDB":"2026-10-10T18:00:00","Outageid":4567,"Region":"Labrador","RestorationTime":"","Restorationdate":"","RestorationdateDB":null,"STATUS":null,"ServiceTypeID":1,"Title":"Under Investigation","Towns":"MAKKOVIK","ZipCode":"Under Investigation"},"type":"Feature"}
 ]}
