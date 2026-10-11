@@ -1,16 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.839198,45.403782],"type":"Point"},"properties":{"adresse":"2295 Rue des Merisiers Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.838928,45.403739],"type":"Point"},"properties":{"adresse":"2307 Rue des Merisiers Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.839065,45.404104],"type":"Point"},"properties":{"adresse":"2310 Rue des Cyprès Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.838671,45.403701],"type":"Point"},"properties":{"adresse":"2319 Rue des Merisiers Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.838803,45.404082],"type":"Point"},"properties":{"adresse":"2322 Rue des Cyprès Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.838299,45.403656],"type":"Point"},"properties":{"adresse":"2331 Rue des Merisiers Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.838574,45.40404],"type":"Point"},"properties":{"adresse":"2334 Rue des Cyprès Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.838326,45.404002],"type":"Point"},"properties":{"adresse":"2346 Rue des Cyprès Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.837918,45.403616],"type":"Point"},"properties":{"adresse":"2355 Rue des Merisiers Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.838104,45.403988],"type":"Point"},"properties":{"adresse":"2358 Rue des Cyprès Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.837688,45.403605],"type":"Point"},"properties":{"adresse":"2367 Rue des Merisiers Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.837811,45.40397],"type":"Point"},"properties":{"adresse":"2370 Rue des Cyprès Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.837408,45.40359],"type":"Point"},"properties":{"adresse":"2379 Rue des Merisiers Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.837524,45.40394],"type":"Point"},"properties":{"adresse":"2394 Rue des Cyprès Sherbrooke","cause_panne":0,"debut_panne":1791716775000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
+
 ]}
