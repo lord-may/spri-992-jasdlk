@@ -413,6 +413,81 @@ const clip = (r, e) => {
   return r;
 };
 
+const ESC = { n: "\n", r: "\r", t: "\t", b: "\b", f: "\f", v: "\v", 0: "\0" };
+function lit(t) {
+  const NEW = /new\s+[\w$.]+\s*\(/y,
+    KEY = /[A-Za-z_$][\w$]*(?=\s*:)/y,
+    WORD = /[A-Za-z_$][\w$]*/y;
+  let o = "",
+    i = 0,
+    last = "";
+  const p = [];
+  while (i < t.length) {
+    const c = t[i];
+    if (c === '"' || c === "'") {
+      let v = "";
+      for (i++; i < t.length && t[i] !== c; i++)
+        if (t[i] !== "\\") v += t[i];
+        else {
+          const e = t[++i];
+          if (e === "u" || e === "x") {
+            const n = e === "u" ? 4 : 2;
+            v += String.fromCharCode(parseInt(t.substr(i + 1, n), 16));
+            i += n;
+          } else v += ESC[e] ?? e;
+        }
+      o += JSON.stringify(v);
+      i++;
+      last = '"';
+      continue;
+    }
+    NEW.lastIndex = KEY.lastIndex = WORD.lastIndex = i;
+    let m;
+    if ((m = NEW.exec(t))) {
+      p.push(1);
+      i += m[0].length;
+    } else if (c === "(" || c === ")") {
+      if (c === "(") p.push(0);
+      else if (p.pop()) {
+        i++;
+        continue;
+      }
+      o += c;
+      last = c;
+      i++;
+    } else if ((last === "{" || last === ",") && (m = KEY.exec(t))) {
+      o += JSON.stringify(m[0]);
+      last = '"';
+      i += m[0].length;
+    } else if ((m = WORD.exec(t))) {
+      o += m[0] === "undefined" ? "null" : m[0];
+      last = "w";
+      i += m[0].length;
+    } else {
+      o += c;
+      if (!/\s/.test(c)) last = c;
+      i++;
+    }
+  }
+  try {
+    return JSON.parse(o.replace(/,(\s*[}\]])/g, "$1"));
+  } catch {
+    throw new Error("parse");
+  }
+}
+const after = (t, re) =>
+  [...t.matchAll(re)].map((m) => {
+    const s = m.index + m[0].length;
+    for (let i = s, d = 0; i < t.length; i++) {
+      const c = t[i];
+      if (c === '"' || c === "'") {
+        for (i++; i < t.length && t[i] !== c; i++) if (t[i] === "\\") i++;
+      } else if ("[{(".includes(c)) d++;
+      else if ("]})".includes(c) && !--d) return t.slice(s, i + 1);
+    }
+    throw new Error("parse");
+  });
+
 const P = {
   a: (t) => {
     const j = JSON.parse(t);
@@ -602,6 +677,49 @@ const P = {
     return JSON.parse(JSON.parse(t).d).map(({ X, Y, ...q }) => ({
       type: "Feature",
       geometry: pt(...f(X, Y)),
+      properties: q,
+    }));
+  },
+  x: async (t, s) => {
+    if (!/var outages\s*=/.test(t)) throw new Error("parse");
+    const o = after(t, /OutageMunicipality\(\s*(?=\{)/g).map(lit);
+    if (!o.length) return [];
+    const js = await get(
+      {},
+      new URL(
+        "/wp-content/plugins/ugi-outages-map/public/js/outages.min.js",
+        s.u,
+      ).href,
+    );
+    const b = {};
+    for (const v of after(js, /new com\.ugi\.Municipality\(\s*(?=\{)/g)) {
+      const m = lit(v);
+      b[m.municipalityId] = m.boundary;
+    }
+    return o.map(({ boundary, ...q }) => {
+      let r = boundary ?? b[q.municipalityId] ?? [];
+      if (Array.isArray(r[0])) r = r[0];
+      const c = r
+        .map((v) => [num(v?.lng), num(v?.lat)])
+        .filter(([x, y]) => Number.isFinite(x) && Number.isFinite(y));
+      return {
+        type: "Feature",
+        geometry:
+          c.length >= 3 ? { type: "Polygon", coordinates: [shut(c)] } : null,
+        properties: q,
+      };
+    });
+  },
+  i: (t) => {
+    const [g] = after(t, /var GPSData\s*=\s*(?=\[)/g);
+    if (!g || /wkid:\s*(\d+)/.exec(t)?.[1] !== "103726")
+      throw new Error("parse");
+    const f = unproject(
+      'PROJCS["",GEOGCS["",DATUM["",SPHEROID["",6378421.989,298.257222100883]]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",500000],PARAMETER["False_Northing",100000],PARAMETER["Central_Meridian",-93.3166666666667],PARAMETER["Standard_Parallel_1",44.5166666666667],PARAMETER["Standard_Parallel_2",44.9166666666667],PARAMETER["Latitude_Of_Origin",44.4719444444445],UNIT["US survey foot",0.304800609601219]]',
+    );
+    return lit(g).map(({ x, y, ...q }) => ({
+      type: "Feature",
+      geometry: pt(...f(num(x), num(y))),
       properties: q,
     }));
   },
@@ -838,7 +956,8 @@ async function get(s, u = s.u, n = false) {
         body: s.b ? JSON.stringify(s.b) : undefined,
         signal: AbortSignal.timeout(60000),
       });
-      if (n && (r.status === 403 || r.status === 404)) return null;
+      if (n && (r.status === 404 || (r.status === 403 && n !== 404)))
+        return null;
       if (!r.ok) throw new Error(`http ${r.status}`);
       return txt(Buffer.from(await r.arrayBuffer()));
     } catch (x) {
@@ -959,10 +1078,9 @@ async function run(s) {
   const q = { ...s, u: await url(s) };
   if (s.c)
     q.h = { ...s.h, authorization: `Bearer ${(await get({}, s.c)).trim()}` };
-  const f = await P[s.t](
-    q.u.includes("{q}") || P[s.t]?.raw ? null : pick(await get(q), s),
-    q,
-  );
+  const raw = q.u.includes("{q}") || P[s.t]?.raw;
+  const t = raw ? null : await get(q, q.u, s.a ? 404 : false);
+  const f = !raw && t === null ? [] : await P[s.t](raw ? null : pick(t, s), q);
   if (!Array.isArray(f)) throw new Error("parse");
   if (s.q)
     for (let j = f.length - 1; j >= 0; j--)
