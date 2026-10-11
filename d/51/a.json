@@ -1,24 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.940312,45.401784],"type":"Point"},"properties":{"adresse":"180 Rue de Candiac Sherbrooke","cause_panne":0,"debut_panne":1791727574000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
+
 ]}
