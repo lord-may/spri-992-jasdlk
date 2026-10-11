@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-58.793977,48.5314],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":"On Site","CUSTOMER_COUNT":80,"ID":345082,"NLP_ALERT_REMARKS":null,"OBJECTID":64816,"POLYGONS_AFFECTED":"Port au Port West - Front Road","TIME_OUTAGE":1791741588000,"TIME_RESTORED_EST":1791754225000,"X":-122986.191130127,"Y":5393211.61727989},"type":"Feature"}
+{"geometry":{"coordinates":[-58.793977,48.5314],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":"On Site","CUSTOMER_COUNT":80,"ID":345082,"NLP_ALERT_REMARKS":null,"OBJECTID":64817,"POLYGONS_AFFECTED":"Port au Port West - Front Road","TIME_OUTAGE":1791741588000,"TIME_RESTORED_EST":1791754225000,"X":-122986.191130127,"Y":5393211.61727989},"type":"Feature"}
 ]}
