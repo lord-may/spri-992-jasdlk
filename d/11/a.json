@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-52.712759,47.658953],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"En Route","CUSTOMER_COUNT":39,"ID":345102,"NLP_ALERT_REMARKS":null,"OBJECTID":64848,"POLYGONS_AFFECTED":"Torbay (Torbay Rd-Marine Dr)","TIME_OUTAGE":1791825834000,"TIME_RESTORED_EST":null,"X":326373.7968,"Y":5280018.4548},"type":"Feature"}
+
 ]}
