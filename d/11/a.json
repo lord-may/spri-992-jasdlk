@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-55.252407,49.271375],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"En Route","CUSTOMER_COUNT":354,"ID":345106,"NLP_ALERT_REMARKS":null,"OBJECTID":64864,"POLYGONS_AFFECTED":"Point of Bay,Cottrell’s Cove – Fortune Harbour","TIME_OUTAGE":1791835027000,"TIME_RESTORED_EST":null,"X":140906.8855,"Y":5461702.6713},"type":"Feature"}
+{"geometry":{"coordinates":[-55.252407,49.271375],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"On Site","CUSTOMER_COUNT":354,"ID":345106,"NLP_ALERT_REMARKS":null,"OBJECTID":64865,"POLYGONS_AFFECTED":"Point of Bay,Cottrell’s Cove – Fortune Harbour","TIME_OUTAGE":1791835027000,"TIME_RESTORED_EST":null,"X":140906.8855,"Y":5461702.6713},"type":"Feature"}
 ]}
