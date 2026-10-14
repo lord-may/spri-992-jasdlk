@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-79.434502,44.06327],"type":"Point"},"properties":{"CAUSE":"Vehicle collision","COMMENTS":"ETR 2:00AM-3:00AM","CREW":"Yes","CUSTOMERS":134,"ETR":"2","GlobalID":"dc846546-934d-4d7f-810d-4a9c47eed7af","INCIDENTID":null,"OBJECTID":2523,"PLANNED":"No","PLANNEDDATE":null,"STATUS":"Active"},"type":"Feature"}
+
 ]}
