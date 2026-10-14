@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-52.923855,47.516527],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":114,"ID":345165,"NLP_ALERT_REMARKS":null,"OBJECTID":64938,"POLYGONS_AFFECTED":"Chamberlains (Swansea St-Kinder Dr)","TIME_OUTAGE":1791977573000,"TIME_RESTORED_EST":1791999000000,"X":310534.226526363,"Y":5264147.56630964},"type":"Feature"},
-{"geometry":{"coordinates":[-59.239378,47.625835],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":182,"ID":345175,"NLP_ALERT_REMARKS":null,"OBJECTID":64939,"POLYGONS_AFFECTED":"TCH/Cape Ray","TIME_OUTAGE":1791981118000,"TIME_RESTORED_EST":1791995433000,"X":-164040.7096,"Y":5295191.3988},"type":"Feature"}
+{"geometry":{"coordinates":[-52.923855,47.516527],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":114,"ID":345165,"NLP_ALERT_REMARKS":null,"OBJECTID":64944,"POLYGONS_AFFECTED":"Chamberlains (Swansea St-Kinder Dr)","TIME_OUTAGE":1791977573000,"TIME_RESTORED_EST":1791999000000,"X":310534.226526363,"Y":5264147.56630964},"type":"Feature"}
 ]}
