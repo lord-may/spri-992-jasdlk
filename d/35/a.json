@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-79.432458,44.076445],"type":"Point"},"properties":{"CAUSE":"Transformer Change ","COMMENTS":"ETR 11:30 AM ","CREW":"Yes","CUSTOMERS":10,"ETR":"2","GlobalID":"97c612d9-d51e-4998-ab1b-d2752a0517a6","INCIDENTID":null,"OBJECTID":2525,"PLANNED":"Yes","PLANNEDDATE":1792062000000,"STATUS":"Active"},"type":"Feature"}
 ]}
