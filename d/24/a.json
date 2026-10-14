@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-84.271169,46.625462],"type":"Point"},"properties":{"cause":null,"code":null,"crewAssigned":false,"customersOutInitially":23,"customersOutNow":0,"customersRestored":23,"estimatedTimeOfRestoral":"2026-10-14T12:15:00-04:00","isPlanned":false,"outageEndTime":"2026-10-14T10:50:10.807-04:00","outageModifiedTime":"2026-10-14T10:53:00.27-04:00","outageName":"SW5121G-123","outagePoint":{"lat":46.6254616059548,"lng":-84.27116927262121},"outageRecID":"2026-10-14-0076","outageStartTime":"2026-10-14T05:07:45-04:00","outageWorkStatus":"","streetsAffected":null,"verified":true},"type":"Feature"}
+
 ]}

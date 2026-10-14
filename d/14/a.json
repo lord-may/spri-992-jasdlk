@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-79.43463,43.6478],"type":"Point"},"properties":{"cause":null,"cluster":false,"comments":null,"crew_icon":true,"crew_status":{"EN-US":"On site","orig":"On site"},"cust_a":{"mask":5,"val":4},"etr":"2026-10-14T19:02:00Z","etr_confidence":null,"inc_id":null,"n_out":1,"start_time":"2026-10-14T13:43Z","title":"Area Outage"},"type":"Feature"}
+{"geometry":{"coordinates":[-79.43463,43.6478],"type":"Point"},"properties":{"cause":null,"cluster":false,"comments":null,"crew_icon":true,"crew_status":{"EN-US":"On site","orig":"On site"},"cust_a":{"mask":5,"val":4},"etr":"2026-10-14T19:02:00Z","etr_confidence":null,"inc_id":null,"n_out":1,"start_time":"2026-10-14T13:43Z","title":"Area Outage"},"type":"Feature"},
+{"geometry":{"coordinates":[-79.39656,43.73249],"type":"Point"},"properties":{"cause":null,"cluster":false,"comments":null,"crew_icon":false,"crew_status":{"EN-US":"Reported","orig":"Reported"},"cust_a":{"mask":5,"val":4},"etr":"2026-10-14T21:16:00Z","etr_confidence":null,"inc_id":null,"n_out":1,"start_time":"2026-10-14T18:16Z","title":"Area Outage"},"type":"Feature"}
 ]}
