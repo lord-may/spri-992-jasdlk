@@ -1,9 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.951994,45.395292],"type":"Point"},"properties":{"adresse":"3335 Rue La Vérendrye Sherbrooke","cause_panne":0,"debut_panne":1792071853000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.952265,45.395208],"type":"Point"},"properties":{"adresse":"3345 Rue La Vérendrye Sherbrooke","cause_panne":0,"debut_panne":1792071853000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.952526,45.395607],"type":"Point"},"properties":{"adresse":"3350 Rue Bel-Air Sherbrooke","cause_panne":0,"debut_panne":1792071853000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.952625,45.395122],"type":"Point"},"properties":{"adresse":"3355 Rue La Vérendrye Sherbrooke","cause_panne":0,"debut_panne":1792071853000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.952985,45.39556],"type":"Point"},"properties":{"adresse":"3360 Rue Bel-Air Sherbrooke","cause_panne":0,"debut_panne":1792071853000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.952912,45.395097],"type":"Point"},"properties":{"adresse":"3365 Rue La Vérendrye Sherbrooke","cause_panne":0,"debut_panne":1792071853000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.95357,45.39552],"type":"Point"},"properties":{"adresse":"3390 Rue Bel-Air Sherbrooke","cause_panne":0,"debut_panne":1792071853000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
+
 ]}
