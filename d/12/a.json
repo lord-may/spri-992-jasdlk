@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-55.75589,47.86344],"type":"Point"},"properties":{"Area":"Addresses Affected: 2","Circuit":null,"CityID":0,"CityName":"","CommunityName":"Conne River","CustomerAffected":0,"Header":"Central - Conne River","OutageLatitude":47.86344,"OutageLongitude":-55.75589,"OutageRegionId":0,"OutageReportInfo":"NL Hydro wishes to inform customers that there is a brief unplanned power outage happening in Conne River at the moment and power should be restored by 2:30 pm","Outagedate":"15/10/26 14:00","OutagedateDB":"2026-10-15T14:00:00","Outageid":4568,"Region":"Central","RestorationTime":"","Restorationdate":"15/10/26 14:30","RestorationdateDB":"2026-10-15T14:30:00","STATUS":null,"ServiceTypeID":1,"Title":"Equipment Maintenance","Towns":"CONNE RIVER","ZipCode":"Equipment Maintenance"},"type":"Feature"}
+
 ]}
