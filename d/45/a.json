@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[[[-113.54314,53.552114],[-113.541391,53.552559],[-113.539883,53.553217],[-113.539049,53.55377],[-113.538113,53.554734],[-113.537603,53.555805],[-113.537517,53.556547],[-113.537631,53.557785],[-113.538163,53.558902],[-113.551398,53.558921],[-113.550858,53.557116],[-113.550791,53.553048],[-113.549319,53.552412],[-113.547335,53.551963],[-113.54522,53.551861],[-113.54314,53.552114]]],"type":"Polygon"},"properties":{"GlobalID":"1061e161-e51f-4e20-a8af-fd28f6330da0","OBJECTID":13037,"Shape__Area":null,"Shape__Length":null,"affcusts":"13","affstree":"GROAT ROAD [NORTHBOUND SIDE] N, ST ALBERT TRAIL NW, 108 AVENUE NW - 111 AVENUE NW, 111 AVENUE [EASTBOUND SIDE] NW, 111 AVENUE [WESTBOUND SIDE] NW, 125 STREET NW - 132 STREET NW","cause":"Animal interference","estresto":"Oct-16 4:30 PM","faulted":"Oct-16 1:49 PM","id":"INC 114037824","nbhoods":"Westmount"},"type":"Feature"}
+
 ]}
