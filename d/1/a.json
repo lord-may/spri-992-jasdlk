@@ -1,4 +1,4 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-115.642597,54.317665],"type":"Point"},"properties":{"CustomersAffected":1,"EstimatedRestore":"2026-10-16T08:30:00","IsPlanned":0,"MarkerCoordinate":{"Latitude":54.31766494903356,"Longitude":-115.64259692158087},"Number":"20734936","OutageStart":"2026-10-16T05:48:23","Reason":"Unknown","Schedule":[],"Status":"Under Investigation"},"type":"Feature"},
+{"geometry":{"coordinates":[-115.654463,54.317289],"type":"Point"},"properties":{"CustomersAffected":2,"EstimatedRestore":null,"IsPlanned":0,"MarkerCoordinate":{"Latitude":54.31728886569681,"Longitude":-115.65446269778188},"Number":"20734936","OutageStart":"2026-10-16T05:48:23","Reason":"Unknown","Schedule":[],"Status":"Restoration in Progress"},"type":"Feature"},
 {"geometry":{"coordinates":[-113.551018,52.238771],"type":"Point"},"properties":{"CustomersAffected":1,"EstimatedRestore":"2026-10-16T08:30:00","IsPlanned":0,"MarkerCoordinate":{"Latitude":52.238770797431414,"Longitude":-113.55101839782814},"Number":"20734937","OutageStart":"2026-10-16T05:50:10","Reason":"Unknown","Schedule":[],"Status":"Under Investigation"},"type":"Feature"}
 ]}
