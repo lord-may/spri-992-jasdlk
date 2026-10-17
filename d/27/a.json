@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[[[-82.61573,42.048827],[-82.584514,42.02618],[-82.5795,42.026574],[-82.571807,42.032411],[-82.579674,42.057705],[-82.594065,42.062038],[-82.598551,42.063055],[-82.607592,42.06148],[-82.607921,42.061212],[-82.614408,42.053531],[-82.614463,42.053379],[-82.61573,42.048827]]],"type":"Polygon"},"properties":{"averageLatitude":42.04882802654069,"averageLongitude":-82.5923749179697,"cause":"Loss of Supply","crewsDispatched":true,"deviceTypeId":0,"estimatedRestoration":null,"estimatedStart":"2026-10-17T15:54:00","isProposed":false,"meters":[],"numImpactedMeters":4305,"numOriginalImpactedMeters":4305,"outageId":16159,"outageSourceDeviceID":"","planned":false},"type":"Feature"}
+
 ]}
