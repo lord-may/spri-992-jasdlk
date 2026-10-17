@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-53.175704,47.366646],"type":"Point"},"properties":{"CAUSE":"Emergency Repairs","CREW_STATUS":"En Route","CUSTOMER_COUNT":63,"ID":345439,"NLP_ALERT_REMARKS":null,"OBJECTID":65127,"POLYGONS_AFFECTED":"Holyrood - Chapel's Cove,Salmonier Line (TCH Holyrood)","TIME_OUTAGE":1792243363000,"TIME_RESTORED_EST":1792252818000,"X":291529.2477,"Y":5247497.7875},"type":"Feature"},
-{"geometry":{"coordinates":[-53.940521,47.864205],"type":"Point"},"properties":{"CAUSE":"Severe Weather Conditions","CREW_STATUS":"En Route","CUSTOMER_COUNT":202,"ID":345448,"NLP_ALERT_REMARKS":null,"OBJECTID":65128,"POLYGONS_AFFECTED":"Sunnyside","TIME_OUTAGE":1792245749000,"TIME_RESTORED_EST":null,"X":234436.2537,"Y":5303225.5288},"type":"Feature"}
+{"geometry":{"coordinates":[-53.940521,47.864205],"type":"Point"},"properties":{"CAUSE":"Severe Weather Conditions","CREW_STATUS":"On Site","CUSTOMER_COUNT":202,"ID":345448,"NLP_ALERT_REMARKS":null,"OBJECTID":65130,"POLYGONS_AFFECTED":"Sunnyside","TIME_OUTAGE":1792245749000,"TIME_RESTORED_EST":null,"X":234436.2537,"Y":5303225.5288},"type":"Feature"}
 ]}
