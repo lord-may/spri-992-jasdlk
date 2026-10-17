@@ -1,3 +1,10 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-71.876025,45.405277],"type":"Point"},"properties":{"adresse":"175 7e Avenue Sud Sherbrooke","cause_panne":0,"debut_panne":1792228276000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.876025,45.405277],"type":"Point"},"properties":{"adresse":"175 7e Avenue Sud Sherbrooke","cause_panne":0,"debut_panne":1792228276000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.876025,45.405277],"type":"Point"},"properties":{"adresse":"175 7e Avenue Sud Sherbrooke","cause_panne":0,"debut_panne":1792228276000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.875528,45.405215],"type":"Point"},"properties":{"adresse":"180 7e Avenue Sud Sherbrooke","cause_panne":0,"debut_panne":1792228276000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.876021,45.40514],"type":"Point"},"properties":{"adresse":"185 7e Avenue Sud Sherbrooke","cause_panne":0,"debut_panne":1792228276000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.876021,45.40514],"type":"Point"},"properties":{"adresse":"185 7e Avenue Sud Sherbrooke","cause_panne":0,"debut_panne":1792228276000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.876021,45.40514],"type":"Point"},"properties":{"adresse":"185 7e Avenue Sud Sherbrooke","cause_panne":0,"debut_panne":1792228276000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.875524,45.405083],"type":"Point"},"properties":{"adresse":"188 7e Avenue Sud Sherbrooke","cause_panne":0,"debut_panne":1792228276000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
 ]}
