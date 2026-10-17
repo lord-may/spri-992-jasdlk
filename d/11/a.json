@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-57.962624,48.947888],"type":"Point"},"properties":{"CAUSE":"Severe Weather Conditions","CREW_STATUS":"En Route","CUSTOMER_COUNT":28,"ID":345470,"NLP_ALERT_REMARKS":null,"OBJECTID":65174,"POLYGONS_AFFECTED":"Corner Brook (Golden Glow Ave),Corner Brook (Country Rd - Bliss St)","TIME_OUTAGE":1792255717000,"TIME_RESTORED_EST":1792290626000,"X":-58604.3810999999,"Y":5435170.9201},"type":"Feature"}
+{"geometry":{"coordinates":[-57.962624,48.947888],"type":"Point"},"properties":{"CAUSE":"Severe Weather Conditions","CREW_STATUS":"En Route","CUSTOMER_COUNT":28,"ID":345470,"NLP_ALERT_REMARKS":null,"OBJECTID":65175,"POLYGONS_AFFECTED":"Corner Brook (Golden Glow Ave),Corner Brook (Country Rd - Bliss St)","TIME_OUTAGE":1792255717000,"TIME_RESTORED_EST":1792290626000,"X":-58604.3810999999,"Y":5435170.9201},"type":"Feature"}
 ]}
