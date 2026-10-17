@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-113.719102,53.725862],"type":"Point"},"properties":{"CustomersAffected":1,"EstimatedRestore":"2026-10-17T00:00:00","IsPlanned":1,"MarkerCoordinate":{"Latitude":53.72586226004182,"Longitude":-113.71910204926658},"Number":"20734992","OutageStart":"2026-10-16T19:08:50","Reason":"PLT Notified - Maintenance","Schedule":[],"Status":"Restoration in Progress"},"type":"Feature"}
+{"geometry":{"coordinates":[-113.719102,53.725862],"type":"Point"},"properties":{"CustomersAffected":1,"EstimatedRestore":"2026-10-20T00:00:00","IsPlanned":1,"MarkerCoordinate":{"Latitude":53.72586226004182,"Longitude":-113.71910204926658},"Number":"20734992","OutageStart":"2026-10-16T19:08:50","Reason":"PLT Notified - Maintenance","Schedule":[],"Status":"Restoration in Progress"},"type":"Feature"}
 ]}
