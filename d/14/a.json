@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-79.41223,43.68852],"type":"Point"},"properties":{"cause":null,"cluster":false,"comments":null,"crew_icon":false,"crew_status":{"EN-US":"Reported","orig":"Reported"},"cust_a":{"val":7},"etr":"2026-10-18T16:23:00Z","etr_confidence":null,"inc_id":null,"n_out":1,"start_time":"2026-10-18T13:23Z","title":"Area Outage"},"type":"Feature"}
+
 ]}
