@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-72.06218,45.483502],"type":"Point"},"properties":{"adresse":"800 7e Rang Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1792443496000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
 ]}
