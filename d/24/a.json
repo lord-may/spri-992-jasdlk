@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-84.425545,46.923452],"type":"Point"},"properties":{"cause":null,"code":null,"crewAssigned":false,"customersOutInitially":4,"customersOutNow":0,"customersRestored":4,"estimatedTimeOfRestoral":null,"isPlanned":false,"outageEndTime":"2026-10-18T21:17:24.62-04:00","outageModifiedTime":"2026-10-18T21:17:30.327-04:00","outageName":"T5220H 003","outagePoint":{"lat":46.923452020363925,"lng":-84.42554453929083},"outageRecID":"2026-10-18-0101","outageStartTime":"2026-10-18T18:16:03-04:00","outageWorkStatus":"","streetsAffected":null,"verified":true},"type":"Feature"}
+
 ]}
