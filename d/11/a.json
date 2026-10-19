@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-53.823385,48.665959],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":55,"ID":345518,"NLP_ALERT_REMARKS":null,"OBJECTID":65207,"POLYGONS_AFFECTED":"Sandringham","TIME_OUTAGE":1792418957000,"TIME_RESTORED_EST":1792422000000,"X":244155.5255,"Y":5392266.9296},"type":"Feature"}
+
 ]}
