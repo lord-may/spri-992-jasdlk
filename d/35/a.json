@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-79.712161,44.749067],"type":"Point"},"properties":{"CAUSE":"Transformer Replacment","COMMENTS":"ETR 2:30PM","CREW":"Yes","CUSTOMERS":8,"ETR":"2","GlobalID":"b36f6642-2614-448d-8479-b09f95e56759","INCIDENTID":null,"OBJECTID":2530,"PLANNED":"Yes","PLANNEDDATE":1792513800000,"STATUS":"Active"},"type":"Feature"},
+{"geometry":{"coordinates":[-79.770827,44.747372],"type":"Point"},"properties":{"CAUSE":"Transformer Replacment","COMMENTS":"ETR 11:30AM","CREW":"Yes","CUSTOMERS":13,"ETR":"2","GlobalID":"b14bbee0-a9df-495e-9e92-df2a1267ec10","INCIDENTID":null,"OBJECTID":2529,"PLANNED":"Yes","PLANNEDDATE":1792501200000,"STATUS":"Active"},"type":"Feature"}
 ]}

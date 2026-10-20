@@ -1,3 +1,5 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-71.891127,45.374139],"type":"Point"},"properties":{"adresse":"492 Rue Thibault Sherbrooke","cause_panne":0,"debut_panne":1792501096000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.891426,45.374039],"type":"Point"},"properties":{"adresse":"494 Rue Thibault Sherbrooke","cause_panne":0,"debut_panne":1792501096000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.892046,45.374762],"type":"Point"},"properties":{"adresse":"500 Rue Thibault Sherbrooke","cause_panne":0,"debut_panne":1792501096000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
 ]}
