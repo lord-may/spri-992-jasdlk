@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[[[-79.256045,43.004273],[-79.253371,43.003415],[-79.25337,43.00344],[-79.254692,43.004064],[-79.256045,43.004273]]],"type":"Polygon"},"properties":{"averageLatitude":43.00386154307142,"averageLongitude":-79.25447908449999,"cause":"Equipment Failure","crewsDispatched":true,"deviceTypeId":0,"estimatedRestoration":"2026-10-21T11:45:00","estimatedStart":"2026-10-21T09:41:00","isProposed":false,"meters":[],"numImpactedMeters":14,"numOriginalImpactedMeters":14,"outageId":16176,"outageSourceDeviceID":"","planned":false},"type":"Feature"}
+
 ]}
