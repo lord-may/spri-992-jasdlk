@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-52.740641,47.598652],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":186,"ID":345656,"NLP_ALERT_REMARKS":null,"OBJECTID":65212,"POLYGONS_AFFECTED":"Airport Heights (Halls Rd Area)","TIME_OUTAGE":1792580647000,"TIME_RESTORED_EST":1792594827000,"X":324302.0393,"Y":5273307.2822},"type":"Feature"}
+{"geometry":{"coordinates":[-52.740641,47.598652],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":186,"ID":345656,"NLP_ALERT_REMARKS":null,"OBJECTID":65214,"POLYGONS_AFFECTED":"Airport Heights (Halls Rd Area)","TIME_OUTAGE":1792580647000,"TIME_RESTORED_EST":1792594827000,"X":324302.0393,"Y":5273307.2822},"type":"Feature"}
 ]}
