@@ -1,26 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.899928,45.382784],"type":"Point"},"properties":{"adresse":"1580 Rue Dunant Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899928,45.382784],"type":"Point"},"properties":{"adresse":"1580 Rue Dunant Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899928,45.382784],"type":"Point"},"properties":{"adresse":"1580 Rue Dunant Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899928,45.382784],"type":"Point"},"properties":{"adresse":"1580 Rue Dunant Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899928,45.382784],"type":"Point"},"properties":{"adresse":"1580 Rue Dunant Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899928,45.382784],"type":"Point"},"properties":{"adresse":"1580 Rue Dunant Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899928,45.382784],"type":"Point"},"properties":{"adresse":"1580 Rue Dunant Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.900412,45.382573],"type":"Point"},"properties":{"adresse":"1600 Rue Dunant Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899634,45.382409],"type":"Point"},"properties":{"adresse":"905 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899634,45.382409],"type":"Point"},"properties":{"adresse":"905 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899634,45.382409],"type":"Point"},"properties":{"adresse":"905 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899634,45.382409],"type":"Point"},"properties":{"adresse":"905 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899634,45.382409],"type":"Point"},"properties":{"adresse":"905 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899634,45.382409],"type":"Point"},"properties":{"adresse":"905 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899634,45.382409],"type":"Point"},"properties":{"adresse":"905 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899634,45.382409],"type":"Point"},"properties":{"adresse":"905 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899973,45.382429],"type":"Point"},"properties":{"adresse":"915 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899973,45.382429],"type":"Point"},"properties":{"adresse":"917 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899973,45.382429],"type":"Point"},"properties":{"adresse":"919 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899973,45.382429],"type":"Point"},"properties":{"adresse":"921 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899973,45.382429],"type":"Point"},"properties":{"adresse":"923 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.899973,45.382429],"type":"Point"},"properties":{"adresse":"925 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.900412,45.382573],"type":"Point"},"properties":{"adresse":"935 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.900412,45.382573],"type":"Point"},"properties":{"adresse":"937 Rue Bertrand Sherbrooke","cause_panne":0,"debut_panne":1792592536000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
+
 ]}
