@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[[[-67.295468,45.219996],[-67.322359,45.279651],[-67.324384,45.280735],[-67.327745,45.252892],[-67.324563,45.245879],[-67.295468,45.219996]]],"type":"Polygon"},"properties":{"CustEff":40,"ESRI_OID":4508,"GlobalID":"e59d5108-721d-4ed6-984d-39daf1403469","Incident_ID":"2001355252","Shape__Area":5335806.802734375,"Shape__Length":14755.46150953656,"TxCnt":23},"type":"Feature"}
+
 ]}
