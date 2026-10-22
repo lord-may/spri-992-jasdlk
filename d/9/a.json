@@ -5,5 +5,5 @@
 {"geometry":{"coordinates":[-60.22,46.16],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"2026-10-22T23:15:00-0300","start":"2026-10-22T12:08:00-0300","title":"Outage Information"},"type":"Feature"},
 {"geometry":{"coordinates":[-64.75,43.96],"type":"Point"},"properties":{"cause":"Damage to Overhead Equipment","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"2026-10-22T21:00:00-0300","start":"2026-10-22T13:58:00-0300","title":"Outage Information"},"type":"Feature"},
 {"geometry":{"coordinates":[-60.28,46.24],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"2026-10-22T21:15:00-0300","start":"2026-10-22T14:12:00-0300","title":"Outage Information"},"type":"Feature"},
-{"geometry":{"coordinates":[-63.47076,45.81296],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"val":9},"etr":"2026-10-22T20:00:00-0300","start":"2026-10-22T14:50:39-0300","title":"Outage Information"},"type":"Feature"}
+{"geometry":{"coordinates":[-63.47076,45.81296],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"val":9},"etr":"","start":"2026-10-22T14:50:39-0300","title":"Outage Information"},"type":"Feature"}
 ]}
