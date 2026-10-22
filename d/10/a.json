@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[[-62.76068,46.436165],[-62.761644,46.436138],[-62.762106,46.436135],[-62.762557,46.436118],[-62.763277,46.436106],[-62.764084,46.436089],[-62.764809,46.436067]],"type":"LineString"},"properties":{"Lines_Out":"WP12456","Shape__Length":317.54316063535015,"Type":1,"calc_job_est_completion_date":null,"calc_job_est_completion_text":"Pending","customers_out":1,"job_est_completion_date":null,"outage_id":333553,"outage_type":"CALL","probable_cause":"081316 ","public_crew_status_desc":"Pending","public_job_cause_desc":"Pending"},"type":"Feature"}
 ]}
