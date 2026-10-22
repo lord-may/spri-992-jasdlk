@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[[-63.138118,46.242756],[-63.138101,46.24274]],"type":"LineString"},"properties":{"Lines_Out":"PS06198","Shape__Length":2.274071238435314,"Type":1,"calc_job_est_completion_date":1792673174000,"calc_job_est_completion_text":"Oct 22, 2026 12:46 PM","customers_out":1,"job_est_completion_date":1792673174000,"outage_id":171436,"outage_type":"JOB","probable_cause":"017933 ","public_crew_status_desc":"Crew on site.","public_job_cause_desc":"Planned outage."},"type":"Feature"},
+{"geometry":{"coordinates":[[-63.140039,46.243414],[-63.139806,46.243092],[-63.139562,46.242757],[-63.139058,46.242901],[-63.138709,46.243009],[-63.138348,46.243114],[-63.138118,46.242756]],"type":"LineString"},"properties":{"Lines_Out":"PS06198","Shape__Length":227.10768091725703,"Type":1,"calc_job_est_completion_date":1792673174000,"calc_job_est_completion_text":"Oct 22, 2026 12:46 PM","customers_out":1,"job_est_completion_date":1792673174000,"outage_id":171436,"outage_type":"JOB","probable_cause":"017933 ","public_crew_status_desc":"Crew on site.","public_job_cause_desc":"Planned outage."},"type":"Feature"}
 ]}
