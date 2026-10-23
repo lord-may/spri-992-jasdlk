@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":null,"properties":{"ActualStart":1792767594000,"AffectedCustomers":2116,"CaseNumber":11819,"CaseStatus":2,"CaseType":0,"Casue":"UNKNOWN / OTHER","CrewStatus":0,"Device":"7F1CB","EstRestTime":1792774794000,"Feeder":"7F1","GlobalID":"3d94533f-cdb7-4ca7-884b-04f01b696fc1","OBJECTID":773,"Phase":"ABC","RestoreTime":null,"ScheduleEnd":null,"ScheduleStart":null,"Substation":"7T1","TotalCustomers":2116},"type":"Feature"}
 ]}
