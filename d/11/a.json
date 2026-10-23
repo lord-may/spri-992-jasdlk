@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-53.281263,47.514667],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"En Route","CUSTOMER_COUNT":331,"ID":345806,"NLP_ALERT_REMARKS":null,"OBJECTID":65235,"POLYGONS_AFFECTED":"Makinson's - Roaches Line","TIME_OUTAGE":1792780941000,"TIME_RESTORED_EST":null,"X":283616.2747,"Y":5263976.3442},"type":"Feature"}
 ]}
