@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-52.742769,47.564796],"type":"Point"},"properties":{"CAUSE":"Emergency Repairs","CREW_STATUS":"On Site","CUSTOMER_COUNT":66,"ID":345761,"NLP_ALERT_REMARKS":null,"OBJECTID":65228,"POLYGONS_AFFECTED":"Prince Philip Dr-Freshwater Rd","TIME_OUTAGE":1792768333000,"TIME_RESTORED_EST":1792778400000,"X":324154.4557,"Y":5269542.9285},"type":"Feature"}
+
 ]}
