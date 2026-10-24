@@ -1,3 +1,14 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-71.941202,45.409272],"type":"Point"},"properties":{"adresse":"2801 Rue Beaudry Sherbrooke","cause_panne":0,"debut_panne":1792876877000,"retablissement_panne":1792880100000,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.941142,45.410081],"type":"Point"},"properties":{"adresse":"2805 Rue Georges-Cusson Sherbrooke","cause_panne":0,"debut_panne":1792876877000,"retablissement_panne":1792880100000,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.941202,45.409698],"type":"Point"},"properties":{"adresse":"2814 Rue Georges-Cusson Sherbrooke","cause_panne":0,"debut_panne":1792876877000,"retablissement_panne":1792880100000,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.941587,45.40925],"type":"Point"},"properties":{"adresse":"3035 Rue Mézy Sherbrooke","cause_panne":0,"debut_panne":1792876877000,"retablissement_panne":1792880100000,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.941574,45.409309],"type":"Point"},"properties":{"adresse":"3041 Rue Mézy Sherbrooke","cause_panne":0,"debut_panne":1792876877000,"retablissement_panne":1792880100000,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.941565,45.409456],"type":"Point"},"properties":{"adresse":"3051 Rue Mézy Sherbrooke","cause_panne":0,"debut_panne":1792876877000,"retablissement_panne":1792880100000,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.941556,45.409514],"type":"Point"},"properties":{"adresse":"3057 Rue Mézy Sherbrooke","cause_panne":0,"debut_panne":1792876877000,"retablissement_panne":1792880100000,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.941563,45.409657],"type":"Point"},"properties":{"adresse":"3067 Rue Mézy Sherbrooke","cause_panne":0,"debut_panne":1792876877000,"retablissement_panne":1792880100000,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.941544,45.409718],"type":"Point"},"properties":{"adresse":"3073 Rue Mézy Sherbrooke","cause_panne":0,"debut_panne":1792876877000,"retablissement_panne":1792880100000,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.941556,45.410061],"type":"Point"},"properties":{"adresse":"3093 Rue Mézy Sherbrooke","cause_panne":0,"debut_panne":1792876877000,"retablissement_panne":1792880100000,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.941559,45.410113],"type":"Point"},"properties":{"adresse":"3099 Rue Mézy Sherbrooke","cause_panne":0,"debut_panne":1792876877000,"retablissement_panne":1792880100000,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.941567,45.410247],"type":"Point"},"properties":{"adresse":"3109 Rue Mézy Sherbrooke","cause_panne":0,"debut_panne":1792876877000,"retablissement_panne":1792880100000,"statut_panne":1},"type":"Feature"}
 ]}
