@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-54.846,47.554641],"type":"Point"},"properties":{"CAUSE":"Severe Weather Conditions","CREW_STATUS":"","CUSTOMER_COUNT":85,"ID":345818,"NLP_ALERT_REMARKS":null,"OBJECTID":65293,"POLYGONS_AFFECTED":"Brookside - Harbour Mille","TIME_OUTAGE":1792783225000,"TIME_RESTORED_EST":1792798216000,"X":165875.7456,"Y":5270033.6561},"type":"Feature"}
+{"geometry":{"coordinates":[-54.846,47.554641],"type":"Point"},"properties":{"CAUSE":"Severe Weather Conditions","CREW_STATUS":"","CUSTOMER_COUNT":85,"ID":345818,"NLP_ALERT_REMARKS":null,"OBJECTID":65294,"POLYGONS_AFFECTED":"Brookside - Harbour Mille","TIME_OUTAGE":1792783225000,"TIME_RESTORED_EST":1792798216000,"X":165875.7456,"Y":5270033.6561},"type":"Feature"}
 ]}
