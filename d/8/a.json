@@ -1,5 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-64.518447,46.325937],"type":"Point"},"properties":{"CustEff":4,"FieldLocationID":"8380_B592R74R20L1","Incident_ID":"2001355361"},"type":"Feature"},
-{"geometry":{"coordinates":[-64.520055,46.325455],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"8380_B592R74R20L4","Incident_ID":"2001355361"},"type":"Feature"},
 {"geometry":{"coordinates":[-66.539871,45.768097],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7517_167R111R3","Incident_ID":"2001355386"},"type":"Feature"}
 ]}
