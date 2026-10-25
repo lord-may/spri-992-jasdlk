@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-52.703535,47.699075],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"","CUSTOMER_COUNT":27,"ID":345896,"NLP_ALERT_REMARKS":null,"OBJECTID":65297,"POLYGONS_AFFECTED":"Flatrock (Windgap Rd-Adams Pl)","TIME_OUTAGE":1792906081000,"TIME_RESTORED_EST":null,"X":327049.5018,"Y":5284481.519},"type":"Feature"}
+{"geometry":{"coordinates":[-52.703535,47.699075],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"","CUSTOMER_COUNT":27,"ID":345896,"NLP_ALERT_REMARKS":null,"OBJECTID":65299,"POLYGONS_AFFECTED":"Flatrock (Windgap Rd-Adams Pl)","TIME_OUTAGE":1792906081000,"TIME_RESTORED_EST":null,"X":327049.5018,"Y":5284481.519},"type":"Feature"}
 ]}
