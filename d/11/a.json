@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-53.634423,47.179594],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":64,"ID":345902,"NLP_ALERT_REMARKS":null,"OBJECTID":65364,"POLYGONS_AFFECTED":"Colinet - Harricott - North Harbour","TIME_OUTAGE":1792928811000,"TIME_RESTORED_EST":1792945818000,"X":256714.7104,"Y":5226884.408},"type":"Feature"},
-{"geometry":{"coordinates":[-53.953367,48.032],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"","CUSTOMER_COUNT":25,"ID":345917,"NLP_ALERT_REMARKS":null,"OBJECTID":65365,"POLYGONS_AFFECTED":"Northwest Brook - Hillview","TIME_OUTAGE":1792940634000,"TIME_RESTORED_EST":null,"X":233705.7034,"Y":5321892.1941},"type":"Feature"}
+{"geometry":{"coordinates":[-53.953367,48.032],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"","CUSTOMER_COUNT":25,"ID":345917,"NLP_ALERT_REMARKS":null,"OBJECTID":65368,"POLYGONS_AFFECTED":"Northwest Brook - Hillview","TIME_OUTAGE":1792940634000,"TIME_RESTORED_EST":null,"X":233705.7034,"Y":5321892.1941},"type":"Feature"}
 ]}
