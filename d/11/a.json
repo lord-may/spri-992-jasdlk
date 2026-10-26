@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-52.812853,47.521064],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":55,"ID":345936,"NLP_ALERT_REMARKS":null,"OBJECTID":65391,"POLYGONS_AFFECTED":"Glendale North (Ruth Ave-Donovan St)","TIME_OUTAGE":1793014178000,"TIME_RESTORED_EST":1793025000000,"X":318892.8855,"Y":5264666.1689},"type":"Feature"}
+{"geometry":{"coordinates":[-52.812853,47.521064],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":55,"ID":345936,"NLP_ALERT_REMARKS":null,"OBJECTID":65393,"POLYGONS_AFFECTED":"Glendale North (Ruth Ave-Donovan St)","TIME_OUTAGE":1793014178000,"TIME_RESTORED_EST":1793025000000,"X":318892.8855,"Y":5264666.1689},"type":"Feature"}
 ]}
