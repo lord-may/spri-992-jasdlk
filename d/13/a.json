@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-81.3967,43.18266],"type":"Point"},"properties":{"cause":{"EN-US":"Pending Classification","fr-CA":"En voie de classification"},"cluster":false,"comments":null,"crew_icon":true,"crew_status":{"EN-US":"Outage reported and a crew will be dispatched soon","fr-CA":"La panne a été signalée et une équipe sera bientôt déployée.","orig":"U"},"cust_a":{"mask":20,"val":19},"etr":"2026-10-26T05:45:00Z","etr_confidence":null,"inc_id":null,"n_out":1,"start_time":null,"title":"Area Outage"},"type":"Feature"}
 ]}
