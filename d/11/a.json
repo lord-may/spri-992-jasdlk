@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-53.688901,47.562351],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":null,"CUSTOMER_COUNT":662,"ID":345930,"NLP_ALERT_REMARKS":null,"OBJECTID":65376,"POLYGONS_AFFECTED":"Chance Cove - Fair Haven,Thornlea - Bellevue","TIME_OUTAGE":1792997287000,"TIME_RESTORED_EST":null,"X":252962.0886,"Y":5269469.0455},"type":"Feature"}
+{"geometry":{"coordinates":[-53.688901,47.562351],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"","CUSTOMER_COUNT":662,"ID":345930,"NLP_ALERT_REMARKS":null,"OBJECTID":65377,"POLYGONS_AFFECTED":"Chance Cove - Fair Haven,Thornlea - Bellevue","TIME_OUTAGE":1792997287000,"TIME_RESTORED_EST":null,"X":252962.0886,"Y":5269469.0455},"type":"Feature"}
 ]}
