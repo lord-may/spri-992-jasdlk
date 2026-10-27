@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-53.199207,47.74265],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"En Route","CUSTOMER_COUNT":191,"ID":345976,"NLP_ALERT_REMARKS":null,"OBJECTID":65401,"POLYGONS_AFFECTED":"Carbonear (Water St-Freshwater)","TIME_OUTAGE":1793076265000,"TIME_RESTORED_EST":null,"X":289861.4418,"Y":5289302.5606},"type":"Feature"}
+{"geometry":{"coordinates":[-53.199207,47.74265],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"On Site","CUSTOMER_COUNT":191,"ID":345976,"NLP_ALERT_REMARKS":null,"OBJECTID":65403,"POLYGONS_AFFECTED":"Carbonear (Water St-Freshwater)","TIME_OUTAGE":1793076265000,"TIME_RESTORED_EST":null,"X":289861.4418,"Y":5289302.5606},"type":"Feature"}
 ]}
