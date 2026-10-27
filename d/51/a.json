@@ -1,3 +1,23 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-71.890755,45.398825],"type":"Point"},"properties":{"adresse":"126 Rue Brooks Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.89063,45.398655],"type":"Point"},"properties":{"adresse":"138 Rue Brooks Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.89063,45.398655],"type":"Point"},"properties":{"adresse":"138 Rue Brooks Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.89063,45.398655],"type":"Point"},"properties":{"adresse":"138 Rue Brooks Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.89063,45.398655],"type":"Point"},"properties":{"adresse":"138 Rue Brooks Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.89063,45.398655],"type":"Point"},"properties":{"adresse":"138 Rue Brooks Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.89063,45.398655],"type":"Point"},"properties":{"adresse":"138 Rue Brooks Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.89063,45.398655],"type":"Point"},"properties":{"adresse":"138 Rue Brooks Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.89063,45.398655],"type":"Point"},"properties":{"adresse":"138 Rue Brooks Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.89063,45.398655],"type":"Point"},"properties":{"adresse":"138 Rue Brooks Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.89063,45.398655],"type":"Point"},"properties":{"adresse":"138 Rue Brooks Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.890304,45.398663],"type":"Point"},"properties":{"adresse":"161 Rue Ball Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.890304,45.398663],"type":"Point"},"properties":{"adresse":"163 Rue Ball Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.890304,45.398663],"type":"Point"},"properties":{"adresse":"163 Rue Ball Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.890304,45.398663],"type":"Point"},"properties":{"adresse":"163 Rue Ball Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.890304,45.398663],"type":"Point"},"properties":{"adresse":"163 Rue Ball Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.890304,45.398663],"type":"Point"},"properties":{"adresse":"163 Rue Ball Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.890304,45.398663],"type":"Point"},"properties":{"adresse":"163 Rue Ball Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.890304,45.398663],"type":"Point"},"properties":{"adresse":"163 Rue Ball Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.890755,45.398825],"type":"Point"},"properties":{"adresse":"180 Rue Sanborn Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-71.890755,45.398825],"type":"Point"},"properties":{"adresse":"180 Rue Sanborn Sherbrooke","cause_panne":0,"debut_panne":1793117895000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
 ]}
