@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-53.20449,47.741349],"type":"Point"},"properties":{"CAUSE":"Emergency Repairs","CREW_STATUS":"On Site","CUSTOMER_COUNT":236,"ID":345983,"NLP_ALERT_REMARKS":null,"OBJECTID":65412,"POLYGONS_AFFECTED":"Carbonear (Water St-Freshwater)","TIME_OUTAGE":1793076265000,"TIME_RESTORED_EST":1793088028000,"X":289464.8857,"Y":5289158.9056},"type":"Feature"},
-{"geometry":{"coordinates":[-53.338616,48.565043],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"","CUSTOMER_COUNT":118,"ID":345988,"NLP_ALERT_REMARKS":null,"OBJECTID":65413,"POLYGONS_AFFECTED":"Plate Cove- Hodderville","TIME_OUTAGE":1793079338000,"TIME_RESTORED_EST":null,"X":279809.937,"Y":5380774.1767},"type":"Feature"}
+{"geometry":{"coordinates":[-53.338616,48.565043],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"On Site","CUSTOMER_COUNT":118,"ID":345988,"NLP_ALERT_REMARKS":null,"OBJECTID":65414,"POLYGONS_AFFECTED":"Plate Cove- Hodderville","TIME_OUTAGE":1793079338000,"TIME_RESTORED_EST":null,"X":279809.937,"Y":5380774.1767},"type":"Feature"}
 ]}
