@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-72.139138,45.404353],"type":"Point"},"properties":{"adresse":"430 Chemin Marois Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1793124376000,"retablissement_panne":1793133000000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-72.13917,45.40508],"type":"Point"},"properties":{"adresse":"440 Chemin Marois Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1793124376000,"retablissement_panne":1793133000000,"statut_panne":2},"type":"Feature"}
 ]}
