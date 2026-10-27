@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-53.338616,48.565043],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":"On Site","CUSTOMER_COUNT":118,"ID":345988,"NLP_ALERT_REMARKS":null,"OBJECTID":65422,"POLYGONS_AFFECTED":"Plate Cove- Hodderville","TIME_OUTAGE":1793079338000,"TIME_RESTORED_EST":1793095228000,"X":279809.937,"Y":5380774.1767},"type":"Feature"}
+
 ]}
