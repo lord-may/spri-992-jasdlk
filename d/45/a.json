@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[[[-113.492525,53.453992],[-113.492487,53.455631],[-113.495074,53.455672],[-113.494944,53.459009],[-113.494831,53.459008],[-113.494779,53.460268],[-113.495199,53.461345],[-113.507191,53.461329],[-113.50746,53.460441],[-113.50746,53.459739],[-113.507276,53.459045],[-113.506858,53.458302],[-113.507784,53.457439],[-113.508386,53.456399],[-113.508573,53.455262],[-113.508347,53.453934],[-113.492525,53.453992]]],"type":"Polygon"},"properties":{"GlobalID":"ed219fe0-0456-47d8-9ac8-4975110e941f","OBJECTID":13078,"Shape__Area":null,"Shape__Length":null,"affcusts":"406","affstree":"CALGARY TRAIL NW, ROYAL TERRACE NW, 23 AVENUE [WESTBOUND SIDE] NW, 24 AVENUE NW - 29A AVENUE NW, 104 STREET NW - 108 STREET NW","cause":"Equipment failure","estresto":"Oct-27 12:30 AM","faulted":"Oct-26 9:25 PM","id":"INC 114038183","nbhoods":"Ermineskin"},"type":"Feature"}
+
 ]}
