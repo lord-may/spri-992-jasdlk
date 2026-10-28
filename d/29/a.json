@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[[[-79.269582,42.969972],[-79.26956,42.969565],[-79.268372,42.968807],[-79.267689,42.968812],[-79.267064,42.969626],[-79.267525,42.969983],[-79.269582,42.969972]]],"type":"Polygon"},"properties":{"averageLatitude":42.969464402,"averageLongitude":-79.26817675199999,"cause":"Planned Outage","crewsDispatched":true,"deviceTypeId":0,"estimatedRestoration":"2026-10-28T14:30:00","estimatedStart":"2026-10-28T13:53:00","isProposed":false,"meters":[],"numImpactedMeters":26,"numOriginalImpactedMeters":26,"outageId":16205,"outageSourceDeviceID":"","planned":true},"type":"Feature"}
+
 ]}
