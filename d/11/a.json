@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-57.418033,49.171733],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":"","CUSTOMER_COUNT":64,"ID":346094,"NLP_ALERT_REMARKS":null,"OBJECTID":65441,"POLYGONS_AFFECTED":"Deer Lake (Middle Rd - Main Dam Rd),Deer Lake (Center)","TIME_OUTAGE":1793285977000,"TIME_RESTORED_EST":1793298609000,"X":-17284.4008999998,"Y":5457585.2395},"type":"Feature"}
+{"geometry":{"coordinates":[-57.418033,49.171733],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":"","CUSTOMER_COUNT":64,"ID":346094,"NLP_ALERT_REMARKS":null,"OBJECTID":65442,"POLYGONS_AFFECTED":"Deer Lake (Middle Rd - Main Dam Rd),Deer Lake (Center)","TIME_OUTAGE":1793285977000,"TIME_RESTORED_EST":1793298609000,"X":-17284.4008999998,"Y":5457585.2395},"type":"Feature"}
 ]}
