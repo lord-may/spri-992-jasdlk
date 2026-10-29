@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-113.506828,50.545142],"type":"Point"},"properties":{"cause":"PPO Construction","crewAssigned":false,"customersOutInitially":12,"customersOutNow":12,"customersRestored":0,"estimatedTimeOfRestoral":"2026-10-29T13:00:00-06:00","outageEndTime":null,"outageModifiedTime":"2026-10-29T12:30:35.5130000-06:00","outageName":"","outagePoint":{"lat":50.545142474431856,"lng":-113.50682828982013},"outageRecID":"2026-10-29-1276","outageStartTime":"2026-10-29T12:10:00-06:00","outageWorkStatus":"Planned Outage","streetsAffected":null,"verified":true},"type":"Feature"}
 ]}
