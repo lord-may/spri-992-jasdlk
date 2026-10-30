@@ -1,9 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.987521,45.359056],"type":"Point"},"properties":{"adresse":"790 Rue Hugues-le-Grand Sherbrooke","cause_panne":0,"debut_panne":1793373316000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.987818,45.359067],"type":"Point"},"properties":{"adresse":"794 Rue Hugues-le-Grand Sherbrooke","cause_panne":0,"debut_panne":1793373316000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.988173,45.359087],"type":"Point"},"properties":{"adresse":"800 Rue Hugues-le-Grand Sherbrooke","cause_panne":0,"debut_panne":1793373316000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.988111,45.359483],"type":"Point"},"properties":{"adresse":"805 Rue Hugues-le-Grand Sherbrooke","cause_panne":0,"debut_panne":1793373316000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.988404,45.35911],"type":"Point"},"properties":{"adresse":"810 Rue Hugues-le-Grand Sherbrooke","cause_panne":0,"debut_panne":1793373316000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.988816,45.359147],"type":"Point"},"properties":{"adresse":"820 Rue Hugues-le-Grand Sherbrooke","cause_panne":0,"debut_panne":1793373316000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.989124,45.359217],"type":"Point"},"properties":{"adresse":"830 Rue Hugues-le-Grand Sherbrooke","cause_panne":0,"debut_panne":1793373316000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
+
 ]}
