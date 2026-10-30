@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-84.553177,48.349078],"type":"Point"},"properties":{"cause":null,"code":null,"crewAssigned":false,"customersOutInitially":343,"customersOutNow":343,"customersRestored":0,"estimatedTimeOfRestoral":null,"isPlanned":false,"outageEndTime":null,"outageModifiedTime":"2026-10-30T14:52:55.71-04:00","outageName":"OH36311","outagePoint":{"lat":48.3490783242391,"lng":-84.55317697389877},"outageRecID":"2026-10-30-0143","outageStartTime":"2026-10-29T00:52:54-04:00","outageWorkStatus":"","streetsAffected":null,"verified":true},"type":"Feature"}
 ]}
