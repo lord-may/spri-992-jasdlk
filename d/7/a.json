@@ -1,7 +1,5 @@
 {"type":"FeatureCollection","features":[
 {"geometry":{"coordinates":[-72.144604,45.164388],"type":"Point"},"properties":{"cause":"","clients":4,"debut":"2026-10-31 16:22:25","fin":"","msg":"","mun":"4497","nu":"","statut":"R","type":"P","xy":"[-72.14460442824026, 45.164387627538815]"},"type":"Feature"},
-{"geometry":{"coordinates":[-72.751877,46.523969],"type":"Point"},"properties":{"cause":"","clients":24,"debut":"2026-10-31 17:44:40","fin":"2026-10-31 19:45:00","msg":"","mun":"5736","nu":"","statut":"R","type":"P","xy":"[-72.75187651754709, 46.523968835938376]"},"type":"Feature"},
-{"geometry":{"coordinates":[-73.504984,45.483948],"type":"Point"},"properties":{"cause":"","clients":7,"debut":"2026-10-31 12:23:22","fin":"","msg":"","mun":"7335","nu":"","statut":"R","type":"P","xy":"[-73.50498385098494, 45.48394834887488]"},"type":"Feature"},
 {"geometry":{"coordinates":[-73.793186,45.798706],"type":"Point"},"properties":{"cause":"","clients":14,"debut":"2026-10-31 13:07:36","fin":"","msg":"","mun":"8500","nu":"","statut":"L","type":"P","xy":"[-73.79318598617678, 45.79870556510598]"},"type":"Feature"},
 {"geometry":{"coordinates":[-74.392826,45.126903],"type":"Point"},"properties":{"cause":"51","clients":13,"debut":"2026-10-31 14:56:30","fin":"","msg":"","mun":"5994","nu":"5","statut":"A","type":"P","xy":"[-74.3928256733265, 45.12690349188471]"},"type":"Feature"}
 ]}
