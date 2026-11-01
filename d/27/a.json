@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[[[-83.086479,42.236843],[-83.085995,42.236779],[-83.085935,42.237127],[-83.085865,42.237618],[-83.086385,42.237666],[-83.086479,42.236843]]],"type":"Polygon"},"properties":{"averageLatitude":42.23720363533333,"averageLongitude":-83.086137265,"cause":"Foreign Interference","crewsDispatched":true,"deviceTypeId":0,"estimatedRestoration":"2026-11-01T11:30:00","estimatedStart":"2026-11-01T09:41:00","isProposed":false,"meters":[],"numImpactedMeters":12,"numOriginalImpactedMeters":12,"outageId":16221,"outageSourceDeviceID":"","planned":false},"type":"Feature"}
+
 ]}
