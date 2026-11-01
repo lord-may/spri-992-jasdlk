@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[[-63.089545,46.405668],[-63.089591,46.40578],[-63.089738,46.406142],[-63.090002,46.406731],[-63.089583,46.407033],[-63.089018,46.407122],[-63.088443,46.40722],[-63.087867,46.407288],[-63.087398,46.406995],[-63.08726,46.406649],[-63.087277,46.406277],[-63.08734,46.405925]],"type":"LineString"},"properties":{"Lines_Out":"AP52232","Shape__Length":474.06730697468186,"Type":1,"calc_job_est_completion_date":1793544754000,"calc_job_est_completion_text":"Nov 1, 2026 2:52 PM","customers_out":1,"job_est_completion_date":1793544754000,"outage_id":171625,"outage_type":"JOB","probable_cause":"051245 ","public_crew_status_desc":"Crew assigned.","public_job_cause_desc":"Pending."},"type":"Feature"}
 ]}
