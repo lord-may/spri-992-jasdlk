@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[[[-64.061458,46.809676],[-64.061299,46.809254]],[[-64.061458,46.809676],[-64.061622,46.809507]],[[-64.063491,46.810097],[-64.062891,46.810226],[-64.062334,46.810333],[-64.061749,46.810445]],[[-64.061749,46.810445],[-64.061931,46.810841],[-64.062056,46.811188]],[[-64.061747,46.810439],[-64.061627,46.810081],[-64.061458,46.809676]],[[-64.061749,46.810445],[-64.061166,46.810726],[-64.060508,46.810845]]],"type":"MultiLineString"},"properties":{"Lines_Out":"AL00270","Shape__Length":489.29603150005335,"Type":1,"calc_job_est_completion_date":1793529746000,"calc_job_est_completion_text":"Nov 1, 2026 10:42 AM","customers_out":1,"job_est_completion_date":1793529746000,"outage_id":171623,"outage_type":"JOB","probable_cause":"057147 ","public_crew_status_desc":"Crew assigned.","public_job_cause_desc":"Pending."},"type":"Feature"}
 ]}
