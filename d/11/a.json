@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-52.834964,47.540419],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"","CUSTOMER_COUNT":42,"ID":346162,"NLP_ALERT_REMARKS":null,"OBJECTID":65503,"POLYGONS_AFFECTED":"Elizabeth Park (Outer Ring Rd-Jane Heights)","TIME_OUTAGE":1793489875000,"TIME_RESTORED_EST":null,"X":317223.2305,"Y":5266814.0352},"type":"Feature"}
+{"geometry":{"coordinates":[-52.834964,47.540419],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":"","CUSTOMER_COUNT":294,"ID":346162,"NLP_ALERT_REMARKS":null,"OBJECTID":65505,"POLYGONS_AFFECTED":"Evergreen Village (Topsail Rd-Magnolia Pl),Elizabeth Park (Outer Ring Rd-Jane Heights)","TIME_OUTAGE":1793489875000,"TIME_RESTORED_EST":1793509200000,"X":317223.2305,"Y":5266814.0352},"type":"Feature"}
 ]}
