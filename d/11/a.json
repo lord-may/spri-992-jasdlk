@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-52.847685,47.523555],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":"On Site","CUSTOMER_COUNT":56,"ID":346162,"NLP_ALERT_REMARKS":null,"OBJECTID":65515,"POLYGONS_AFFECTED":"Elizabeth Park (Outer Ring Rd-Jane Heights)","TIME_OUTAGE":1793489875000,"TIME_RESTORED_EST":1793509200000,"X":316269.2625,"Y":5264937.3021},"type":"Feature"}
+{"geometry":{"coordinates":[-52.847685,47.523555],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":"On Site","CUSTOMER_COUNT":56,"ID":346162,"NLP_ALERT_REMARKS":null,"OBJECTID":65516,"POLYGONS_AFFECTED":"Elizabeth Park (Outer Ring Rd-Jane Heights)","TIME_OUTAGE":1793489875000,"TIME_RESTORED_EST":1793509200000,"X":316269.2625,"Y":5264937.3021},"type":"Feature"}
 ]}
