@@ -1,6 +1,5 @@
 {"type":"FeatureCollection","features":[
 {"geometry":{"geometries":[{"coordinates":[[[-64.89138,43.83446],[-64.88536,43.84349],[-64.88709,43.84448],[-64.89254,43.83647],[-64.892,43.83488],[-64.89138,43.83446]]],"type":"Polygon"},{"coordinates":[-64.88915,43.83959],"type":"Point"}],"type":"GeometryCollection"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"val":5},"etr":"2026-11-27T15:00:00-0400","start":"2026-10-18T08:49:55-0300","title":"Outage Information"},"type":"Feature"},
-{"geometry":{"coordinates":[-61.38639,45.6597],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"2026-11-01T21:00:00-0400","start":"2026-11-01T13:56:56-0400","title":"Outage Information"},"type":"Feature"},
 {"geometry":{"coordinates":[-64.83463,45.46043],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"2026-11-02T00:45:00-0400","start":"2026-11-01T17:31:00-0400","title":"Outage Information"},"type":"Feature"},
 {"geometry":{"coordinates":[-64.67,44.71],"type":"Point"},"properties":{"cause":"Fire","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"2026-11-01T22:00:00-0400","start":"2026-11-01T17:38:42-0400","title":"Outage Information"},"type":"Feature"}
 ]}
