@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-52.716706,47.58834],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":47,"ID":346204,"NLP_ALERT_REMARKS":null,"OBJECTID":65551,"POLYGONS_AFFECTED":"Howley Estates (MacDonald Dr-Elizabeth Ave)","TIME_OUTAGE":1793631013000,"TIME_RESTORED_EST":1793642400000,"X":326105.978793842,"Y":5272167.10811405},"type":"Feature"}
+{"geometry":{"coordinates":[-52.716706,47.58834],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":47,"ID":346204,"NLP_ALERT_REMARKS":null,"OBJECTID":65553,"POLYGONS_AFFECTED":"Howley Estates (MacDonald Dr-Elizabeth Ave)","TIME_OUTAGE":1793631013000,"TIME_RESTORED_EST":1793642400000,"X":326105.978793842,"Y":5272167.10811405},"type":"Feature"}
 ]}
