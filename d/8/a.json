@@ -1,13 +1,7 @@
 {"type":"FeatureCollection","features":[
 {"geometry":{"coordinates":[-64.845654,46.092083],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"8020_14L2","Incident_ID":"2001356315"},"type":"Feature"},
 {"geometry":{"coordinates":[-65.000316,46.727692],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"8420_CM101R11R30R3","Incident_ID":"2001356319"},"type":"Feature"},
-{"geometry":{"coordinates":[-66.479757,45.503953],"type":"Point"},"properties":{"CustEff":2,"FieldLocationID":"7540_341","Incident_ID":"2001356321"},"type":"Feature"},
 {"geometry":{"coordinates":[-65.982974,46.076931],"type":"Point"},"properties":{"CustEff":2,"FieldLocationID":"7514_58R47R1","Incident_ID":"2001356322"},"type":"Feature"},
 {"geometry":{"coordinates":[-65.983161,46.074403],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7514_58R47R8","Incident_ID":"2001356322"},"type":"Feature"},
-{"geometry":{"coordinates":[-65.983753,46.075213],"type":"Point"},"properties":{"CustEff":7,"FieldLocationID":"7514_58R47R6","Incident_ID":"2001356322"},"type":"Feature"},
-{"geometry":{"coordinates":[-66.576996,45.438077],"type":"Point"},"properties":{"CustEff":2,"FieldLocationID":"7540_320R192","Incident_ID":"2001356327"},"type":"Feature"},
-{"geometry":{"coordinates":[-66.494263,45.545926],"type":"Point"},"properties":{"CustEff":4,"FieldLocationID":"7540_256L40","Incident_ID":"2001356330"},"type":"Feature"},
-{"geometry":{"coordinates":[-66.534151,45.552701],"type":"Point"},"properties":{"CustEff":3,"FieldLocationID":"7540_224","Incident_ID":"2001356331"},"type":"Feature"},
-{"geometry":{"coordinates":[-66.575239,45.628264],"type":"Point"},"properties":{"CustEff":2,"FieldLocationID":"7540_42R7","Incident_ID":"2001356332"},"type":"Feature"},
-{"geometry":{"coordinates":[-66.608016,45.43483],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7540_320R229L3","Incident_ID":"2001356333"},"type":"Feature"}
+{"geometry":{"coordinates":[-65.983753,46.075213],"type":"Point"},"properties":{"CustEff":7,"FieldLocationID":"7514_58R47R6","Incident_ID":"2001356322"},"type":"Feature"}
 ]}
