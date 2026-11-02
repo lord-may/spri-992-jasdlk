@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-52.787506,47.547555],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":"","CUSTOMER_COUNT":102,"ID":346182,"NLP_ALERT_REMARKS":null,"OBJECTID":65541,"POLYGONS_AFFECTED":"O'Leary Business Park,Old Penneywell Rd (Georges Pond Rd),Kenmount Terrace (Kenmout Rd-Ariel Pl)","TIME_OUTAGE":1793618450000,"TIME_RESTORED_EST":1793628000000,"X":320793.5895,"Y":5267616.0543},"type":"Feature"}
+
 ]}
