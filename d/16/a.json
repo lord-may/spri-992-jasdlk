@@ -1,4 +1,4 @@
 {"type":"FeatureCollection","features":[
 {"geometry":{"coordinates":[-79.731399,43.758103],"type":"Point"},"properties":{"CURCUST":8,"CaseIDOnMap":19572,"EstRestoreTime":1793642400000,"INITCUST":8,"OBJECTID":1,"OutageCausePublic":"Scheduled work being conducted in the area","OutageTime":1793628973094,"PUBLICMSG":"","ShowOnMap":1},"type":"Feature"},
-{"geometry":{"coordinates":[-79.598846,43.618018],"type":"Point"},"properties":{"CURCUST":54,"CaseIDOnMap":9162001,"EstRestoreTime":1793649600000,"INITCUST":54,"OBJECTID":2,"OutageCausePublic":"Dig in to underground cable","OutageTime":1793632605000,"PUBLICMSG":"None","ShowOnMap":1},"type":"Feature"}
+{"geometry":{"coordinates":[-79.598846,43.618018],"type":"Point"},"properties":{"CURCUST":12,"CaseIDOnMap":9162001,"EstRestoreTime":1793653200000,"INITCUST":54,"OBJECTID":2,"OutageCausePublic":"Issue under investigation","OutageTime":1793632605000,"PUBLICMSG":"None","ShowOnMap":1},"type":"Feature"}
 ]}
