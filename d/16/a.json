@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-79.70237,44.40449],"type":"Point"},"properties":{"CURCUST":6,"CaseIDOnMap":873454,"EstRestoreTime":null,"INITCUST":6,"OBJECTID":1,"OutageCausePublic":"Scheduled work being conducted in the area","OutageTime":1793621579000,"PUBLICMSG":null,"ShowOnMap":1},"type":"Feature"}
+
 ]}
