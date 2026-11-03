@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-79.712824,43.575641],"type":"Point"},"properties":{"CURCUST":12,"CaseIDOnMap":9162050,"EstRestoreTime":1793730600000,"INITCUST":12,"OBJECTID":1,"OutageCausePublic":"Issue under investigation","OutageTime":1793714508000,"PUBLICMSG":"None","ShowOnMap":1},"type":"Feature"}
 ]}
