@@ -1,10 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-72.017478,45.397115],"type":"Point"},"properties":{"adresse":"110 Rue des Outardes Sherbrooke","cause_panne":0,"debut_panne":1793720295000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.018021,45.39719],"type":"Point"},"properties":{"adresse":"111 Rue des Outardes Sherbrooke","cause_panne":0,"debut_panne":1793720295000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.017478,45.397387],"type":"Point"},"properties":{"adresse":"116 Rue des Outardes Sherbrooke","cause_panne":0,"debut_panne":1793720295000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.018048,45.397333],"type":"Point"},"properties":{"adresse":"117 Rue des Outardes Sherbrooke","cause_panne":0,"debut_panne":1793720295000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.017506,45.39751],"type":"Point"},"properties":{"adresse":"122 Rue des Outardes Sherbrooke","cause_panne":0,"debut_panne":1793720295000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.018083,45.397532],"type":"Point"},"properties":{"adresse":"123 Rue des Outardes Sherbrooke","cause_panne":0,"debut_panne":1793720295000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.017469,45.397747],"type":"Point"},"properties":{"adresse":"128 Rue des Outardes Sherbrooke","cause_panne":0,"debut_panne":1793720295000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.018038,45.397728],"type":"Point"},"properties":{"adresse":"129 Rue des Outardes Sherbrooke","cause_panne":0,"debut_panne":1793720295000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
+
 ]}
