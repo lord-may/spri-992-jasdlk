@@ -1,8 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-72.095137,45.420833],"type":"Point"},"properties":{"adresse":"480 Rue du Mont-Girard Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1793827035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.095137,45.420833],"type":"Point"},"properties":{"adresse":"480 Rue du Mont-Girard Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1793827035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.09475,45.420963],"type":"Point"},"properties":{"adresse":"490 Rue du Mont-Girard Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1793827035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.094557,45.420956],"type":"Point"},"properties":{"adresse":"500 Rue du Mont-Girard Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1793827035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.094269,45.421317],"type":"Point"},"properties":{"adresse":"510 Rue du Mont-Girard Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1793827035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.093932,45.421396],"type":"Point"},"properties":{"adresse":"520 Rue du Mont-Girard Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1793827035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
+
 ]}
