@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-83.690332,46.462652],"type":"Point"},"properties":{"cause":"334 Falling Tree - Off ROW","code":"334","crewAssigned":false,"customersOutInitially":7,"customersOutNow":0,"customersRestored":7,"estimatedTimeOfRestoral":"2026-11-03T23:45:00-05:00","isPlanned":false,"outageEndTime":"2026-11-03T22:52:17.53-05:00","outageModifiedTime":"2026-11-03T22:53:00.463-05:00","outageName":"SW3831S-159","outagePoint":{"lat":46.46265186035937,"lng":-83.69033238668396},"outageRecID":"2026-11-03-0009","outageStartTime":"2026-11-03T19:44:36-05:00","outageWorkStatus":"","streetsAffected":null,"verified":true},"type":"Feature"}
+
 ]}
