@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-52.801559,47.536388],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"","CUSTOMER_COUNT":36,"ID":346293,"NLP_ALERT_REMARKS":null,"OBJECTID":65597,"POLYGONS_AFFECTED":"Mount Carson (Elmcliff St-Nash Cres)","TIME_OUTAGE":1793811987000,"TIME_RESTORED_EST":null,"X":319738.9758,"Y":5266371.8149},"type":"Feature"}
+{"geometry":{"coordinates":[-52.801559,47.536388],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"","CUSTOMER_COUNT":36,"ID":346293,"NLP_ALERT_REMARKS":null,"OBJECTID":65598,"POLYGONS_AFFECTED":"Mount Carson (Elmcliff St-Nash Cres)","TIME_OUTAGE":1793811987000,"TIME_RESTORED_EST":null,"X":319738.9758,"Y":5266371.8149},"type":"Feature"}
 ]}
