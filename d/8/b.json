@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[[[-66.612749,45.966346],[-66.613811,45.967259],[-66.616535,45.966196],[-66.615759,45.965745],[-66.612749,45.966346]]],"type":"Polygon"},"properties":{"CustEff":32,"ESRI_OID":5415,"GlobalID":"988e0526-d25f-4415-8070-a235b8e53f58","Incident_ID":"2001356581","Shape__Area":23423.064453125,"Shape__Length":693.482697481186,"TxCnt":6},"type":"Feature"}
+{"geometry":{"coordinates":[[[-66.612749,45.966346],[-66.613811,45.967259],[-66.616535,45.966196],[-66.615759,45.965745],[-66.612749,45.966346]]],"type":"Polygon"},"properties":{"CustEff":32,"ESRI_OID":5416,"GlobalID":"b7e041ee-2716-48fa-ac28-1cbedbce4414","Incident_ID":"2001356581","Shape__Area":23423.064453125,"Shape__Length":693.482697481186,"TxCnt":6},"type":"Feature"},
+{"geometry":{"coordinates":[[[-67.586572,46.136908],[-67.588066,46.136181],[-67.586914,46.135275],[-67.586572,46.136908]]],"type":"Polygon"},"properties":{"CustEff":4,"ESRI_OID":5417,"GlobalID":"84458489-bf1a-4963-9f68-a764caf6bb8d","Incident_ID":"2001356583","Shape__Area":9406.978515625,"Shape__Length":458.6571189201377,"TxCnt":4},"type":"Feature"}
 ]}
