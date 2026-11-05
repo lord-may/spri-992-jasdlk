@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-54.8599,49.508158],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":122,"ID":346327,"NLP_ALERT_REMARKS":null,"OBJECTID":65621,"POLYGONS_AFFECTED":"Cottlesville","TIME_OUTAGE":1793881826000,"TIME_RESTORED_EST":1793899800000,"X":170114.4447,"Y":5487255.2418},"type":"Feature"}
+{"geometry":{"coordinates":[-54.8599,49.508158],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":122,"ID":346327,"NLP_ALERT_REMARKS":null,"OBJECTID":65622,"POLYGONS_AFFECTED":"Cottlesville","TIME_OUTAGE":1793881826000,"TIME_RESTORED_EST":1793899800000,"X":170114.4447,"Y":5487255.2418},"type":"Feature"}
 ]}
