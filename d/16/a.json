@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-79.67587,44.4077],"type":"Point"},"properties":{"CURCUST":5,"CaseIDOnMap":873549,"EstRestoreTime":null,"INITCUST":18,"OBJECTID":1,"OutageCausePublic":"Undetermined problem, issue under investigation","OutageTime":1793824803000,"PUBLICMSG":null,"ShowOnMap":1},"type":"Feature"}
+{"geometry":{"coordinates":[-79.67587,44.4077],"type":"Point"},"properties":{"CURCUST":5,"CaseIDOnMap":873549,"EstRestoreTime":null,"INITCUST":18,"OBJECTID":1,"OutageCausePublic":"Undetermined problem, issue under investigation","OutageTime":1793824803000,"PUBLICMSG":null,"ShowOnMap":1},"type":"Feature"},
+{"geometry":{"coordinates":[-79.631783,43.779242],"type":"Point"},"properties":{"CURCUST":23,"CaseIDOnMap":873557,"EstRestoreTime":null,"INITCUST":23,"OBJECTID":2,"OutageCausePublic":"Vehicle collision with equipment","OutageTime":1793841140000,"PUBLICMSG":null,"ShowOnMap":1},"type":"Feature"}
 ]}
