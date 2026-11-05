@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-71.985628,45.416803],"type":"Point"},"properties":{"adresse":"1353 Chemin Verpaelst Sherbrooke","cause_panne":1,"debut_panne":1793892795000,"retablissement_panne":1793905200000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.98602,45.411346],"type":"Point"},"properties":{"adresse":"705 Chemin Verpaelst Sherbrooke","cause_panne":1,"debut_panne":1793892795000,"retablissement_panne":1793905200000,"statut_panne":2},"type":"Feature"}
 ]}
