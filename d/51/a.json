@@ -1,3 +1,16 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-71.86102,45.420178],"type":"Point"},"properties":{"adresse":"908 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.86102,45.420178],"type":"Point"},"properties":{"adresse":"910 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.861665,45.420284],"type":"Point"},"properties":{"adresse":"911 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.86102,45.420178],"type":"Point"},"properties":{"adresse":"912 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.861665,45.420284],"type":"Point"},"properties":{"adresse":"913 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.86102,45.420178],"type":"Point"},"properties":{"adresse":"914 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.861665,45.420284],"type":"Point"},"properties":{"adresse":"915 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.86102,45.420178],"type":"Point"},"properties":{"adresse":"916 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.861665,45.420284],"type":"Point"},"properties":{"adresse":"917 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.86102,45.420178],"type":"Point"},"properties":{"adresse":"918 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.861665,45.420284],"type":"Point"},"properties":{"adresse":"919 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.861665,45.420284],"type":"Point"},"properties":{"adresse":"921 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.86106,45.420618],"type":"Point"},"properties":{"adresse":"922 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.86106,45.420618],"type":"Point"},"properties":{"adresse":"924 Rue des Capucines Sherbrooke","cause_panne":0,"debut_panne":1793979255000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
 ]}
