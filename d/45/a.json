@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[[[-113.490849,53.512647],[-113.489562,53.513005],[-113.488411,53.5135],[-113.487436,53.514115],[-113.486672,53.514829],[-113.486146,53.515615],[-113.485877,53.516446],[-113.485874,53.517293],[-113.486108,53.518056],[-113.494917,53.518067],[-113.49435,53.51424],[-113.494144,53.514144],[-113.493861,53.512398],[-113.492466,53.512419],[-113.490849,53.512647]]],"type":"Polygon"},"properties":{"GlobalID":"de46c879-8ca4-4388-8ffe-2bb26df439a8","OBJECTID":13083,"Shape__Area":null,"Shape__Length":null,"affcusts":"115","affstree":"GATEWAY BOULEVARD NW, 78 AVENUE NW - 82 AVENUE NW, 82 AVENUE [EASTBOUND SIDE] NW, 82 AVENUE [WESTBOUND SIDE] NW, 99 STREET [NORTHBOUND SIDE] NW, 99 STREET [SOUTHBOUND SIDE] NW, 99 STREET NW - 102 STREET NW","cause":"System Maintenance","estresto":"Nov-6 4:30 AM","faulted":"Nov-5 7:46 PM","id":"INC 114038415","nbhoods":"CPR Irvine, Ritchie"},"type":"Feature"}
+
 ]}
