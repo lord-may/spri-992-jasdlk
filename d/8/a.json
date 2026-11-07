@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-67.309806,45.302061],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7929_O37","Incident_ID":"2001356941"},"type":"Feature"},
+{"geometry":{"coordinates":[-65.976204,45.412737],"type":"Point"},"properties":{"CustEff":7,"FieldLocationID":"8204_BT41L17L6","Incident_ID":"2001356946"},"type":"Feature"}
 ]}
