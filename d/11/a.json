@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-59.272184,47.777776],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":89,"ID":346432,"NLP_ALERT_REMARKS":null,"OBJECTID":65669,"POLYGONS_AFFECTED":"St Andrews","TIME_OUTAGE":1794055931000,"TIME_RESTORED_EST":1794078049000,"X":-165132.4774,"Y":5312273.0634},"type":"Feature"}
+{"geometry":{"coordinates":[-59.272184,47.777776],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":89,"ID":346432,"NLP_ALERT_REMARKS":null,"OBJECTID":65671,"POLYGONS_AFFECTED":"St Andrews","TIME_OUTAGE":1794055931000,"TIME_RESTORED_EST":1794078049000,"X":-165132.4774,"Y":5312273.0634},"type":"Feature"}
 ]}
