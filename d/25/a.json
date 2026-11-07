@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-79.051353,42.963513],"type":"Point"},"properties":{"cause":"123 Distributor - Maintenance","code":"123","crewAssigned":false,"customersOutInitially":14,"customersOutNow":14,"customersRestored":0,"estimatedTimeOfRestoral":"2026-11-07T11:00:00-05:00","isPlanned":true,"outageEndTime":null,"outageModifiedTime":"2026-11-07T07:00:59.593-05:00","outageName":"","outagePoint":{"lat":42.96351333165177,"lng":-79.05135309730917},"outageRecID":"2026-11-07-0038","outageStartTime":"2026-11-07T07:00:00-05:00","outageWorkStatus":"","streetsAffected":null,"verified":true},"type":"Feature"}
 ]}
