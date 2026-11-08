@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-58.372556,49.056005],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"","CUSTOMER_COUNT":173,"ID":346453,"NLP_ALERT_REMARKS":null,"OBJECTID":65695,"POLYGONS_AFFECTED":"Lark Harbour,York Harbour","TIME_OUTAGE":1794100034000,"TIME_RESTORED_EST":null,"X":-87758.3695,"Y":5449232.4356},"type":"Feature"}
+{"geometry":{"coordinates":[-58.372556,49.056005],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"En Route","CUSTOMER_COUNT":173,"ID":346453,"NLP_ALERT_REMARKS":null,"OBJECTID":65697,"POLYGONS_AFFECTED":"Lark Harbour,York Harbour","TIME_OUTAGE":1794100034000,"TIME_RESTORED_EST":null,"X":-87758.3695,"Y":5449232.4356},"type":"Feature"}
 ]}
