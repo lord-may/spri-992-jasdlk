@@ -1,3 +1,7 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-72.158172,45.449813],"type":"Point"},"properties":{"adresse":"326 Chemin J.-A.-Bombardier Racine","cause_panne":0,"debut_panne":1794243076000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-72.158081,45.450428],"type":"Point"},"properties":{"adresse":"334 Chemin J.-A.-Bombardier Racine","cause_panne":0,"debut_panne":1794243076000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-72.158299,45.451012],"type":"Point"},"properties":{"adresse":"342 Chemin J.-A.-Bombardier Racine","cause_panne":0,"debut_panne":1794243076000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-72.158136,45.451733],"type":"Point"},"properties":{"adresse":"346 Chemin J.-A.-Bombardier Racine","cause_panne":0,"debut_panne":1794243076000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-72.158182,45.452094],"type":"Point"},"properties":{"adresse":"348 Chemin J.-A.-Bombardier Racine","cause_panne":0,"debut_panne":1794243076000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
 ]}

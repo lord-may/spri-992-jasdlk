@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-79.441503,44.07385],"type":"Point"},"properties":{"CAUSE":"Infrastructure Upgrades","COMMENTS":"Elgin Street, Waratah Ave, Jacarandah Dr, Boronia Cres, Janette St, Clematis Rd, Banksia Ct","CREW":"Yes","CUSTOMERS":170,"ETR":"1","GlobalID":"ef6fdaf0-e8ca-4859-b9ba-e48e6053e23f","INCIDENTID":null,"OBJECTID":2539,"PLANNED":"Yes","PLANNEDDATE":1794240000000,"STATUS":"Active"},"type":"Feature"}
+
 ]}
