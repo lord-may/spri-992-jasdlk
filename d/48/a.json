@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-114.853423,51.598867],"type":"Point"},"properties":{"cause":"Tree failure from wind","crewAssigned":false,"customersOutInitially":8,"customersOutNow":8,"customersRestored":0,"estimatedTimeOfRestoral":"2026-11-08T23:59:00-07:00","outageEndTime":null,"outageModifiedTime":"2026-11-08T22:40:13.0630000-07:00","outageName":"","outagePoint":{"lat":51.598867195769714,"lng":-114.85342340228493},"outageRecID":"2026-11-08-0208","outageStartTime":"2026-11-08T16:10:00-07:00","outageWorkStatus":"","streetsAffected":null,"verified":true},"type":"Feature"}
+
 ]}
