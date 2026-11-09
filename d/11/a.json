@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-59.298892,47.855806],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":325,"ID":346511,"NLP_ALERT_REMARKS":null,"OBJECTID":65739,"POLYGONS_AFFECTED":"Codroy – Millville","TIME_OUTAGE":1794224459000,"TIME_RESTORED_EST":null,"X":-166423.6281,"Y":5321105.9781},"type":"Feature"}
 ]}
