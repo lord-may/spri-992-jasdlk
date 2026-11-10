@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[[-62.478839,46.279527],[-62.478761,46.279332],[-62.478592,46.278863],[-62.478404,46.278356],[-62.478192,46.277824],[-62.477999,46.277322],[-62.477788,46.276796],[-62.477584,46.276308],[-62.477109,46.276395],[-62.476648,46.276475],[-62.476188,46.276562],[-62.475219,46.276757],[-62.474079,46.276712],[-62.473518,46.276623],[-62.47272,46.276484],[-62.471989,46.276388],[-62.471147,46.276577]],"type":"LineString"},"properties":{"Lines_Out":"DM00544","Shape__Length":881.0900601750583,"Type":1,"calc_job_est_completion_date":null,"calc_job_est_completion_text":"Pending","customers_out":1,"job_est_completion_date":null,"outage_id":334242,"outage_type":"CALL","probable_cause":"063897 ","public_crew_status_desc":"Pending","public_job_cause_desc":"Pending"},"type":"Feature"}
 ]}
