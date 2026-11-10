@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-55.136582,47.196851],"type":"Point"},"properties":{"CAUSE":"Emergency Repairs","CREW_STATUS":null,"CUSTOMER_COUNT":655,"ID":346603,"NLP_ALERT_REMARKS":null,"OBJECTID":65750,"POLYGONS_AFFECTED":"Linton Lake -Red Harbour,Ville Marie Drive - Lower Mooring Cove,Harris Drive","TIME_OUTAGE":1794334575000,"TIME_RESTORED_EST":null,"X":142916.5399,"Y":5230822.5547},"type":"Feature"}
+{"geometry":{"coordinates":[-55.136582,47.196851],"type":"Point"},"properties":{"CAUSE":"Emergency Repairs","CREW_STATUS":null,"CUSTOMER_COUNT":655,"ID":346603,"NLP_ALERT_REMARKS":null,"OBJECTID":65752,"POLYGONS_AFFECTED":"Linton Lake -Red Harbour,Ville Marie Drive - Lower Mooring Cove,Harris Drive","TIME_OUTAGE":1794334575000,"TIME_RESTORED_EST":null,"X":142916.5399,"Y":5230822.5547},"type":"Feature"}
 ]}
