@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-55.150668,47.175069],"type":"Point"},"properties":{"CAUSE":"Vandalism","CREW_STATUS":null,"CUSTOMER_COUNT":197,"ID":346620,"NLP_ALERT_REMARKS":null,"OBJECTID":65770,"POLYGONS_AFFECTED":"Ville Marie Drive - Lower Mooring Cove","TIME_OUTAGE":1794346013000,"TIME_RESTORED_EST":null,"X":141782.6064,"Y":5228430.5713},"type":"Feature"},
-{"geometry":{"coordinates":[-52.749243,47.546381],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"En Route","CUSTOMER_COUNT":140,"ID":346624,"NLP_ALERT_REMARKS":null,"OBJECTID":65771,"POLYGONS_AFFECTED":"Mundy Pond (Jensen Camp Rd-Columbus Dr)","TIME_OUTAGE":1794343062000,"TIME_RESTORED_EST":null,"X":323673.9696,"Y":5267494.1471},"type":"Feature"}
+{"geometry":{"coordinates":[-52.749243,47.546381],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"En Route","CUSTOMER_COUNT":140,"ID":346624,"NLP_ALERT_REMARKS":null,"OBJECTID":65772,"POLYGONS_AFFECTED":"Mundy Pond (Jensen Camp Rd-Columbus Dr)","TIME_OUTAGE":1794343062000,"TIME_RESTORED_EST":null,"X":323673.9696,"Y":5267494.1471},"type":"Feature"}
 ]}
