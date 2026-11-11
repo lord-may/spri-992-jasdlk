@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-54.883252,47.416363],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":null,"CUSTOMER_COUNT":1175,"ID":346659,"NLP_ALERT_REMARKS":null,"OBJECTID":65832,"POLYGONS_AFFECTED":"Parker's Cove - Rushoon,Brookside - Harbour Mille","TIME_OUTAGE":1794403733000,"TIME_RESTORED_EST":null,"X":162699.8549,"Y":5254729.5187},"type":"Feature"},
+{"geometry":{"coordinates":[-54.505939,47.733587],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":null,"CUSTOMER_COUNT":461,"ID":346660,"NLP_ALERT_REMARKS":null,"OBJECTID":65833,"POLYGONS_AFFECTED":"Terrenceville,Grand le Pierre - English Harbour","TIME_OUTAGE":1794403734000,"TIME_RESTORED_EST":null,"X":191853.5139,"Y":5289374.3398},"type":"Feature"}
 ]}
