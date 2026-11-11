@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-79.46397,43.66911],"type":"Point"},"properties":{"cause":null,"cluster":false,"comments":null,"crew_icon":false,"crew_status":{"EN-US":"En route","orig":"En route"},"cust_a":{"val":6},"etr":"2026-11-11T17:29:00Z","etr_confidence":null,"inc_id":null,"n_out":1,"start_time":"2026-11-11T13:29Z","title":"Area Outage"},"type":"Feature"}
+{"geometry":{"coordinates":[-79.46397,43.66911],"type":"Point"},"properties":{"cause":null,"cluster":false,"comments":null,"crew_icon":false,"crew_status":{"EN-US":"En route","orig":"En route"},"cust_a":{"val":6},"etr":"2026-11-11T17:29:00Z","etr_confidence":null,"inc_id":null,"n_out":1,"start_time":"2026-11-11T13:29Z","title":"Area Outage"},"type":"Feature"},
+{"geometry":{"coordinates":[-79.44971,43.70217],"type":"Point"},"properties":{"cause":null,"cluster":false,"comments":null,"crew_icon":false,"crew_status":{"EN-US":"En route","orig":"En route"},"cust_a":{"mask":5,"val":4},"etr":"2026-11-11T16:47:00Z","etr_confidence":null,"inc_id":null,"n_out":1,"start_time":"2026-11-11T13:47Z","title":"Area Outage"},"type":"Feature"}
 ]}
