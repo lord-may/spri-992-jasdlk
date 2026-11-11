@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-59.212303,47.827377],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":28,"ID":346669,"NLP_ALERT_REMARKS":null,"OBJECTID":65850,"POLYGONS_AFFECTED":"Doyles","TIME_OUTAGE":1794418381000,"TIME_RESTORED_EST":1794425418000,"X":-160203.3567,"Y":5317420.9215},"type":"Feature"},
-{"geometry":{"coordinates":[-53.375608,48.401804],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":null,"CUSTOMER_COUNT":1124,"ID":346674,"NLP_ALERT_REMARKS":null,"OBJECTID":65851,"POLYGONS_AFFECTED":"Trinity - Lockston Park,Champney's - English Harbour,Port Rexton,Goose Cove - Bonaventure","TIME_OUTAGE":1794425669000,"TIME_RESTORED_EST":null,"X":276990.8484,"Y":5362636.6414},"type":"Feature"}
+
 ]}
