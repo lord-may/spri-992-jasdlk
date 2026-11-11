@@ -1,3 +1,19 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"840 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"840 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"840 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"840 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"840 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"840 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"840 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"840 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"840 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"845 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"845 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"845 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"845 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"845 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"845 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"845 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
+{"geometry":{"coordinates":[-71.863871,45.417069],"type":"Point"},"properties":{"adresse":"845 Rue des Pivoines Sherbrooke","cause_panne":0,"debut_panne":1794429676000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
 ]}
