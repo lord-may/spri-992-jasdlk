@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-59.168578,47.585468],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":"","CUSTOMER_COUNT":544,"ID":346637,"NLP_ALERT_REMARKS":null,"OBJECTID":65804,"POLYGONS_AFFECTED":"Port aux Basques (Channel),Port aux Basques (Regional St),Port aux Basques (Grand Bay East)","TIME_OUTAGE":1794358204000,"TIME_RESTORED_EST":1794380411000,"X":-159080.6295,"Y":5290279.0653},"type":"Feature"}
+{"geometry":{"coordinates":[-59.168578,47.585468],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":"","CUSTOMER_COUNT":544,"ID":346637,"NLP_ALERT_REMARKS":null,"OBJECTID":65805,"POLYGONS_AFFECTED":"Port aux Basques (Channel),Port aux Basques (Regional St),Port aux Basques (Grand Bay East)","TIME_OUTAGE":1794358204000,"TIME_RESTORED_EST":1794380411000,"X":-159080.6295,"Y":5290279.0653},"type":"Feature"}
 ]}
