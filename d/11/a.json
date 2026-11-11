@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-59.212303,47.827377],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":28,"ID":346669,"NLP_ALERT_REMARKS":null,"OBJECTID":65837,"POLYGONS_AFFECTED":"Doyles","TIME_OUTAGE":1794418381000,"TIME_RESTORED_EST":null,"X":-160203.3567,"Y":5317420.9215},"type":"Feature"}
 ]}
