@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-53.641213,48.389326],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":null,"CUSTOMER_COUNT":1140,"ID":346662,"NLP_ALERT_REMARKS":null,"OBJECTID":65836,"POLYGONS_AFFECTED":"Plate Cove- Hodderville,Summerville - Tickle Cove,Charleston - Sweet Bay,Southern Bay - Summerville - Princeton Pond","TIME_OUTAGE":1794405171000,"TIME_RESTORED_EST":null,"X":257314.8519,"Y":5361379.768},"type":"Feature"}
+
 ]}
