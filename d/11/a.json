@@ -1,5 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-58.921767,48.534055],"type":"Point"},"properties":{"CAUSE":"Emergency Repairs","CREW_STATUS":null,"CUSTOMER_COUNT":813,"ID":346728,"NLP_ALERT_REMARKS":null,"OBJECTID":65898,"POLYGONS_AFFECTED":"Abrahams Cove-Lower Cove,Sheaves Cove-Marches Point,De Grau-Cape St.George","TIME_OUTAGE":1794516985000,"TIME_RESTORED_EST":1794524445000,"X":-132394.191,"Y":5394231.6842},"type":"Feature"},
-{"geometry":{"coordinates":[-58.921701,48.534072],"type":"Point"},"properties":{"CAUSE":"Emergency Repairs","CREW_STATUS":null,"CUSTOMER_COUNT":1013,"ID":346729,"NLP_ALERT_REMARKS":null,"OBJECTID":65899,"POLYGONS_AFFECTED":"Piccadilly-West Bay,Lourdes-Black Duck Brook,Mainland-Three Rock Cove","TIME_OUTAGE":1794516985000,"TIME_RESTORED_EST":1794524403000,"X":-132389.197,"Y":5394233.1725},"type":"Feature"},
-{"geometry":{"coordinates":[-58.690988,48.556521],"type":"Point"},"properties":{"CAUSE":"Emergency Repairs","CREW_STATUS":null,"CUSTOMER_COUNT":980,"ID":346730,"NLP_ALERT_REMARKS":null,"OBJECTID":65900,"POLYGONS_AFFECTED":"Port au Port West - Front Road,Port au Port West – Aguathuna - Boswarlos,Point au Mal – Fox Island River,Port au Port East","TIME_OUTAGE":1794516985000,"TIME_RESTORED_EST":1794524423000,"X":-115176.9037,"Y":5395430.4329},"type":"Feature"}
+
 ]}
