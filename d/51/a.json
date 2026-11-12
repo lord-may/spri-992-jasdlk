@@ -1,5 +1,5 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-72.099649,45.445332],"type":"Point"},"properties":{"adresse":"1790 Chemin Bouffard Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1794506115000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.099407,45.445],"type":"Point"},"properties":{"adresse":"1800 Chemin Bouffard Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1794506115000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.099167,45.444937],"type":"Point"},"properties":{"adresse":"1810 Chemin Bouffard Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1794506115000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
+{"geometry":{"coordinates":[-72.099649,45.445332],"type":"Point"},"properties":{"adresse":"1790 Chemin Bouffard Saint-Denis-de-Brompton","cause_panne":3,"debut_panne":1794506115000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-72.099407,45.445],"type":"Point"},"properties":{"adresse":"1800 Chemin Bouffard Saint-Denis-de-Brompton","cause_panne":3,"debut_panne":1794506115000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-72.099167,45.444937],"type":"Point"},"properties":{"adresse":"1810 Chemin Bouffard Saint-Denis-de-Brompton","cause_panne":3,"debut_panne":1794506115000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"}
 ]}
