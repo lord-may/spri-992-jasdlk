@@ -1,14 +1,4 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.903705,45.401357],"type":"Point"},"properties":{"adresse":"1021 Rue Walton Sherbrooke","cause_panne":0,"debut_panne":1794493873000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.904024,45.401355],"type":"Point"},"properties":{"adresse":"1037 Rue Walton Sherbrooke","cause_panne":0,"debut_panne":1794493873000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.904024,45.401355],"type":"Point"},"properties":{"adresse":"1039 Rue Walton Sherbrooke","cause_panne":0,"debut_panne":1794493873000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.90396,45.400988],"type":"Point"},"properties":{"adresse":"1040 Rue Walton Sherbrooke","cause_panne":0,"debut_panne":1794493873000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.904024,45.401355],"type":"Point"},"properties":{"adresse":"1041 Rue Walton Sherbrooke","cause_panne":0,"debut_panne":1794493873000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.904024,45.400991],"type":"Point"},"properties":{"adresse":"1042 Rue Walton Sherbrooke","cause_panne":0,"debut_panne":1794493873000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.904024,45.401355],"type":"Point"},"properties":{"adresse":"1043 Rue Walton Sherbrooke","cause_panne":0,"debut_panne":1794493873000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.904257,45.40134],"type":"Point"},"properties":{"adresse":"1061 Rue Walton Sherbrooke","cause_panne":0,"debut_panne":1794493873000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.9043,45.400952],"type":"Point"},"properties":{"adresse":"1064 Rue Walton Sherbrooke","cause_panne":0,"debut_panne":1794493873000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.9043,45.400952],"type":"Point"},"properties":{"adresse":"1066 Rue Walton Sherbrooke","cause_panne":0,"debut_panne":1794493873000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-72.158796,45.430058],"type":"Point"},"properties":{"adresse":"160 Rue de la Rive Racine","cause_panne":0,"debut_panne":1794495194000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-72.158796,45.430059],"type":"Point"},"properties":{"adresse":"160 Rue de la Rive Racine","cause_panne":0,"debut_panne":1794495194000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
 {"geometry":{"coordinates":[-72.158392,45.430489],"type":"Point"},"properties":{"adresse":"170 Rue de la Rive Racine","cause_panne":0,"debut_panne":1794495194000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
 ]}
