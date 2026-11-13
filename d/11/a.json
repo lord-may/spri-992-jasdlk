@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-53.552363,47.584877],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"","CUSTOMER_COUNT":71,"ID":346778,"NLP_ALERT_REMARKS":null,"OBJECTID":65902,"POLYGONS_AFFECTED":"New Harbour,Dildo","TIME_OUTAGE":1794587813000,"TIME_RESTORED_EST":null,"X":263253.9323,"Y":5271891.1326},"type":"Feature"}
+{"geometry":{"coordinates":[-53.552363,47.584877],"type":"Point"},"properties":{"CAUSE":"Under Investigation","CREW_STATUS":"En Route","CUSTOMER_COUNT":71,"ID":346778,"NLP_ALERT_REMARKS":null,"OBJECTID":65903,"POLYGONS_AFFECTED":"New Harbour,Dildo","TIME_OUTAGE":1794587813000,"TIME_RESTORED_EST":null,"X":263253.9323,"Y":5271891.1326},"type":"Feature"}
 ]}
