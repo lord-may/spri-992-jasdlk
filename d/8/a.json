@@ -2,9 +2,8 @@
 {"geometry":{"coordinates":[-66.50559,45.837832],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7521_PM_3L1L1","Incident_ID":"2001357495"},"type":"Feature"},
 {"geometry":{"coordinates":[-65.476711,47.024192],"type":"Point"},"properties":{"CustEff":4,"FieldLocationID":"7047_X97R2R2","Incident_ID":"2001357688"},"type":"Feature"},
 {"geometry":{"coordinates":[-64.58973,46.168024],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"8376_B262L35R4L7","Incident_ID":"2001357699"},"type":"Feature"},
-{"geometry":{"coordinates":[-66.71223,45.96516],"type":"Point"},"properties":{"CustEff":4,"FieldLocationID":"7529_149L2L2","Incident_ID":"2001357700"},"type":"Feature"},
-{"geometry":{"coordinates":[-66.713055,45.965415],"type":"Point"},"properties":{"CustEff":2,"FieldLocationID":"7529_149L2L1","Incident_ID":"2001357700"},"type":"Feature"},
-{"geometry":{"coordinates":[-66.714963,45.96453],"type":"Point"},"properties":{"CustEff":2,"FieldLocationID":"7529_149L4","Incident_ID":"2001357700"},"type":"Feature"},
-{"geometry":{"coordinates":[-64.588679,46.167621],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"8376_B262L35R4L5L1","Incident_ID":"2001357702"},"type":"Feature"},
-{"geometry":{"coordinates":[-65.584501,45.703878],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"8279_B79R2","Incident_ID":"2001357708"},"type":"Feature"}
+{"geometry":{"coordinates":[-64.588679,46.167621],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"8376_B262L35R4L5L1","Incident_ID":"2001357712"},"type":"Feature"},
+{"geometry":{"coordinates":[-66.119099,45.856164],"type":"Point"},"properties":{"CustEff":7,"FieldLocationID":"8288_J470R7L1","Incident_ID":"2001357713"},"type":"Feature"},
+{"geometry":{"coordinates":[-66.284926,45.923984],"type":"Point"},"properties":{"CustEff":2,"FieldLocationID":"7570_28R198R41L1L2","Incident_ID":"2001357714"},"type":"Feature"},
+{"geometry":{"coordinates":[-65.625839,46.970529],"type":"Point"},"properties":{"CustEff":1,"FieldLocationID":"7035_B131R2R1","Incident_ID":"2001357715"},"type":"Feature"}
 ]}
