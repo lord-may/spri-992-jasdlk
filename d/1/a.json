@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-112.767347,49.75696],"type":"Point"},"properties":{"CustomersAffected":1,"EstimatedRestore":"2026-11-14T18:30:00","IsPlanned":0,"MarkerCoordinate":{"Latitude":49.75696026171912,"Longitude":-112.76734662066667},"Number":"20739186","OutageStart":"2026-11-14T15:33:08","Reason":"Heavy Winds","Schedule":[],"Status":"Restoration in Progress"},"type":"Feature"}
 ]}
