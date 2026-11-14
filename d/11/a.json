@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-55.663142,48.949743],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":"On Site","CUSTOMER_COUNT":823,"ID":346906,"NLP_ALERT_REMARKS":null,"OBJECTID":66052,"POLYGONS_AFFECTED":"Grand Falls - Windsor (Park St - Peddle Dr),Grand Falls - Windsor (King St - Earle St)","TIME_OUTAGE":1794663261000,"TIME_RESTORED_EST":1794681029000,"X":109765.9005,"Y":5426914.4653},"type":"Feature"}
+{"geometry":{"coordinates":[-55.663142,48.949743],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":"On Site","CUSTOMER_COUNT":823,"ID":346906,"NLP_ALERT_REMARKS":null,"OBJECTID":66053,"POLYGONS_AFFECTED":"Grand Falls - Windsor (Park St - Peddle Dr),Grand Falls - Windsor (King St - Earle St)","TIME_OUTAGE":1794663261000,"TIME_RESTORED_EST":1794681029000,"X":109765.9005,"Y":5426914.4653},"type":"Feature"}
 ]}
