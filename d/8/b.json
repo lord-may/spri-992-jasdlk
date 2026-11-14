@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[[[-65.646618,47.61407],[-65.646666,47.615643],[-65.646824,47.614528],[-65.646765,47.614378],[-65.646618,47.61407]]],"type":"Polygon"},"properties":{"CustEff":48,"ESRI_OID":7565,"GlobalID":"bc4977b6-c542-4fc4-972a-a2647887dd6e","Incident_ID":"2001357835","Shape__Area":1278.8125,"Shape__Length":352.8340947695456,"TxCnt":4},"type":"Feature"}
+{"geometry":{"coordinates":[[[-65.646618,47.61407],[-65.646666,47.615643],[-65.650337,47.614457],[-65.646618,47.61407]]],"type":"Polygon"},"properties":{"CustEff":112,"ESRI_OID":7566,"GlobalID":"8f7d160a-c461-4dcd-80a2-b628920425d1","Incident_ID":"2001357835","Shape__Area":24383.201171875,"Shape__Length":763.8191408817197,"TxCnt":7},"type":"Feature"}
 ]}
