@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"geometries":[{"coordinates":[[[-80.31994,44.39671],[-80.31544,44.39744],[-80.31032,44.40032],[-80.3212,44.40303],[-80.32286,44.40215],[-80.323,44.39944],[-80.32233,44.39767],[-80.31994,44.39671]]],"type":"Polygon"},{"coordinates":[-80.31806,44.39979],"type":"Point"}],"type":"GeometryCollection"},"properties":{"cause":{"EN-US":"Pending Classification","fr-CA":"En voie de classification"},"cluster":false,"comments":null,"crew_icon":true,"crew_status":{"EN-US":"Under Investigation","fr-CA":"Évaluation en cours","orig":"G"},"cust_a":{"val":20},"etr":"ETR-EXP","etr_confidence":null,"inc_id":null,"n_out":1,"start_time":null,"title":"Area Outage"},"type":"Feature"}
+
 ]}
