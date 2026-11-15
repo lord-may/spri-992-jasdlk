@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-114.014316,51.244299],"type":"Point"},"properties":{"CustomersAffected":42,"EstimatedRestore":"2026-11-15T14:00:00","IsPlanned":0,"MarkerCoordinate":{"Latitude":51.24429857735342,"Longitude":-114.01431620094894},"Number":"20739204","OutageStart":"2026-11-15T09:51:06","Reason":"Unknown","Schedule":[],"Status":"Restoration in Progress"},"type":"Feature"}
+{"geometry":{"coordinates":[-114.000272,51.23967],"type":"Point"},"properties":{"CustomersAffected":42,"EstimatedRestore":"2026-11-15T15:00:00","IsPlanned":0,"MarkerCoordinate":{"Latitude":51.23966969700564,"Longitude":-114.00027195277269},"Number":"20739204","OutageStart":"2026-11-15T09:51:06","Reason":"Unknown","Schedule":[],"Status":"Restoration in Progress"},"type":"Feature"}
 ]}
