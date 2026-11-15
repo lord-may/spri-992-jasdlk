@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-54.853978,48.984598],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":36,"ID":346926,"NLP_ALERT_REMARKS":null,"OBJECTID":66118,"POLYGONS_AFFECTED":"Appleton","TIME_OUTAGE":1794747145000,"TIME_RESTORED_EST":1794763800000,"X":169115.735954602,"Y":5429027.53402612},"type":"Feature"},
-{"geometry":{"coordinates":[-57.12092,49.169517],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance (NL Hydro)","CREW_STATUS":null,"CUSTOMER_COUNT":492,"ID":346932,"NLP_ALERT_REMARKS":null,"OBJECTID":66119,"POLYGONS_AFFECTED":"Howley,Howley Cabin Area","TIME_OUTAGE":1794749499000,"TIME_RESTORED_EST":1794771016000,"X":4356.7322000004,"Y":5456115.6212},"type":"Feature"}
+{"geometry":{"coordinates":[-57.12092,49.169517],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance (NL Hydro)","CREW_STATUS":null,"CUSTOMER_COUNT":492,"ID":346932,"NLP_ALERT_REMARKS":null,"OBJECTID":66122,"POLYGONS_AFFECTED":"Howley,Howley Cabin Area","TIME_OUTAGE":1794749499000,"TIME_RESTORED_EST":1794771016000,"X":4356.7322000004,"Y":5456115.6212},"type":"Feature"}
 ]}
