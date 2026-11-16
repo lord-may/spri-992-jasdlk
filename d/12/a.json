@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-56.92028,49.74675],"type":"Point"},"properties":{"Area":"Addresses Affected: 2","Circuit":null,"CityID":0,"CityName":"","CommunityName":"Pollard's Point","CustomerAffected":0,"Header":"Central - Pollard's Point","OutageLatitude":49.74675,"OutageLongitude":-56.92028,"OutageRegionId":0,"OutageReportInfo":"Newfoundland Hydro would like to inform part of pollards point from 31 Main Street to the end of town are without power. Line crews have been notified. No ETA at this time. We would like to apologize for any inconvenience.","Outagedate":"15/11/26 17:15","OutagedateDB":"2026-11-15T17:15:00","Outageid":4613,"Region":"Central","RestorationTime":"","Restorationdate":"","RestorationdateDB":null,"STATUS":null,"ServiceTypeID":1,"Title":"Under Investigation","Towns":"POLLARDS POINT","ZipCode":"Under Investigation"},"type":"Feature"}
+
 ]}
