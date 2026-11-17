@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-71.962106,45.401242],"type":"Point"},"properties":{"adresse":"3750 Boulevard Industriel Sherbrooke","cause_panne":0,"debut_panne":1794921974000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
 ]}
