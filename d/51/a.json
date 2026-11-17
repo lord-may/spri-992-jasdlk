@@ -1,3 +1,11 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.962106,45.401242],"type":"Point"},"properties":{"adresse":"3750 Boulevard Industriel Sherbrooke","cause_panne":0,"debut_panne":1794921974000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
+{"geometry":{"coordinates":[-71.862663,45.40285],"type":"Point"},"properties":{"adresse":"1185 Rue de Bayeux Sherbrooke","cause_panne":1,"debut_panne":1794925454000,"retablissement_panne":1794933000000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.862404,45.402853],"type":"Point"},"properties":{"adresse":"1195 Rue de Bayeux Sherbrooke","cause_panne":1,"debut_panne":1794925454000,"retablissement_panne":1794933000000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.862075,45.402853],"type":"Point"},"properties":{"adresse":"1205 Rue de Bayeux Sherbrooke","cause_panne":1,"debut_panne":1794925454000,"retablissement_panne":1794933000000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.861763,45.402848],"type":"Point"},"properties":{"adresse":"1225 Rue de Bayeux Sherbrooke","cause_panne":1,"debut_panne":1794925454000,"retablissement_panne":1794933000000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.86171,45.403124],"type":"Point"},"properties":{"adresse":"1228 Rue du Conseil Sherbrooke","cause_panne":1,"debut_panne":1794925454000,"retablissement_panne":1794933000000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.861514,45.402857],"type":"Point"},"properties":{"adresse":"1235 Rue de Bayeux Sherbrooke","cause_panne":1,"debut_panne":1794925454000,"retablissement_panne":1794933000000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.861523,45.40309],"type":"Point"},"properties":{"adresse":"1238 Rue du Conseil Sherbrooke","cause_panne":1,"debut_panne":1794925454000,"retablissement_panne":1794933000000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.861523,45.40309],"type":"Point"},"properties":{"adresse":"1240 Rue du Conseil Sherbrooke","cause_panne":1,"debut_panne":1794925454000,"retablissement_panne":1794933000000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.962106,45.401242],"type":"Point"},"properties":{"adresse":"3750 Boulevard Industriel Sherbrooke","cause_panne":1,"debut_panne":1794921974000,"retablissement_panne":1794927600000,"statut_panne":2},"type":"Feature"}
 ]}
