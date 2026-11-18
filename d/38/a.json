@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[[[-76.694121,45.477047],[-76.687692,45.481539],[-76.689472,45.482428],[-76.692497,45.480151],[-76.69381,45.481134],[-76.696035,45.47973],[-76.695367,45.479246],[-76.696702,45.47842],[-76.694789,45.477047],[-76.694344,45.477343],[-76.694121,45.477047]]],"type":"Polygon"},"properties":{"OBJECTID":27,"Shape__Area":331823.3203125,"Shape__Length":3026.125663890685,"Types":1,"causeprimary":1,"causesub":null,"crewstatus":4,"customercountrange":2,"estimatedrestorationtime":1795028400000,"eventstatus":3,"starttime":1795012200000},"type":"Feature"}
 ]}
