@@ -1,8 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.841513,45.420159],"type":"Point"},"properties":{"adresse":"1162 Rue Samuel-Brisson Sherbrooke","cause_panne":0,"debut_panne":1795003035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.84141,45.419988],"type":"Point"},"properties":{"adresse":"1168 Rue Samuel-Brisson Sherbrooke","cause_panne":0,"debut_panne":1795003035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.841268,45.419866],"type":"Point"},"properties":{"adresse":"1174 Rue Samuel-Brisson Sherbrooke","cause_panne":0,"debut_panne":1795003035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.841108,45.419705],"type":"Point"},"properties":{"adresse":"1180 Rue Samuel-Brisson Sherbrooke","cause_panne":0,"debut_panne":1795003035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.840994,45.419587],"type":"Point"},"properties":{"adresse":"1186 Rue Samuel-Brisson Sherbrooke","cause_panne":0,"debut_panne":1795003035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.840907,45.419465],"type":"Point"},"properties":{"adresse":"1192 Rue Samuel-Brisson Sherbrooke","cause_panne":0,"debut_panne":1795003035000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
+
 ]}
