@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[[[-113.590361,53.551113],[-113.590402,53.558927],[-113.596489,53.558927],[-113.597391,53.558265],[-113.598015,53.557578],[-113.599498,53.557136],[-113.600587,53.556625],[-113.6015,53.556003],[-113.602207,53.555293],[-113.602765,53.554316],[-113.602934,53.55329],[-113.602783,53.552469],[-113.602208,53.551304],[-113.593631,53.551283],[-113.591184,53.551107],[-113.590361,53.551113]]],"type":"Polygon"},"properties":{"GlobalID":"8a0c699c-b8cd-4f14-872d-09e0eb525f1f","OBJECTID":13092,"Shape__Area":null,"Shape__Length":null,"affcusts":"52","affstree":"107 AVENUE [WESTBOUND SIDE] NW, 107 AVENUE NW - 110B AVENUE NW, 111 AVENUE [EASTBOUND SIDE] NW, 156 STREET NW - 161 STREET NW, 163 STREET NW","cause":"Damaged power equipment","estresto":"Nov-18 3:00 PM","faulted":"Nov-18 12:21 PM","id":"INC 114038623","nbhoods":"Mayfield"},"type":"Feature"}
+
 ]}
