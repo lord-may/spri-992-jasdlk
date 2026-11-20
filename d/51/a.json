@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-72.030681,45.350919],"type":"Point"},"properties":{"adresse":"1237 Chemin Saint-Roch Nord Sherbrooke","cause_panne":0,"debut_panne":1795183156000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.030681,45.350919],"type":"Point"},"properties":{"adresse":"1237 Chemin Saint-Roch Nord Sherbrooke","cause_panne":0,"debut_panne":1795183156000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
+
 ]}
