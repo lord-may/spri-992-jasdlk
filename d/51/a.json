@@ -1,10 +1,4 @@
 {"type":"FeatureCollection","features":[
 {"geometry":{"coordinates":[-72.030681,45.350919],"type":"Point"},"properties":{"adresse":"1237 Chemin Saint-Roch Nord Sherbrooke","cause_panne":0,"debut_panne":1795183156000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.030681,45.350919],"type":"Point"},"properties":{"adresse":"1237 Chemin Saint-Roch Nord Sherbrooke","cause_panne":0,"debut_panne":1795183156000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-71.866656,45.417588],"type":"Point"},"properties":{"adresse":"555 Rue des Jonquilles Sherbrooke","cause_panne":0,"debut_panne":1795185493000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.866864,45.417303],"type":"Point"},"properties":{"adresse":"840 Rue des Jacinthes Sherbrooke","cause_panne":0,"debut_panne":1795185493000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.867146,45.417358],"type":"Point"},"properties":{"adresse":"850 Rue des Jacinthes Sherbrooke","cause_panne":0,"debut_panne":1795185493000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.867452,45.417373],"type":"Point"},"properties":{"adresse":"860 Rue des Jacinthes Sherbrooke","cause_panne":0,"debut_panne":1795185493000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.867685,45.417383],"type":"Point"},"properties":{"adresse":"870 Rue des Jacinthes Sherbrooke","cause_panne":0,"debut_panne":1795185493000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-71.86793,45.417363],"type":"Point"},"properties":{"adresse":"880 Rue des Jacinthes Sherbrooke","cause_panne":0,"debut_panne":1795185493000,"retablissement_panne":null,"statut_panne":1},"type":"Feature"}
+{"geometry":{"coordinates":[-72.030681,45.350919],"type":"Point"},"properties":{"adresse":"1237 Chemin Saint-Roch Nord Sherbrooke","cause_panne":0,"debut_panne":1795183156000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
 ]}
