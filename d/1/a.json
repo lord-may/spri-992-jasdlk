@@ -1,4 +1,4 @@
 {"type":"FeatureCollection","features":[
 {"geometry":{"coordinates":[-112.599499,50.004402],"type":"Point"},"properties":{"CustomersAffected":7,"EstimatedRestore":null,"IsPlanned":0,"MarkerCoordinate":{"Latitude":50.00440152238874,"Longitude":-112.59949914642195},"Number":"20739606","OutageStart":"2026-11-18T23:35:37","Reason":"Ice/Snow Build Up On Equipment","Schedule":[],"Status":"Restoration in Progress"},"type":"Feature"},
-{"geometry":{"coordinates":[-111.791498,50.455239],"type":"Point"},"properties":{"CustomersAffected":6,"EstimatedRestore":"2026-11-20T07:00:00","IsPlanned":0,"MarkerCoordinate":{"Latitude":50.45523851267757,"Longitude":-111.79149760907086},"Number":"20739709","OutageStart":"2026-11-20T04:16:32","Reason":"Unknown","Schedule":[],"Status":"Under Investigation"},"type":"Feature"}
+{"geometry":{"coordinates":[-111.794859,50.440413],"type":"Point"},"properties":{"CustomersAffected":1,"EstimatedRestore":null,"IsPlanned":0,"MarkerCoordinate":{"Latitude":50.44041313480775,"Longitude":-111.7948593030478},"Number":"20739710","OutageStart":"2026-11-20T04:29:36","Reason":"Unknown","Schedule":[],"Status":"Restoration in Progress"},"type":"Feature"}
 ]}
