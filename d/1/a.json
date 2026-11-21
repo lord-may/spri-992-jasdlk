@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-111.972519,50.607398],"type":"Point"},"properties":{"CustomersAffected":1,"EstimatedRestore":"2026-11-22T00:30:00","IsPlanned":0,"MarkerCoordinate":{"Latitude":50.607398050274895,"Longitude":-111.97251907555913},"Number":"20739767","OutageStart":"2026-11-21T21:45:10","Reason":"Unknown","Schedule":[],"Status":"Under Investigation"},"type":"Feature"}
 ]}
