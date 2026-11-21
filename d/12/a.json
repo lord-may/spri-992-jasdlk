@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-56.14555,52.76696],"type":"Point"},"properties":{"Area":"Addresses Affected: 2","Circuit":null,"CityID":0,"CityName":"","CommunityName":"Charlottetown","CustomerAffected":0,"Header":"Northern - Charlottetown","OutageLatitude":52.76696,"OutageLongitude":-56.14555,"OutageRegionId":0,"OutageReportInfo":"There has been a power outage effecting Charlottetown. Unit 2102 opened the breaker in Charlottetown causing an outage to customers in the community. DSR will restore power with another unit and investigate tomorrow if there are still issues with Unit 2102. The outage is under investigation.","Outagedate":"21/11/26 00:43","OutagedateDB":"2026-11-21T00:43:00","Outageid":4617,"Region":"Northern","RestorationTime":"","Restorationdate":"","RestorationdateDB":null,"STATUS":null,"ServiceTypeID":1,"Title":"Under Investigation","Towns":"CHARLOTTETOWN","ZipCode":"Under Investigation"},"type":"Feature"}
+
 ]}
