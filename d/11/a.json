@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-59.359911,47.862322],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":49,"ID":113202327,"NLP_ALERT_REMARKS":null,"OBJECTID":66323,"POLYGONS_AFFECTED":"Codroy - Millville","TIME_OUTAGE":1795261020000,"TIME_RESTORED_EST":1795294800000,"X":-170926.676,"Y":5322205.2592},"type":"Feature"}
+{"geometry":{"coordinates":[-59.359911,47.862322],"type":"Point"},"properties":{"CAUSE":"Scheduled Maintenance","CREW_STATUS":null,"CUSTOMER_COUNT":49,"ID":113202327,"NLP_ALERT_REMARKS":null,"OBJECTID":66325,"POLYGONS_AFFECTED":"Codroy - Millville","TIME_OUTAGE":1795261020000,"TIME_RESTORED_EST":1795294800000,"X":-170926.676,"Y":5322205.2592},"type":"Feature"}
 ]}
