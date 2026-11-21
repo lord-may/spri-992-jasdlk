@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
+{"geometry":{"coordinates":[-79.468807,44.064689],"type":"Point"},"properties":{"CAUSE":null,"COMMENTS":null,"CREW":"Yes","CUSTOMERS":null,"ETR":"2","GlobalID":"237db98c-7199-4a49-af8d-ff7d163d8dc3","INCIDENTID":null,"OBJECTID":2541,"PLANNED":"No","PLANNEDDATE":null,"STATUS":null},"type":"Feature"},
 {"geometry":{"coordinates":[-79.471216,44.026651],"type":"Point"},"properties":{"CAUSE":"Underground Cable Fault","COMMENTS":"ETR 12:30PM","CREW":"Yes","CUSTOMERS":150,"ETR":"1","GlobalID":"e6fd3d89-4abc-437b-bb33-0a2ec1f45860","INCIDENTID":null,"OBJECTID":2540,"PLANNED":"No","PLANNEDDATE":null,"STATUS":"Restored"},"type":"Feature"}
 ]}
