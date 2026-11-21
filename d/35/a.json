@@ -1,5 +1,5 @@
 {"type":"FeatureCollection","features":[
 {"geometry":{"coordinates":[-79.468807,44.064689],"type":"Point"},"properties":{"CAUSE":null,"COMMENTS":null,"CREW":"Yes","CUSTOMERS":null,"ETR":"2","GlobalID":"237db98c-7199-4a49-af8d-ff7d163d8dc3","INCIDENTID":null,"OBJECTID":2541,"PLANNED":"No","PLANNEDDATE":null,"STATUS":null},"type":"Feature"},
-{"geometry":{"coordinates":[-79.469862,44.069796],"type":"Point"},"properties":{"CAUSE":"Motor Vehicle Accident","COMMENTS":"ETR 7:00AM-8:00AM","CREW":"Yes","CUSTOMERS":8,"ETR":"2","GlobalID":"61763ad6-45b0-49b6-8065-30e7593dc77b","INCIDENTID":null,"OBJECTID":2542,"PLANNED":"No","PLANNEDDATE":null,"STATUS":"Active"},"type":"Feature"},
+{"geometry":{"coordinates":[-79.469862,44.069796],"type":"Point"},"properties":{"CAUSE":"Motor Vehicle Accident","COMMENTS":"ETR 7:00AM-8:00AM","CREW":"Yes","CUSTOMERS":8,"ETR":"2","GlobalID":"61763ad6-45b0-49b6-8065-30e7593dc77b","INCIDENTID":null,"OBJECTID":2542,"PLANNED":"No","PLANNEDDATE":null,"STATUS":"Restored"},"type":"Feature"},
 {"geometry":{"coordinates":[-79.471216,44.026651],"type":"Point"},"properties":{"CAUSE":"Underground Cable Fault","COMMENTS":"ETR 12:30PM","CREW":"Yes","CUSTOMERS":150,"ETR":"1","GlobalID":"e6fd3d89-4abc-437b-bb33-0a2ec1f45860","INCIDENTID":null,"OBJECTID":2540,"PLANNED":"No","PLANNEDDATE":null,"STATUS":"Restored"},"type":"Feature"}
 ]}
