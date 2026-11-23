@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-53.976634,47.257919],"type":"Point"},"properties":{"CAUSE":"Unknown","CREW_STATUS":"Crew Assigned","CUSTOMER_COUNT":81,"ID":113202447,"NLP_ALERT_REMARKS":null,"OBJECTID":66533,"POLYGONS_AFFECTED":"Freshwater - Jerseyside","TIME_OUTAGE":1795474311000,"TIME_RESTORED_EST":1795482000000,"X":230886.6123,"Y":5235858.7112},"type":"Feature"}
+{"geometry":{"coordinates":[-53.976634,47.257919],"type":"Point"},"properties":{"CAUSE":"Unknown","CREW_STATUS":"Crew Assigned","CUSTOMER_COUNT":81,"ID":113202447,"NLP_ALERT_REMARKS":null,"OBJECTID":66535,"POLYGONS_AFFECTED":"Freshwater - Jerseyside","TIME_OUTAGE":1795474311000,"TIME_RESTORED_EST":1795482000000,"X":230886.6123,"Y":5235858.7112},"type":"Feature"}
 ]}
