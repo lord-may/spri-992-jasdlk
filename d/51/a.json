@@ -1,3 +1,11 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-71.831401,45.413838],"type":"Point"},"properties":{"adresse":"19 Rue Allard Sherbrooke","cause_panne":5,"debut_panne":1795453814000,"retablissement_panne":1795457472000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.8305,45.413178],"type":"Point"},"properties":{"adresse":"22 Rue Allard Sherbrooke","cause_panne":5,"debut_panne":1795453814000,"retablissement_panne":1795457472000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.831286,45.413619],"type":"Point"},"properties":{"adresse":"23 Rue Allard Sherbrooke","cause_panne":5,"debut_panne":1795453814000,"retablissement_panne":1795457472000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.830412,45.413028],"type":"Point"},"properties":{"adresse":"26 Rue Allard Sherbrooke","cause_panne":5,"debut_panne":1795453814000,"retablissement_panne":1795457472000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.831194,45.413407],"type":"Point"},"properties":{"adresse":"27 Rue Allard Sherbrooke","cause_panne":5,"debut_panne":1795453814000,"retablissement_panne":1795457472000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.830281,45.412842],"type":"Point"},"properties":{"adresse":"30 Rue Allard Sherbrooke","cause_panne":5,"debut_panne":1795453814000,"retablissement_panne":1795457472000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.831107,45.413225],"type":"Point"},"properties":{"adresse":"31 Rue Allard Sherbrooke","cause_panne":5,"debut_panne":1795453814000,"retablissement_panne":1795457472000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.830926,45.412931],"type":"Point"},"properties":{"adresse":"37 Rue Allard Sherbrooke","cause_panne":5,"debut_panne":1795453814000,"retablissement_panne":1795457472000,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.830761,45.412619],"type":"Point"},"properties":{"adresse":"43 Rue Allard Sherbrooke","cause_panne":5,"debut_panne":1795453814000,"retablissement_panne":1795457472000,"statut_panne":2},"type":"Feature"}
 ]}
