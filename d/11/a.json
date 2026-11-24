@@ -1,6 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-57.989494,48.928759],"type":"Point"},"properties":{"CAUSE":"Unknown","CREW_STATUS":"Onsite","CUSTOMER_COUNT":37,"ID":113202442,"NLP_ALERT_REMARKS":null,"OBJECTID":66570,"POLYGONS_AFFECTED":"Corner Brook (Lundrigan Drive)","TIME_OUTAGE":1795470420000,"TIME_RESTORED_EST":1795487400000,"X":-60711.3019000003,"Y":5433174.0928},"type":"Feature"},
-{"geometry":{"coordinates":[-57.990638,48.929136],"type":"Point"},"properties":{"CAUSE":"Unknown","CREW_STATUS":"Onsite","CUSTOMER_COUNT":37,"ID":113202442,"NLP_ALERT_REMARKS":null,"OBJECTID":66571,"POLYGONS_AFFECTED":"Corner Brook (Lundrigan Drive)","TIME_OUTAGE":1795470420000,"TIME_RESTORED_EST":1795487400000,"X":-60792.3229,"Y":5433221.4641},"type":"Feature"},
-{"geometry":{"coordinates":[-53.976634,47.257919],"type":"Point"},"properties":{"CAUSE":"Other Enviromental Issue","CREW_STATUS":"Completed","CUSTOMER_COUNT":149,"ID":113202447,"NLP_ALERT_REMARKS":null,"OBJECTID":66572,"POLYGONS_AFFECTED":"Freshwater - Jerseyside","TIME_OUTAGE":1795474311000,"TIME_RESTORED_EST":1795487400000,"X":230886.6123,"Y":5235858.7112},"type":"Feature"},
-{"geometry":{"coordinates":[-53.68408,47.516331],"type":"Point"},"properties":{"CAUSE":"Unknown","CREW_STATUS":"Onsite","CUSTOMER_COUNT":667,"ID":113202462,"NLP_ALERT_REMARKS":null,"OBJECTID":66573,"POLYGONS_AFFECTED":"Chance Cove - Fair Haven,Chapel Arm - Long Cove,Thornlea - Bellevue","TIME_OUTAGE":1795481331000,"TIME_RESTORED_EST":1795491000000,"X":253279.8197,"Y":5264349.7724},"type":"Feature"}
+
 ]}
