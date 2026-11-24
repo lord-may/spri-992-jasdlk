@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-53.102339,48.63903],"type":"Point"},"properties":{"CAUSE":"Emergency Repairs","CREW_STATUS":"Onsite","CUSTOMER_COUNT":764,"ID":113202524,"NLP_ALERT_REMARKS":null,"OBJECTID":66581,"POLYGONS_AFFECTED":"Bonavista (Coster St - John Cabot Dr),Bonavista (Town Centre - Mockbeggar Rd),Elliston - Maberly,Spillar's Cove Rd","TIME_OUTAGE":1795523871000,"TIME_RESTORED_EST":1795527000000,"X":297258.0822,"Y":5388950.5366},"type":"Feature"}
 ]}
