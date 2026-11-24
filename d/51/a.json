@@ -1,17 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-72.109379,45.454463],"type":"Point"},"properties":{"adresse":"635 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.109371,45.454278],"type":"Point"},"properties":{"adresse":"645 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.109214,45.454051],"type":"Point"},"properties":{"adresse":"655 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.108773,45.453814],"type":"Point"},"properties":{"adresse":"695 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.108731,45.453645],"type":"Point"},"properties":{"adresse":"705 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.108608,45.4535],"type":"Point"},"properties":{"adresse":"715 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.108445,45.453141],"type":"Point"},"properties":{"adresse":"725 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.107715,45.453247],"type":"Point"},"properties":{"adresse":"735 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.107105,45.453168],"type":"Point"},"properties":{"adresse":"745 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.106836,45.452987],"type":"Point"},"properties":{"adresse":"755 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.106687,45.452991],"type":"Point"},"properties":{"adresse":"765 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.106473,45.45296],"type":"Point"},"properties":{"adresse":"775 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.106545,45.453343],"type":"Point"},"properties":{"adresse":"784 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.10614,45.45302],"type":"Point"},"properties":{"adresse":"795 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.106023,45.453223],"type":"Point"},"properties":{"adresse":"805 Rue Deslandes Saint-Denis-de-Brompton","cause_panne":0,"debut_panne":1795552997000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
+
 ]}
