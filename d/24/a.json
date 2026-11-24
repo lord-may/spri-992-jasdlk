@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-84.532733,46.935291],"type":"Point"},"properties":{"cause":null,"code":null,"crewAssigned":false,"customersOutInitially":5,"customersOutNow":5,"customersRestored":0,"estimatedTimeOfRestoral":null,"isPlanned":false,"outageEndTime":null,"outageModifiedTime":"2026-11-24T08:57:53.92-05:00","outageName":"T5221  079","outagePoint":{"lat":46.935291422229874,"lng":-84.5327327166961},"outageRecID":"2026-11-24-0243","outageStartTime":"2026-11-24T08:53:19-05:00","outageWorkStatus":"","streetsAffected":null,"verified":false},"type":"Feature"}
 ]}
