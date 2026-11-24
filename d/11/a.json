@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-54.020322,47.212793],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":null,"CUSTOMER_COUNT":580,"ID":113202556,"NLP_ALERT_REMARKS":null,"OBJECTID":66584,"POLYGONS_AFFECTED":"Glynn's Cove - Cuslett,St. Bride's - Branch","TIME_OUTAGE":1795543406000,"TIME_RESTORED_EST":1795552200000,"X":227514.6474,"Y":5230884.7439},"type":"Feature"}
+{"geometry":{"coordinates":[-54.020322,47.212793],"type":"Point"},"properties":{"CAUSE":"Equipment Problems","CREW_STATUS":null,"CUSTOMER_COUNT":580,"ID":113202556,"NLP_ALERT_REMARKS":null,"OBJECTID":66585,"POLYGONS_AFFECTED":"Glynn's Cove - Cuslett,St. Bride's - Branch","TIME_OUTAGE":1795543406000,"TIME_RESTORED_EST":1795548600000,"X":227514.6474,"Y":5230884.7439},"type":"Feature"}
 ]}
