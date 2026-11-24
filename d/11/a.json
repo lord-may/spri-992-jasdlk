@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-53.68408,47.516331],"type":"Point"},"properties":{"CAUSE":"Trees on Power Lines","CREW_STATUS":"Onsite","CUSTOMER_COUNT":104,"ID":113202462,"NLP_ALERT_REMARKS":null,"OBJECTID":66574,"POLYGONS_AFFECTED":"Chance Cove - Fair Haven,Chapel Arm - Long Cove,Thornlea - Bellevue","TIME_OUTAGE":1795481331000,"TIME_RESTORED_EST":1795512600000,"X":253279.8197,"Y":5264349.7724},"type":"Feature"}
+{"geometry":{"coordinates":[-53.68408,47.516331],"type":"Point"},"properties":{"CAUSE":"Trees on Power Lines","CREW_STATUS":"Onsite","CUSTOMER_COUNT":104,"ID":113202462,"NLP_ALERT_REMARKS":null,"OBJECTID":66576,"POLYGONS_AFFECTED":"Chance Cove - Fair Haven,Chapel Arm - Long Cove,Thornlea - Bellevue","TIME_OUTAGE":1795481331000,"TIME_RESTORED_EST":1795512600000,"X":253279.8197,"Y":5264349.7724},"type":"Feature"}
 ]}
