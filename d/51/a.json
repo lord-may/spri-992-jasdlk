@@ -1,17 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-72.146127,45.47089],"type":"Point"},"properties":{"adresse":"664 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.146127,45.47089],"type":"Point"},"properties":{"adresse":"664 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.147118,45.469325],"type":"Point"},"properties":{"adresse":"668 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.146251,45.469156],"type":"Point"},"properties":{"adresse":"670 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.146251,45.469156],"type":"Point"},"properties":{"adresse":"670 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.145778,45.469527],"type":"Point"},"properties":{"adresse":"672 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.146723,45.470048],"type":"Point"},"properties":{"adresse":"674 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.145481,45.469761],"type":"Point"},"properties":{"adresse":"676 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.147136,45.469817],"type":"Point"},"properties":{"adresse":"678 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.146403,45.47057],"type":"Point"},"properties":{"adresse":"680 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.145612,45.470351],"type":"Point"},"properties":{"adresse":"682 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.145338,45.470618],"type":"Point"},"properties":{"adresse":"684 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.145254,45.470871],"type":"Point"},"properties":{"adresse":"686 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.145246,45.471186],"type":"Point"},"properties":{"adresse":"688 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"},
-{"geometry":{"coordinates":[-72.147378,45.469718],"type":"Point"},"properties":{"adresse":"690 Chemin des Baies Racine","cause_panne":0,"debut_panne":1795628054000,"retablissement_panne":1795631400000,"statut_panne":1},"type":"Feature"}
+
 ]}
