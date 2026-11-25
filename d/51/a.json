@@ -1,3 +1,9 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.97351,45.378834],"type":"Point"},"properties":{"adresse":"4372 Boulevard Bourque Sherbrooke","cause_panne":0,"debut_panne":1795598836000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
+{"geometry":{"coordinates":[-71.801599,45.428253],"type":"Point"},"properties":{"adresse":"283 Rue des Boisés Ascot Corner","cause_panne":0,"debut_panne":1795625656000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.802068,45.428215],"type":"Point"},"properties":{"adresse":"286 Rue des Boisés Ascot Corner","cause_panne":0,"debut_panne":1795625656000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.801497,45.427606],"type":"Point"},"properties":{"adresse":"295 Rue des Boisés Ascot Corner","cause_panne":0,"debut_panne":1795625656000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.802406,45.427291],"type":"Point"},"properties":{"adresse":"309 Rue des Boisés Ascot Corner","cause_panne":0,"debut_panne":1795625656000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.803241,45.428014],"type":"Point"},"properties":{"adresse":"310 Rue des Boisés Ascot Corner","cause_panne":0,"debut_panne":1795625656000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.804267,45.427636],"type":"Point"},"properties":{"adresse":"325 Rue des Boisés Ascot Corner","cause_panne":0,"debut_panne":1795625656000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
+{"geometry":{"coordinates":[-71.97351,45.378834],"type":"Point"},"properties":{"adresse":"4372 Boulevard Bourque Sherbrooke","cause_panne":0,"debut_panne":1795598836000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"}
 ]}
