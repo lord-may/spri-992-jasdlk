@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-57.617351,49.012211],"type":"Point"},"properties":{"CAUSE":"Unknown","CREW_STATUS":null,"CUSTOMER_COUNT":124,"ID":113202569,"NLP_ALERT_REMARKS":null,"OBJECTID":66592,"POLYGONS_AFFECTED":"Pasadena - South Brook - Boom Siding","TIME_OUTAGE":1795563053000,"TIME_RESTORED_EST":1795572000000,"X":-32892.8324999996,"Y":5440722.9768},"type":"Feature"}
+{"geometry":{"coordinates":[-57.617351,49.012211],"type":"Point"},"properties":{"CAUSE":"Unknown","CREW_STATUS":"Crew Assigned","CUSTOMER_COUNT":124,"ID":113202569,"NLP_ALERT_REMARKS":null,"OBJECTID":66593,"POLYGONS_AFFECTED":"Pasadena - South Brook - Boom Siding","TIME_OUTAGE":1795563053000,"TIME_RESTORED_EST":1795572000000,"X":-32892.8324999996,"Y":5440722.9768},"type":"Feature"}
 ]}
