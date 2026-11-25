@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-60.38015,53.31276],"type":"Point"},"properties":{"Area":"Addresses Affected: 2","Circuit":null,"CityID":0,"CityName":"","CommunityName":"German Hanger","CustomerAffected":0,"Header":"Labrador - German Hanger","OutageLatitude":53.31276,"OutageLongitude":-60.38015,"OutageRegionId":0,"OutageReportInfo":"Crews have located the trouble on feeder 15. Repairs should be made within the next hour. NL Hydro apologizes for any inconvenience this may cause","Outagedate":"24/11/26 23:21","OutagedateDB":"2026-11-24T23:21:00","Outageid":4618,"Region":"Labrador","RestorationTime":"","Restorationdate":"","RestorationdateDB":null,"STATUS":null,"ServiceTypeID":1,"Title":"Under Investigation","Towns":"HAPPY VALLEY-GOOSE BAY","ZipCode":"Under Investigation"},"type":"Feature"}
+
 ]}
