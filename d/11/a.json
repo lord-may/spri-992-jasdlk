@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-54.178583,47.879977],"type":"Point"},"properties":{"CAUSE":"Unknown","CREW_STATUS":"Onsite","CUSTOMER_COUNT":165,"ID":113202609,"NLP_ALERT_REMARKS":null,"OBJECTID":66632,"POLYGONS_AFFECTED":"Goobies - Swift Current","TIME_OUTAGE":1795636260000,"TIME_RESTORED_EST":1795647600000,"X":216653.0902,"Y":5305223.1972},"type":"Feature"}
+{"geometry":{"coordinates":[-54.178583,47.879977],"type":"Point"},"properties":{"CAUSE":"Unknown","CREW_STATUS":"Onsite","CUSTOMER_COUNT":165,"ID":113202609,"NLP_ALERT_REMARKS":null,"OBJECTID":66634,"POLYGONS_AFFECTED":"Goobies - Swift Current","TIME_OUTAGE":1795636260000,"TIME_RESTORED_EST":1795647600000,"X":216653.0902,"Y":5305223.1972},"type":"Feature"}
 ]}
