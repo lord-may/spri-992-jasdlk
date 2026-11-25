@@ -1,11 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.985361,45.385269],"type":"Point"},"properties":{"adresse":"1474 Rue Marini Sherbrooke","cause_panne":0,"debut_panne":1795574115000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-71.985447,45.385278],"type":"Point"},"properties":{"adresse":"1476 Rue Marini Sherbrooke","cause_panne":0,"debut_panne":1795574115000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-71.985627,45.385289],"type":"Point"},"properties":{"adresse":"1478 Rue Marini Sherbrooke","cause_panne":0,"debut_panne":1795574115000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-71.985713,45.385297],"type":"Point"},"properties":{"adresse":"1480 Rue Marini Sherbrooke","cause_panne":0,"debut_panne":1795574115000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-71.98588,45.385305],"type":"Point"},"properties":{"adresse":"1482 Rue Marini Sherbrooke","cause_panne":0,"debut_panne":1795574115000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-71.985969,45.385317],"type":"Point"},"properties":{"adresse":"1484 Rue Marini Sherbrooke","cause_panne":0,"debut_panne":1795574115000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-71.986031,45.384954],"type":"Point"},"properties":{"adresse":"1485 Rue de Montmartre Sherbrooke","cause_panne":0,"debut_panne":1795574115000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-71.986115,45.384961],"type":"Point"},"properties":{"adresse":"1487 Rue de Montmartre Sherbrooke","cause_panne":0,"debut_panne":1795574115000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-71.98634,45.384974],"type":"Point"},"properties":{"adresse":"1489 Rue de Montmartre Sherbrooke","cause_panne":0,"debut_panne":1795574115000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
+
 ]}
