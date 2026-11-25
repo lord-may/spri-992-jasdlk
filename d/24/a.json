@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-84.624272,46.963554],"type":"Point"},"properties":{"cause":null,"code":null,"crewAssigned":false,"customersOutInitially":398,"customersOutNow":0,"customersRestored":398,"estimatedTimeOfRestoral":null,"isPlanned":false,"outageEndTime":"2026-11-25T10:48:00-05:00","outageModifiedTime":"2026-11-25T11:16:10.79-05:00","outageName":"Scheduled Outage #55","outagePoint":{"lat":46.9635536676075,"lng":-84.62427225130645},"outageRecID":"2026-11-25-0249","outageStartTime":"2026-11-25T09:08:06-05:00","outageWorkStatus":"","streetsAffected":null,"verified":true},"type":"Feature"}
+
 ]}
