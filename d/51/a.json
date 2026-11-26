@@ -1,9 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-71.964029,45.363304],"type":"Point"},"properties":{"adresse":"3905 Rue Grignon Sherbrooke","cause_panne":5,"debut_panne":1795658834000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.963401,45.363576],"type":"Point"},"properties":{"adresse":"4103 Boulevard de l'Université Sherbrooke","cause_panne":5,"debut_panne":1795658834000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.963401,45.363576],"type":"Point"},"properties":{"adresse":"4105 Boulevard de l'Université Sherbrooke","cause_panne":5,"debut_panne":1795658834000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.964066,45.362946],"type":"Point"},"properties":{"adresse":"4137 Boulevard de l'Université Sherbrooke","cause_panne":5,"debut_panne":1795658834000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.964429,45.362812],"type":"Point"},"properties":{"adresse":"4139 Boulevard de l'Université Sherbrooke","cause_panne":5,"debut_panne":1795658834000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.96438,45.362689],"type":"Point"},"properties":{"adresse":"4145 Boulevard de l'Université Sherbrooke","cause_panne":5,"debut_panne":1795658834000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"},
-{"geometry":{"coordinates":[-71.964381,45.362572],"type":"Point"},"properties":{"adresse":"4169 Boulevard de l'Université Sherbrooke","cause_panne":5,"debut_panne":1795658834000,"retablissement_panne":null,"statut_panne":2},"type":"Feature"}
+
 ]}
