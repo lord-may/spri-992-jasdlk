@@ -1,10 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-72.011015,45.393505],"type":"Point"},"properties":{"adresse":"50 Rue du Nordet Sherbrooke","cause_panne":0,"debut_panne":1795783335000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.010922,45.393337],"type":"Point"},"properties":{"adresse":"58 Rue du Nordet Sherbrooke","cause_panne":0,"debut_panne":1795783335000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.010298,45.393288],"type":"Point"},"properties":{"adresse":"63 Rue du Nordet Sherbrooke","cause_panne":0,"debut_panne":1795783335000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.010843,45.393128],"type":"Point"},"properties":{"adresse":"64 Rue du Nordet Sherbrooke","cause_panne":0,"debut_panne":1795783335000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.010248,45.393155],"type":"Point"},"properties":{"adresse":"67 Rue du Nordet Sherbrooke","cause_panne":0,"debut_panne":1795783335000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.010767,45.392978],"type":"Point"},"properties":{"adresse":"72 Rue du Nordet Sherbrooke","cause_panne":0,"debut_panne":1795783335000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.010142,45.3929],"type":"Point"},"properties":{"adresse":"75 Rue du Nordet Sherbrooke","cause_panne":0,"debut_panne":1795783335000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
-{"geometry":{"coordinates":[-72.010683,45.392786],"type":"Point"},"properties":{"adresse":"80 Rue du Nordet Sherbrooke","cause_panne":0,"debut_panne":1795783335000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
+
 ]}
