@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-54.875382,49.579848],"type":"Point"},"properties":{"CAUSE":"Unknown","CREW_STATUS":null,"CUSTOMER_COUNT":81,"ID":113202660,"NLP_ALERT_REMARKS":null,"OBJECTID":66803,"POLYGONS_AFFECTED":"Tizzards Harbour - Moreton's Harbour - Chanceport","TIME_OUTAGE":1795785097000,"TIME_RESTORED_EST":1795795200000,"X":169191.9674,"Y":5495254.9267},"type":"Feature"}
+{"geometry":{"coordinates":[-54.875382,49.579848],"type":"Point"},"properties":{"CAUSE":"Unknown","CREW_STATUS":null,"CUSTOMER_COUNT":81,"ID":113202660,"NLP_ALERT_REMARKS":null,"OBJECTID":66804,"POLYGONS_AFFECTED":"Tizzards Harbour - Moreton's Harbour - Chanceport","TIME_OUTAGE":1795785097000,"TIME_RESTORED_EST":1795795200000,"X":169191.9674,"Y":5495254.9267},"type":"Feature"}
 ]}
