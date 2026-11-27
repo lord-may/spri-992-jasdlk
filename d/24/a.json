@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-83.890668,46.378017],"type":"Point"},"properties":{"cause":null,"code":null,"crewAssigned":false,"customersOutInitially":397,"customersOutNow":0,"customersRestored":397,"estimatedTimeOfRestoral":null,"isPlanned":false,"outageEndTime":"2026-11-27T06:23:15-05:00","outageModifiedTime":"2026-11-27T06:23:21.777-05:00","outageName":"SW3400-136","outagePoint":{"lat":46.37801651716753,"lng":-83.89066834571243},"outageRecID":"2026-11-27-0279","outageStartTime":"2026-11-27T05:48:16-05:00","outageWorkStatus":"","streetsAffected":null,"verified":true},"type":"Feature"}
+
 ]}
