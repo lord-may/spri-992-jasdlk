@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-54.869137,48.99594],"type":"Point"},"properties":{"CAUSE":"Unknown","CREW_STATUS":null,"CUSTOMER_COUNT":38,"ID":113202654,"NLP_ALERT_REMARKS":null,"OBJECTID":66776,"POLYGONS_AFFECTED":"Glenwood","TIME_OUTAGE":1795775692000,"TIME_RESTORED_EST":1795784400000,"X":168037.4047,"Y":5430315.826},"type":"Feature"}
+{"geometry":{"coordinates":[-54.869137,48.99594],"type":"Point"},"properties":{"CAUSE":"Unknown","CREW_STATUS":null,"CUSTOMER_COUNT":38,"ID":113202654,"NLP_ALERT_REMARKS":null,"OBJECTID":66777,"POLYGONS_AFFECTED":"Glenwood","TIME_OUTAGE":1795775692000,"TIME_RESTORED_EST":1795784400000,"X":168037.4047,"Y":5430315.826},"type":"Feature"}
 ]}
