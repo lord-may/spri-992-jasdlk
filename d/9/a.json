@@ -6,6 +6,5 @@
 {"geometry":{"coordinates":[-60.75127,46.1036],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"2026-11-28T20:00:00-0400","start":"2026-11-28T13:32:27-0400","title":"Outage Information"},"type":"Feature"},
 {"geometry":{"coordinates":[-64.20809,45.82476],"type":"Point"},"properties":{"cause":"Planned Maintenance","cluster":false,"cust_a":{"val":8},"etr":"2026-11-28T16:15:00-0400","start":"2026-11-28T13:33:39-0400","title":"Outage Information"},"type":"Feature"},
 {"geometry":{"coordinates":[-63.57,44.76],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"2026-11-28T19:30:00-0400","start":"2026-11-28T13:56:24-0400","title":"Outage Information"},"type":"Feature"},
-{"geometry":{"coordinates":[-66.06,43.92],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"2026-11-28T21:15:00-0400","start":"2026-11-28T13:58:46-0400","title":"Outage Information"},"type":"Feature"},
 {"geometry":{"coordinates":[-64.87692,45.09848],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"2026-11-28T21:15:00-0400","start":"2026-11-28T14:11:49-0400","title":"Outage Information"},"type":"Feature"}
 ]}
