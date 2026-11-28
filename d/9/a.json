@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"geometry":{"coordinates":[-63.82608,44.75314],"type":"Point"},"properties":{"cause":"Fire","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"","start":"2026-11-26T00:13:45-0400","title":"Outage Information"},"type":"Feature"},
-{"geometry":{"coordinates":[-63.57,44.65],"type":"Point"},"properties":{"cause":"Cause Being Investigated","cluster":false,"cust_a":{"val":8},"etr":"2026-11-28T04:45:00-0400","start":"2026-11-28T02:43:51-0400","title":"Outage Information"},"type":"Feature"}
+{"geometry":{"coordinates":[-63.82608,44.75314],"type":"Point"},"properties":{"cause":"Fire","cluster":false,"cust_a":{"masked":true,"val":4},"etr":"","start":"2026-11-26T00:13:45-0400","title":"Outage Information"},"type":"Feature"}
 ]}
