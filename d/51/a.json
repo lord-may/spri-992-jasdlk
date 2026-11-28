@@ -1,3 +1,4 @@
 {"type":"FeatureCollection","features":[
-
+{"geometry":{"coordinates":[-72.050156,45.416799],"type":"Point"},"properties":{"adresse":"4114 Chemin Laliberté Sherbrooke","cause_panne":0,"debut_panne":1795870876000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"},
+{"geometry":{"coordinates":[-72.050236,45.417639],"type":"Point"},"properties":{"adresse":"4146 Chemin Laliberté Sherbrooke","cause_panne":0,"debut_panne":1795870876000,"retablissement_panne":null,"statut_panne":0},"type":"Feature"}
 ]}
